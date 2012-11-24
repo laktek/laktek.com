@@ -1,0 +1,26 @@
+{{> header }}
+
+    <div id="main-content">
+			<h2>{{title}}</h2> 
+
+      <figure>
+			<img src="{{portrait}}" alt="Large Portrait" class="portrait"/>
+      </figure>
+
+			{{{bio}}}
+
+			<h3>Elsewhere...</h3>
+
+      <div id="elsewhere">
+				<img src = "{{gravatar_url}}" alt="Gravatar"/>
+
+				<ul>
+					{{#elsewhere}}
+					<li><a href="{{url}}">{{title}}</a> - {{{desc}}}</li>
+					{{/elsewhere}}
+				</ul>
+      </div>
+
+    </div>
+   
+{{> footer }}

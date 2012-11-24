@@ -1,0 +1,75 @@
+{
+	"template_dir": "templates", 
+	"content_dir": "contents",
+	"output_dir": "public_sample",
+
+	"server": { 
+		"port": 9009
+	},
+
+	"bundles": {
+		"/javascripts/all.js": [
+			"/javascripts/date.js",		
+			"/javascripts/prism.js",		
+			"/javascripts/site.js"
+		]
+	},
+
+	"blog": {
+		"posts_dir": "posts_sample",
+		"post_url": "/blog/{year}-{month}-{date}-{title}"			
+	},
+
+	"thirdparty_snippets": {
+		"google_analytics": {
+			"property_id": "UA-337076-1"
+		},
+
+		"web_fonts": {
+			"google": {
+				"families": [ "Voltaire", "Shadows Into Light", "Brawler", "Source Code Pro:400,700", "Source Sans Pro:400,700,400italic"]
+			}
+		},
+
+		"disqus": {
+			"shortname": "laktek"	
+		},
+
+		"tweet_button": {
+			"via": "laktek"
+		}
+	},
+
+	"sitemap_generator": {
+		"url_root": "http://laktek.com"	
+	},
+
+
+	"publish" : {
+		"strategy" : "s3", 
+		"options" : {
+			"bucket" : "www.laktek.com",
+			"key" : "key",
+			"secret" : "secret",
+			"x-amz-acl": "public-read"
+		}
+	},
+
+	"plugins": {
+		"content_handler": "punch-blog-content-handler",
+
+		"helpers": {
+			"formatted_date": "./helpers/formatted_date_helper.js",	
+			"archive_helper": "./helpers/archive_helper.js",
+			"index_helper": "./helpers/index_helper.js",
+			"feed_helper": "./helpers/feed_helper.js",
+			"current_helper": "punch-current-page-helper",
+			"thirdparty_snippets_helper": "punch-thirdparty-snippets-helper"
+		},
+
+		"generator_hooks": {
+			"sitemap_generator_hook": "punch-sitemap-generator"
+		}
+
+	}
+}

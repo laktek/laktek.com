@@ -1,0 +1,10 @@
+node_modules/
+posts/
+public/
+ideas/
+config.json
+credentials.csv
+todo
+notes
+*.DS_Store
+.last_published

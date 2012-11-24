@@ -1,0 +1,41 @@
+{{> header }}
+
+    <div id="main-content" class="expanded">
+      <article role="latest" class="hentry"> 
+        {{#latest_post}}
+        <h2 class="entry-title"><a href="{{ permalink }}">{{{ title }}}</a></h2>
+				<time class="updated" datetime="{{ published_date }}" pubdate>{{#long_date}}{{published_date}}{{/long_date}}</time>
+
+        <div class="entry-content">
+          {{{ content }}}
+        </div>
+        <div><a href="{{ permalink }}">Continue Reading</a></div>
+        {{/latest_post}}
+      </article>
+
+      <div class="home posts" role="recent">
+        <h3>Recent</h3>
+        <ul>
+				{{#recent_posts}}
+          <li>
+						<a href="{{ permalink }}">{{{ title }}}</a>
+						<time class="updated" datetime="{{ published_date }}" pubdate>{{#short_date}}{{published_date}}{{/short_date}}</time>
+					</li>
+				{{/recent_posts}}
+        </ul>
+      </div>
+
+      <div class="home posts" role="popular">
+        <h3>Popular</h3>
+				<ul>
+        {{#popular_posts}}
+          <li>
+						<a href="{{ permalink }}">{{{ title }}}</a>
+						<time class="updated" datetime="{{ published_date }}" pubdate>{{#short_date}}{{published_date}}{{/short_date}}</time>
+					</li>
+				{{/popular_posts}}
+				</ul>
+      </div>
+    </div>
+    
+{{> footer }}

@@ -1,0 +1,30 @@
+---
+layout: nil
+---
+[
+  { 
+    "title": "Real-time Collaborative Editing with Web Sockets, Node.js & Redis",
+    "date":  "2010-05-24T18:30:00Z",
+    "permalink": "http://{{ site.host }}/2010/05/25/real-time-collaborative-editing-with-websockets-node-js-redis/"
+  },
+  { 
+    "title": "Introducing jQuery Smart AutoComplete…",
+    "date":  "2011-03-03T18:30:00Z",
+    "permalink": "http://{{ site.host }}/2011/03/03/introducing-jquery-smart-autocomplete/"
+  },
+  { 
+    "title": "Really Simple Color Picker in jQuery",
+    "date":  "2008-10-27T18:30:00Z",
+    "permalink": "http://{{ site.host }}/2008/10/27/really-simple-color-picker-in-jquery/"
+  },
+  { 
+    "title": "Understanding Prototypal Inheritance in JavaScript",
+    "date":  "2011-02-02T18:30:00Z",
+    "permalink": "http://{{ site.host }}/2011/02/02/understanding-prototypical-inheritance-in-javascript/"
+  },
+  { 
+    "title": "Creating asynchronous web services with Goliath",
+    "date":  "2011-08-24T18:30:00Z",
+    "permalink": "http://{{ site.host }}/2011/08/24/creating-asynchronous-web-services-with-goliath/"
+  }
+]

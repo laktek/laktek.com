@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<!--[if IEMobile 7 ]><html class="no-js iem7" manifest="default.appcache?v=1"><![endif]-->
+<!--[if lt IE 7 ]><html class="no-js ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		{{#page-title}}
+		<title>{{{ page-title }}}</title>
+		{{/page-title}}
+		{{^page-title}}
+		<title>{{{ title }}} | {{{ site-title }}}</title>
+		{{/page-title}}
+
+    <link rel="alternate" type="application/rss+xml" title="LakTEK - RSS Feed" href="/feed/">
+
+    <!-- http://t.co/dKP3o1e -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1">
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <!-- For all browsers -->
+    <link rel="stylesheet" media="screen" href="/css/style.css">
+    <link rel="stylesheet" media="screen,print" href="/css/prism.css">
+    <link rel="stylesheet" media="screen,print" href="/css/icon_fonts.css">
+    <link rel="stylesheet" media="print" href="/css/print.css?v=1">
+
+    <!-- For progressively larger displays -->
+    <link rel="stylesheet" media="only screen and (min-width: 480px)" href="/css/480.css">
+    <link rel="stylesheet" media="only screen and (min-width: 768px)" href="/css/768.css">
+    <link rel="stylesheet" media="only screen and (min-width: 992px)" href="/css/992.css">
+    <link rel="stylesheet" media="only screen and (min-width: 1382px)" href="/css/1382.css">
+
+    <!-- For Retina displays -->
+    <link rel="stylesheet" media="only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)" href="/css/2x.css">
+ 
+    <!-- fonts -->
+		{{{web_font_loader_snippet}}}
+    
+		{{{google_analytics_snippet}}}
+		    
+  </head>
+
+  <body class="clearfix">
+
+    <header>
+      <h1>LakTEK</h1>
+			<h2>{{{ tagline }}}</h2>
+
+      <nav role="main_nav">
+        <ul>
+          <li><a id="home" class="link_with_icon {{#current}}/{{/current}}" href="/"><span role="icon" aria-hidden="true" class="icon-home"></span><span role="title">Home</span></a></li>
+          <li><a id="about" class="link_with_icon {{#current}}/about{{/current}}" href="/about"><span role="icon" aria-hidden="true" class="icon-about"></span><span role="title">About</span></a></li>
+          <li><a id="archive" class="link_with_icon {{#current}}/archive{{/current}}" href="/archive"><span role="icon" aria-hidden="true" class="icon-archive"></span><span role="title">Archive</span></a></li>
+        </ul>
+      </nav>
+
+      <aside>
+        <p>This is the personal blog of <a href="/about">Lakshan Perera</a>, a full-stack web developer from Sri Lanka. Lakshan is a member of <a href="http://vesess.com">Vesess Team</a>, who's behind <a href="http://curdbee.com">CurdBee</a>.</p>
+
+        <div><a class="link_with_icon" href="/feed"><span role="icon" class="icon-feed"></span><span role="title">Subscribe to RSS Feed</span></a></div>
+        <div><a class="link_with_icon" href="http://twitter.com/laktek"><span role="icon" class="icon-twitter"></span><span role="title">Follow me on Twitter</span></a></div>
+      </aside>
+    </header>

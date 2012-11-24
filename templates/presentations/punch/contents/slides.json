@@ -1,0 +1,427 @@
+{
+  "slides": [
+    {
+        "main_title": "Creating Modern Websites with Punch"
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": null
+      , "main_text": null 
+      , "image": "avatar.jpg"
+      , "code": null
+      , "list": null 
+      , "sub_text":  "<a href='http://twitter.com/laktek'>@laktek</a><br/><a href='http://laktek.com'>laktek.com</a>"
+      , "source_text": null 
+      , "class": null
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": null
+      , "main_text": null 
+      , "image": "curdbee_logo.png"
+      , "code": null
+      , "list": null 
+      , "sub_text": null 
+      , "source_text": null 
+      , "class": "cb_logo" 
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": null
+      , "main_text": null 
+      , "image": "interesting_meme.jpg"
+      , "code": null
+      , "list": null 
+      , "sub_text": null 
+      , "source_text": null 
+      , "class": "black_bg" 
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": "PUNCH" 
+      , "main_text": null 
+      , "image": "punch_main.jpg"
+      , "code": null
+      , "list": null 
+      , "sub_text": null 
+      , "source_text": null 
+      , "class": "fill" 
+    },
+
+    {
+        "main_title": "You want to make a website" 
+      , "sub_title": null 
+      , "main_text": "You learn HTML, CSS and JS" 
+      , "image": null
+      , "code": null
+      , "list": null 
+      , "sub_text": null 
+      , "source_text": null 
+      , "class": null 
+    },
+
+    {
+        "main_title": "You need a CMS" 
+      , "sub_title": null 
+      , "main_text": "Wordpress, Drupal, Joomla &amp; etc" 
+      , "image": null
+      , "code": null
+      , "list": null 
+      , "sub_text": null 
+      , "source_text": null 
+      , "class": null 
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": null 
+      , "main_text": null 
+      , "image": "simple_drupal_template.png"
+      , "code": null
+      , "list": null 
+      , "sub_text": "A simple Drupal page template (Warning: This will make you want to puke!)" 
+      , "source_text": null 
+      , "class": null 
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": null 
+      , "main_text": null 
+      , "image": "crying_sysadmin.jpg"
+      , "code": null
+      , "list": null 
+      , "sub_text": "Now you need to learn how to install Apache, configure PHP and create MySQL databases; before creating a single page." 
+      , "source_text": null 
+      , "class": null 
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": null 
+      , "main_text": null 
+      , "image": "malware_warning.png"
+      , "code": null
+      , "list": null 
+      , "sub_text": "You missed a security update of last night and your site is now busted." 
+      , "source_text": null 
+      , "class": null 
+    },
+
+    {
+        "main_title": "Creating a Web Site should be Easy!" 
+      , "sub_title": null 
+      , "main_text": null 
+      , "image": null 
+      , "code": null
+      , "list": null 
+      , "sub_text": null 
+      , "source_text": null 
+      , "class": null 
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": null 
+      , "main_text": null 
+      , "image": "kickpuncher.jpg" 
+      , "code": null
+      , "list": null 
+      , "sub_text": null 
+      , "source_text": "Source: http://www.tvshowsondvd.com/graphics" 
+      , "class": null 
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": "Getting Started with Punch" 
+      , "main_text": null 
+      , "image": null 
+      , "code": null
+      , "list": [
+           "<a href='http://nodejs.org/#download'>Download</a> and Install Node.js." 
+         , "Install npm - <code>curl http://npmjs.org/install.sh | sh</code>"
+         , "Finally, run <code>npm install punch</code>"
+      ] 
+      , "sub_text": null 
+      , "source_text": "More Docs: <a href='http://laktek.github.com/punch/'>http://laktek.github.com/punch/</a>" 
+      , "class": null 
+    },
+
+    {
+        "main_title": "Convention over Configuration" 
+      , "sub_title": null 
+      , "main_text": null 
+      , "image": null 
+      , "code": null
+      , "list": null 
+      , "sub_text": null 
+      , "source_text": null
+      , "class": null 
+    },
+
+    {
+        "main_title": "Templates &amp; Content" 
+      , "sub_title": null 
+      , "main_text": null 
+      , "image": null 
+      , "code": null
+      , "list": null 
+      , "sub_text": null 
+      , "source_text": null
+      , "class": null 
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": "Mustache" 
+      , "main_text": null 
+      , "image": "mustache.jpg" 
+      , "code": null
+      , "list": null 
+      , "sub_text": null
+      , "source_text": "Source: http://www.flickr.com/photos/indi/4733037558/" 
+      , "class": null 
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": "Mustache" 
+      , "main_text": null 
+      , "image": null 
+      , "code": "  {{> header }}\n\n      <div role=\"main\">\n        <div id=\"description\">{{{description}}}</div>\n\n        <h3>Why Punch?</h3>\n        \n        <ul>\n          {{#why_punch}}\n          <li>{{{.}}}</li>\n          {{/why_punch}}\n        </ul>\n      </div>\n"
+      , "list": null 
+      , "sub_text": "More: <a href='http://mustache.github.com/'>mustache.github.com</a>" 
+      , "source_text": null 
+      , "class": null 
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": "JSON" 
+      , "main_text": null 
+      , "image": "jason.jpg" 
+      , "code": null
+      , "list": null 
+      , "sub_text": null 
+      , "source_text": "Source: http://www.flickr.com/photos/boogeyman13/2412959340/" 
+      , "class": null 
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": "JSON" 
+      , "main_text": null 
+      , "image": null 
+      , "code": "        {\n          \"description\": \"A Fun and Easy Way to Build Modern Websites\",\n\n              \"why_punch\": [\n                \"Simple templating.\",\n                \"Flexible content structure.\",\n                \"Supports client-side rendering.\"\n              ]\n          }\n"
+      , "list": null 
+      , "sub_text": "More: <a href='http://json.org'>JSON.org</a>" 
+      , "source_text": null 
+      , "class": null 
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": "Markdown" 
+      , "main_text": null 
+      , "image": "markdown.jpg" 
+      , "code": null
+      , "list": null 
+      , "source_text": "Source: http://www.flickr.com/photos/benjibot/3634418553/" 
+      , "sub_text": null 
+      , "class": null 
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": "Markdown" 
+      , "main_text": null 
+      , "image": null 
+      , "code": "Here's a **step by step** guide on how to create a simple _HTML_ site using Punch.\n\n* First of all we should create a new directory for our site. (`mkdir awesome_site`)\n\n* Then, go inside the directory (`cd awesome_site`) and run the command `punch setup`.\n\n\n\n<div><p>Here&#39;s a <b>step by step</b> guide on how to create a simple <i>HTML</i> site using Punch</p>\n\n<ul>\n  <li><p>First of all we should create a new directory for our site. (<code>mkdir awesome_site</code>)</p>\n</li>\n"
+      , "list": null
+      , "sub_text": "More: <a href='http://http://daringfireball.net/projects/markdown/'>Markdown Project</a>" 
+      , "source_text": null 
+      , "class": null 
+    },
+
+    {
+        "main_title": "Yes, this presentation was created with Punch" 
+      , "sub_title": null 
+      , "main_text": null 
+      , "image": null 
+      , "code": null
+      , "list": null 
+      , "sub_text": null 
+      , "source_text": null 
+      , "class": null 
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": "What happens under the hood?" 
+      , "main_text": null 
+      , "image": null 
+      , "code": "\n          /my_site\n          |\n          |_____/templates\n          |     |\n          |     |______ about.mustache\n          |\n          |_____/contents\n          |     |\n          |     |______ about.json\n          |     |\n          |     |______ /about\n          |            |\n          |            |_______ members.json\n          |            |_______ overview.markdown\n          |\n          |_____/public\n                |\n                |______ about.html <--- Output\n\n"
+      , "list": null 
+      , "sub_text": null 
+      , "source_text": null 
+      , "class": null 
+    },
+
+    {
+        "main_title": "Other Useful Features" 
+      , "sub_title": null 
+      , "main_text": null 
+      , "image": null 
+      , "code": null
+      , "list": null 
+      , "sub_text": null 
+      , "source_text": null 
+      , "class": null 
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": "Partials" 
+      , "main_text": "Let's do a small change to the template" 
+      , "image": null 
+      , "code": null
+      , "list": null 
+      , "sub_text": null 
+      , "source_text": null 
+      , "class": null 
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": "Shared Content" 
+      , "main_text": null 
+      , "image": null 
+      , "code": "\n          /my_site\n          |\n          |_____/templates\n          |     |\n          |     |______ about.mustache\n          |\n          |_____/contents\n                |\n                |______ about.json\n                |\n                |______ /about\n                |\n                |______ /shared <-- Can be used in any template\n\n"
+      , "list": null 
+      , "sub_text": null 
+      , "source_text": null 
+      , "class": null 
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": "Client-side Rendering" 
+      , "main_text": "Let's see how to create the GitHub Watchers widget. <div id='github_widget'></div>" 
+      , "image": null 
+      , "code": null
+      , "list": null 
+      , "sub_text": null 
+      , "source_text": null 
+      , "class": null 
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": "One Site. Many Configs." 
+      , "main_text": null 
+      , "image": null 
+      , "code": null
+      , "list": [
+        "Easy to do A/B testting", 
+        "Multi-language sites"
+      ] 
+      , "sub_text": null 
+      , "source_text": null 
+      , "class": null 
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": "Not only for Websites" 
+      , "main_text": null 
+      , "image": null 
+      , "code": null
+      , "list": [
+           "Code Generators"
+        ,  "Presenting HTML Mockups"
+        ,  "API Documentation/Wiki"
+        ,  "Generate books, academic papers and other large texts"
+        ,  "Presentations"
+      ] 
+      , "sub_text": null 
+      , "source_text": null 
+      , "class": null 
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": "7 days after public release..." 
+      , "main_text": null 
+      , "image": null 
+      , "code": null
+      , "list": [
+           "150 watchers in GitHub"
+        ,  "Twice on HN homepage"
+        ,  "7 forks"
+        ,  "4 pull requests"
+        ,  "2 coffee invites"
+      ] 
+      , "sub_text": null 
+      , "source_text": null 
+      , "class": null 
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": null 
+      , "main_text": null 
+      , "image": "success_kid.jpg" 
+      , "code": null
+      , "list": null
+      , "sub_text": null 
+      , "source_text": null 
+      , "class": null 
+    },
+
+    {
+        "main_title": null 
+      , "sub_title": "What's Next?" 
+      , "main_text": null 
+      , "image": null 
+      , "code": null
+      , "list": [
+           "Punch Server"
+        ,  "Punch Editor"
+        ,  "Plugin System"
+      ] 
+      , "sub_text": null 
+      , "source_text": null 
+      , "class": null 
+    },
+
+    {
+        "main_title": "Try, Fork &amp; Contribute!"
+      , "sub_title": null 
+      , "main_text": null 
+      , "image": null 
+      , "code": null
+      , "list": null
+      , "sub_text": "<a href='http://laktek.github.com/punch'>laktek.github.com/punch</a>" 
+      , "source_text": null 
+      , "class": null 
+    },
+
+    {
+        "main_title": "Questions?"
+      , "sub_title": null 
+      , "main_text": null 
+      , "image": null 
+      , "code": null
+      , "list": null
+      , "sub_text": null 
+      , "source_text": null 
+      , "class": null 
+    }
+
+  ]
+}

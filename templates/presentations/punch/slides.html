@@ -1,0 +1,667 @@
+
+<!DOCTYPE html>
+
+<!--
+  Google HTML5 slide template
+
+  Authors: Luke Mahé (code)
+           Marcin Wichary (code and design)
+           
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+-->
+
+<html>
+  <head>
+    <title>Building Modern Websites with Punch (Presentation)</title>
+
+    <meta charset='utf-8'>
+    <script
+      src='slides.js'></script>
+  </head>
+  
+  <style>
+    /* Your individual styles here, or just use inline styles if that’s
+       what you want. */
+    .middled { margin-top: 200px; padding-right: 40px; }
+    .black_bg { background-color: #000; }
+  </style>
+
+  <body style='display: none'>
+
+    <section class='slides layout-widescreen template-default'>
+      
+      <!-- Your slides (<article>s) go here. Delete or comment out the
+           slides below. -->
+      <article class="" >
+
+        <h2>Creating Modern Websites with Punch</h2>
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+
+
+
+        <img src="images/avatar.jpg" class="centered"/>
+
+
+
+        <p class="sub"><a href='http://twitter.com/laktek'>@laktek</a><br/><a href='http://laktek.com'>laktek.com</a></p>
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="cb_logo" >
+
+
+
+
+        <img src="images/curdbee_logo.png" class="centered"/>
+
+
+
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="black_bg" >
+
+
+
+
+        <img src="images/interesting_meme.jpg" class="centered"/>
+
+
+
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="fill" >
+
+
+        <h3>PUNCH</h3>
+
+
+        <img src="images/punch_main.jpg" class="centered"/>
+
+
+
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+        <h2>You want to make a website</h2>
+
+
+        <p>You learn HTML, CSS and JS</p>
+
+
+
+
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+        <h2>You need a CMS</h2>
+
+
+        <p>Wordpress, Drupal, Joomla &amp; etc</p>
+
+
+
+
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+
+
+
+        <img src="images/simple_drupal_template.png" class="centered"/>
+
+
+
+        <p class="sub">A simple Drupal page template (Warning: This will make you want to puke!)</p>
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+
+
+
+        <img src="images/crying_sysadmin.jpg" class="centered"/>
+
+
+
+        <p class="sub">Now you need to learn how to install Apache, configure PHP and create MySQL databases; before creating a single page.</p>
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+
+
+
+        <img src="images/malware_warning.png" class="centered"/>
+
+
+
+        <p class="sub">You missed a security update of last night and your site is now busted.</p>
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+        <h2>Creating a Web Site should be Easy!</h2>
+
+
+
+
+
+
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+
+
+
+        <img src="images/kickpuncher.jpg" class="centered"/>
+
+
+
+
+        <p class="source">Source: http://www.tvshowsondvd.com/graphics</p>
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+
+        <h3>Getting Started with Punch</h3>
+
+
+
+
+        <ul class="build">
+          <li><a href='http://nodejs.org/#download'>Download</a> and Install Node.js.</li> 
+        </ul>
+        <ul class="build">
+          <li>Install npm - <code>curl http://npmjs.org/install.sh | sh</code></li> 
+        </ul>
+        <ul class="build">
+          <li>Finally, run <code>npm install punch</code></li> 
+        </ul>
+
+
+        <p class="source">More Docs: <a href='http://laktek.github.com/punch/'>http://laktek.github.com/punch/</a></p>
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+        <h2>Convention over Configuration</h2>
+
+
+
+
+
+
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+        <h2>Templates &amp; Content</h2>
+
+
+
+
+
+
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+
+        <h3>Mustache</h3>
+
+
+        <img src="images/mustache.jpg" class="centered"/>
+
+
+
+
+        <p class="source">Source: http://www.flickr.com/photos/indi/4733037558/</p>
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+
+        <h3>Mustache</h3>
+
+
+
+        <pre>  {{&gt; header }}
+
+      &lt;div role=&quot;main&quot;&gt;
+        &lt;div id=&quot;description&quot;&gt;{{{description}}}&lt;/div&gt;
+
+        &lt;h3&gt;Why Punch?&lt;/h3&gt;
+        
+        &lt;ul&gt;
+          {{#why_punch}}
+          &lt;li&gt;{{{.}}}&lt;/li&gt;
+          {{/why_punch}}
+        &lt;/ul&gt;
+      &lt;/div&gt;
+</pre> 
+
+
+        <p class="sub">More: <a href='http://mustache.github.com/'>mustache.github.com</a></p>
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+
+        <h3>JSON</h3>
+
+
+        <img src="images/jason.jpg" class="centered"/>
+
+
+
+
+        <p class="source">Source: http://www.flickr.com/photos/boogeyman13/2412959340/</p>
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+
+        <h3>JSON</h3>
+
+
+
+        <pre>        {
+          &quot;description&quot;: &quot;A Fun and Easy Way to Build Modern Websites&quot;,
+
+              &quot;why_punch&quot;: [
+                &quot;Simple templating.&quot;,
+                &quot;Flexible content structure.&quot;,
+                &quot;Supports client-side rendering.&quot;
+              ]
+          }
+</pre> 
+
+
+        <p class="sub">More: <a href='http://json.org'>JSON.org</a></p>
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+
+        <h3>Markdown</h3>
+
+
+        <img src="images/markdown.jpg" class="centered"/>
+
+
+
+
+        <p class="source">Source: http://www.flickr.com/photos/benjibot/3634418553/</p>
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+
+        <h3>Markdown</h3>
+
+
+
+        <pre>Here&#39;s a **step by step** guide on how to create a simple _HTML_ site using Punch.
+
+* First of all we should create a new directory for our site. (`mkdir awesome_site`)
+
+* Then, go inside the directory (`cd awesome_site`) and run the command `punch setup`.
+
+
+
+&lt;div&gt;&lt;p&gt;Here&amp;#39;s a &lt;b&gt;step by step&lt;/b&gt; guide on how to create a simple &lt;i&gt;HTML&lt;/i&gt; site using Punch&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;p&gt;First of all we should create a new directory for our site. (&lt;code&gt;mkdir awesome_site&lt;/code&gt;)&lt;/p&gt;
+&lt;/li&gt;
+</pre> 
+
+
+        <p class="sub">More: <a href='http://http://daringfireball.net/projects/markdown/'>Markdown Project</a></p>
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+        <h2>Yes, this presentation was created with Punch</h2>
+
+
+
+
+
+
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+
+        <h3>What happens under the hood?</h3>
+
+
+
+        <pre>
+          /my_site
+          |
+          |_____/templates
+          |     |
+          |     |______ about.mustache
+          |
+          |_____/contents
+          |     |
+          |     |______ about.json
+          |     |
+          |     |______ /about
+          |            |
+          |            |_______ members.json
+          |            |_______ overview.markdown
+          |
+          |_____/public
+                |
+                |______ about.html &lt;--- Output
+
+</pre> 
+
+
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+        <h2>Other Useful Features</h2>
+
+
+
+
+
+
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+
+        <h3>Partials</h3>
+
+        <p>Let's do a small change to the template</p>
+
+
+
+
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+
+        <h3>Shared Content</h3>
+
+
+
+        <pre>
+          /my_site
+          |
+          |_____/templates
+          |     |
+          |     |______ about.mustache
+          |
+          |_____/contents
+                |
+                |______ about.json
+                |
+                |______ /about
+                |
+                |______ /shared &lt;-- Can be used in any template
+
+</pre> 
+
+
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+
+        <h3>Client-side Rendering</h3>
+
+        <p>Let's see how to create the GitHub Watchers widget. <div id='github_widget'></div></p>
+
+
+
+
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+
+        <h3>One Site. Many Configs.</h3>
+
+
+
+
+        <ul class="build">
+          <li>Easy to do A/B testting</li> 
+        </ul>
+        <ul class="build">
+          <li>Multi-language sites</li> 
+        </ul>
+
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+
+        <h3>Not only for Websites</h3>
+
+
+
+
+        <ul class="build">
+          <li>Code Generators</li> 
+        </ul>
+        <ul class="build">
+          <li>Presenting HTML Mockups</li> 
+        </ul>
+        <ul class="build">
+          <li>API Documentation/Wiki</li> 
+        </ul>
+        <ul class="build">
+          <li>Generate books, academic papers and other large texts</li> 
+        </ul>
+        <ul class="build">
+          <li>Presentations</li> 
+        </ul>
+
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+
+        <h3>7 days after public release...</h3>
+
+
+
+
+        <ul class="build">
+          <li>150 watchers in GitHub</li> 
+        </ul>
+        <ul class="build">
+          <li>Twice on HN homepage</li> 
+        </ul>
+        <ul class="build">
+          <li>7 forks</li> 
+        </ul>
+        <ul class="build">
+          <li>4 pull requests</li> 
+        </ul>
+        <ul class="build">
+          <li>2 coffee invites</li> 
+        </ul>
+
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+
+
+
+        <img src="images/success_kid.jpg" class="centered"/>
+
+
+
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+
+        <h3>What's Next?</h3>
+
+
+
+
+        <ul class="build">
+          <li>Punch Server</li> 
+        </ul>
+        <ul class="build">
+          <li>Punch Editor</li> 
+        </ul>
+        <ul class="build">
+          <li>Plugin System</li> 
+        </ul>
+
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+        <h2>Try, Fork &amp; Contribute!</h2>
+
+
+
+
+
+
+        <p class="sub"><a href='http://laktek.github.com/punch'>laktek.github.com/punch</a></p>
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+      <article class="" >
+
+        <h2>Questions?</h2>
+
+
+
+
+
+
+
+
+<p class="footer">Built with <a href="http://laktek.githubc.com/punch">Punch</a></p>
+
+      </article>
+    </section>
+
+    <script src="jquery.js"></script>
+    <script src="mustache.js"></script>
+    <script src="mustache_renderer.js"></script>
+    <script src="script.js"></script>
+
+    
+  </body>
+</html>
+

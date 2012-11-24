@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+
+<!--
+  Google HTML5 slide template
+
+  Authors: Luke Mahé (code)
+           Marcin Wichary (code and design)
+           
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+-->
+
+<html>
+  <head>
+    <title>Building Modern Websites with Punch (Presentation)</title>
+
+    <meta charset='utf-8'>
+    <script
+      src='slides.js'></script>
+  </head>
+  
+  <style>
+    /* Your individual styles here, or just use inline styles if that’s
+       what you want. */
+    .middled { margin-top: 200px; padding-right: 40px; }
+    .black_bg { background-color: #000; }
+  </style>
+
+  <body style='display: none'>
+
+    <section class='slides layout-widescreen template-default'>
+      
+      <!-- Your slides (<article>s) go here. Delete or comment out the
+           slides below. -->
+      {{#slides}}
+      <article class="{{class}}" >
+
+      {{#main_title}}
+        <h2>{{{main_title}}}</h2>
+      {{/main_title}}
+
+      {{#sub_title}}
+        <h3>{{{sub_title}}}</h3>
+      {{/sub_title}}
+
+      {{#main_text}}
+        <p>{{{main_text}}}</p>
+      {{/main_text}}
+
+      {{#image}}
+        <img src="images/{{image}}" class="centered"/>
+      {{/image}}
+
+      {{#code}}
+        <pre>{{code}}</pre> 
+      {{/code}}
+
+      {{#list}}
+        <ul class="build">
+          <li>{{{.}}}</li> 
+        </ul>
+      {{/list}}
+
+      {{#sub_text}}
+        <p class="sub">{{{sub_text}}}</p>
+      {{/sub_text}}
+
+      {{#source_text}}
+        <p class="source">{{{source_text}}}</p>
+      {{/source_text}}
+
+      {{> slide_footer }}
+
+      </article>
+      {{/slides}}
+    </section>
+
+    <script src="jquery.js"></script>
+    <script src="mustache.js"></script>
+    <script src="mustache_renderer.js"></script>
+    <script src="script.js"></script>
+
+    
+  </body>
+</html>
+
