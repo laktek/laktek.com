@@ -18,6 +18,10 @@ var popular_post_permalinks = [
 ];
 
 var fetch_content = function(callback) {
+
+	//reset posts list
+	blog_content_handler.allPosts = {};
+
 	blog_content_handler.getAllPosts(function(err, posts_obj, posts_last_modified) {
 		if (!err) {
 			var all_posts = _.values(posts_obj);
