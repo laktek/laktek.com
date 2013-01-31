@@ -16,45 +16,6 @@ body { padding: 0; margin: 0; width: 90%; }
 /* 14.GLOBAL OBJECTS */
 /* 15.VENDOR-SPECIFIC */
 /* 16.TEMPLATE SPECIFICS */
-
-
-header { 
-  position: fixed; 
-  padding: 1% 0 0 1.5em;
-  width: 15em; 
-  min-height: 100%;
-  height: auto;
-  background: rgb(229,242,220); /* Old browsers */
-  background: -moz-linear-gradient(left, rgba(229,242,220,1) 0%, rgba(229,242,220,1) 96%, rgba(193,196,172,1) 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(229,242,220,1)), color-stop(96%,rgba(229,242,220,1)), color-stop(100%,rgba(193,196,172,1))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(left, rgba(229,242,220,1) 0%,rgba(229,242,220,1) 96%,rgba(193,196,172,1) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(left, rgba(229,242,220,1) 0%,rgba(229,242,220,1) 96%,rgba(193,196,172,1) 100%); /* Opera11.10+ */
-  background: -ms-linear-gradient(left, rgba(229,242,220,1) 0%,rgba(229,242,220,1) 96%,rgba(193,196,172,1) 100%); /* IE10+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5f2dc', endColorstr='#c1c4ac',GradientType=1 ); /* IE6-9 */
-  background: linear-gradient(left, rgba(229,242,220,1) 0%,rgba(229,242,220,1) 96%,rgba(193,196,172,1) 100%); /* W3C */
-}
-
-header h1 { font-size: 65px; padding:0; margin: 0.1em 0 0 0; float: none; }
-header h2 { font-size: 18px; padding: 0; width: 85%; display: block; }
-header nav {padding: 1em 0; margin: 0; }
-header nav ul { float: left; width: 100%; }
-header nav ul li {border-bottom: 1px dotted #000; padding: 0.5em 0; width: 100%; }
-header a.link_with_icon span[role=title] { font-size: 1em; float: left;}
-header a.link_with_icon span[role=icon] { margin: 0 1em 0 0; float: right;}
-header aside { display: block; }
-header aside p {padding: 0 1em 0 0;}
-header aside div { width: 100%; float: left; padding: 0.5em 0; }
-
-div#main-content { width: 65%; padding: 1em 0 0 0; margin-left: 20em; max-width: 710px;  }
-div#main-content.expanded { width: 80%; }
-div#main-content h2 {font-size: 1.875em; /* 30/16 = 1.875 */  }
-menu.filter { padding: 0.5em 0; font-size: 1.5em; }
-menu.filter ul.filters { width: 85%; height: 1.5em; }
-menu.filter a[rel=prev],
-menu.filter a[rel=next] { font-size: 25px; }
-
-div#disqus_block { display: block; }
-
 /* 17.MODERNIZR */
 
-
+div#main-content { font-size: 1.1em;  }

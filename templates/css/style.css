@@ -146,10 +146,11 @@ dt {
 font-weight : normal; }
 
 blockquote  { 
-margin : 0 0 1.5em -24px; 
+margin : 0 0 1.5em 24px; 
 padding-left : 24px; 
 border-left : 1px solid rgb(200,200,200);
-font-style : italic; }
+font-style : italic;
+line-height: 1.61; }
 
 blockquote:before, 
 blockquote:after, 
@@ -409,7 +410,7 @@ header a.link_with_icon span[role=title] { display: block; font-size: 0.75em; ma
 header a.link_with_icon span[role=icon] { display: block; height: 25px; width: 25px; margin: 0 auto; }
 header aside { display: none; }
 
-div#main-content { width: 90%; padding-top: 4.4375em; margin: 0 auto; }
+div#main-content { width: 90%; padding-top: 4.4375em; margin: 0 auto; line-height: 1.5;  }
 article { }
 article h2 { font-size: 1.5625em; /* 25/16 = 1.5625 */ margin-bottom: 0.1em; color: #3a3a3a; } 
 article[role=latest] { background-color: #EFEFEF; padding: 1em; }
@@ -418,7 +419,7 @@ article h2.entry-title a { color: #3a3a3a; }
 article h2 a:hover { text-decoration: none; } 
 article h3 { color: #666; }
 article time { display: block; font-size: 1.1em; margin-bottom: 1em; color: #BFBFBF; }
-article p { text-align: justify; line-height: 1.61; }
+article p { font-size: 1.125em;  }
 article ul, article ol { margin-left: 1em; }
 article pre { border: 1px solid #BFBFBF; padding: 0.5em; background: #F9F9F9; }
 
