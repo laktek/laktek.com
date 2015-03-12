@@ -5,5 +5,9 @@
 	 	"punch-blog-content-handler": ">= 0.0.4",
 	 	"punch-current-page-helper": ">= 0.0.1",
 	 	"punch-thirdparty-snippets-helper": ">= 0.0.1"
- 	} 
+ 	},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/laktek/laktek.com"
+  }
 }
