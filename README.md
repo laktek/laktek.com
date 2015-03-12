@@ -8,4 +8,8 @@ You can use the source code and take inspiration from the design, but please don
 
 * Inside the project's root, run `npm install`
 
+* Rename `posts_sample` to `posts`.
+
+* Copy `config_sample.json` to `config.json`. Edit the configuration.
+
 * Then run, `punch s` and point the browser to `http://localhost:9009`

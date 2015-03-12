@@ -1,23 +1,23 @@
 {
-	"template_dir": "templates", 
+	"template_dir": "templates",
 	"content_dir": "contents",
 	"output_dir": "public_sample",
 
-	"server": { 
+	"server": {
 		"port": 9009
 	},
 
 	"bundles": {
 		"/javascripts/all.js": [
-			"/javascripts/date.js",		
-			"/javascripts/prism.js",		
+			"/javascripts/date.js",
+			"/javascripts/prism.js",
 			"/javascripts/site.js"
 		]
 	},
 
 	"blog": {
 		"posts_dir": "posts_sample",
-		"post_url": "/blog/{year}-{month}-{date}-{title}"			
+		"post_url": "/blog/{year}-{month}-{date}-{title}"
 	},
 
 	"thirdparty_snippets": {
@@ -32,7 +32,7 @@
 		},
 
 		"disqus": {
-			"shortname": "laktek"	
+			"shortname": "laktek"
 		},
 
 		"tweet_button": {
@@ -41,12 +41,12 @@
 	},
 
 	"sitemap_generator": {
-		"url_root": "http://laktek.com"	
+		"url_root": "http://laktek.com"
 	},
 
 
 	"publish" : {
-		"strategy" : "s3", 
+		"strategy" : "s3",
 		"options" : {
 			"bucket" : "www.laktek.com",
 			"key" : "key",
@@ -59,7 +59,7 @@
 		"content_handler": "punch-blog-content-handler",
 
 		"helpers": {
-			"formatted_date": "./helpers/formatted_date_helper.js",	
+			"formatted_date": "./helpers/formatted_date_helper.js",
 			"archive_helper": "./helpers/archive_helper.js",
 			"index_helper": "./helpers/index_helper.js",
 			"feed_helper": "./helpers/feed_helper.js",
