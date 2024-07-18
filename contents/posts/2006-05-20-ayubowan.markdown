@@ -1,0 +1,18 @@
+--- 
+layout: post
+title: Ayubowan
+published: true
+meta: 
+  dsq_thread_id: "68172275"
+tags: 
+- Life
+type: post
+status: publish
+---
+Rather than saying <em>Hello World</em>, I prefer to welcome you to my blog saying Ayubowan ! (FYI : It's the way of saying welcome in Sinhalese).
+
+It seems like I'm the last person of this world to enter blogsphere, eventhough it's a late start I hope I could deliver something good (actually I did a blog that nobody read at blogspot for couple of months). Let's see how this goes.
+
+My passion is on web techologies and therefore you will find most of the posts here related to design, development, web standards, AJAX and all other web++. I will try to make this blog meaningful for all rather than filling it with <strong>Geek Stuff.</strong>
+
+Also please note this blog is still in BETA stage and you may find few hiccups. Talking about the blog design I wanted to have a clean Sri Lankan style layout (yes, I got inspired by <a href="http://www.nidahas.com">Nidahas)</a> and I like to hear your reviews.

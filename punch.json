@@ -1,0 +1,8 @@
+{
+	"output": "dist",
+  "baseURL": "http://localhost:8080",
+	"routes": [
+		"/feeds/rss.xml"
+	],
+	"redirects": {}
+}

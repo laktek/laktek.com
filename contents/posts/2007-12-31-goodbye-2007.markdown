@@ -1,0 +1,18 @@
+--- 
+layout: post
+title: Goodbye 2007
+published: true
+meta: {}
+
+tags: 
+- Life 
+type: post
+status: publish
+---
+So today it see the end of another wonderful year in our lives. It's hard to believe how fast time travels,  it was like  yesterday I remember the dawn of year  2007. However, this constantly reminds us how short is our lives and how limited the time we got in our lives to do something worthwhile.
+
+Personally I feel satisfied on how the things went for me in 2007. Participation in Google Summer of Code was the major highlight for me in the year.  Meanwhile, I was able to do good in my career at Vesess and in my degree. Still I see there is a room for improvement in terms of efforts and the skill. So my focus for the next year would be to working harder and become ruthless.
+
+Talking about the internet industry, we can call 2007 as the year of Social Networks. The rise of services like Facebook and Twitter, showed human factor is more important than the technology. People seemed to have become more comfortable with these services and social networking capability have become essential element for every successful internet application.
+
+Predicting about 2008, I feel it would be the year the mobile computing becomes mainstream. Along with this web based applications will take the lead over desktop applications in 2008. These two breakthroughs together will by empower the business and social lives of humans. We will see more sophisticated mobile devices inspired with Apple's iPhone (awaiting for phones with Google's Android Platform) and finally we may see WiMax (802.16) supported devices in the market. This would create a huge opportunity for web based applications in the coming year. Easy access for from any location, improved user experiences and more social networking capabilities will be the things to consider in building tomorrow's web applications.

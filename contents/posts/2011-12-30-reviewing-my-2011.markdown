@@ -1,0 +1,42 @@
+--- 
+layout: post
+title: Reviewing My 2011 
+published: true
+tags: 
+- Life 
+type: post
+status: publish
+---
+
+It's almost the end of 2011. Now it's a good time to review how things went in last 12 months and make some resolutions to the next 12 months.
+
+From the start, I expected this to be a challenging year. This year, I turned 25 and was working full-time (no more formal education). So it was like moving on to a new chapter in life. From the beginning, I had few personal goals for the year. Here's a summary of how I progressed with them during the year.
+
+<h3>Blogging</h3>
+
+<img title="Visitors to laktek.com (from Google Analytics)" src="/images/posts/graph_blog.jpg" alt="Blog Traffic Graph"/> 
+
+I've been running this blog since 2006, but it was only this year it actually broke out of ruts. Traffic wise still this is nothing spectacular, but I like how it evolved with my experience.
+
+This year, I didn't post frequently, but when I did I tried to come up with something interesting to read. I enjoy blogging because it is a great way to learn. From gathering points to a post, presenting it to suit the audience and discussions that takes place afterwards helps to expand my knowledge on the topic.
+
+Also, I [redesigned the blog and switched to a new platform](http://laktek.com/2011/11/17/why-and-how-i-revamped-my-blog) during this year. 
+
+<h3>Fitness</h3>
+
+<img title="Fitness Report (from Runkeeper)" src="/images/posts/graph_runkeeper.jpg" alt="Fitness Graph"/> 
+
+Every time I started doing workouts in the past it didn't last for more than couple of days. Either due to exhaustion or lack of motivation I simply didn't continue. But in last June I decided to give it another try; this time with a much simpler and relaxed schedule (based on [couch to 5k plan](http://www.coolrunning.com/engine/2/2_3/181.shtml)). So far I've been able to stick to the schedule and increment the flow gradually (dip in October was due to bad weather). I should mention [RunKeeper](http://runkeeper.com), which provided a great assistance by tracking my progress and motivating me to stick to the schedule. 
+
+I was never an athletic person, thats why I'm so delighted with this progress!   
+
+<h3>Spending</h3>
+
+<img title="Expenses Report (from CurdBee)" src="/images/posts/graph_expense.jpg" alt="Expense Graph"/> 
+
+I believe the best way to live a happy life is **not earning more, but spending less**. Spending less doesn't mean living a meager life. It's about knowing when and for what to spend. When we launched the [Expense Tracking for CurdBee](http://demo.curdbee.com/expenses) in last July, I started using it to track and analyze my own expenses.
+
+Soon I was able to apply some tweaks to my life which not only helped me to reduce expenses but also have some long term benefits. I made a major saving by relying more on public transport and walking instead of spending on fuel (walking is a more efficient and sane option in Colombo, where roads are always congested). Also, I tried to sticking only to 3 home cooked meals, instead of eating out or having junk food as fillers. When it comes to buying stuff, I avoided making impulsive decisions and concerned more on the quality than the price. Paying more for the quality ensured less troubles and long term use.   
+
+What are my goals for 2012? I shall continue on the starts I got in 2011. I want to keep raising my bar.
+

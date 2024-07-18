@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply antialiased text-slate-800 dark:text-slate-400 bg-white dark:bg-slate-900 max-w-3xl mx-auto my-4 px-2 leading-7;
+}
+
+header {
+  h1 > a:hover {
+    text-shadow: 0 0 8px rgb(240 240 240);
+  }
+}
+
+article {
+  h2 {
+    @apply text-4xl mt-16 mb-2 font-black;
+  }
+
+  time {
+    @apply mb-1 text-stone-500;
+  }
+
+  h3 {
+    @apply text-xl my-6 text-zinc-900 font-semibold;
+  }
+
+  p {
+    @apply my-4;
+  }
+
+  a {
+    @apply text-blue-500 underline;
+  }
+
+  code {
+    @apply bg-neutral-200 p-1 font-mono;
+  }
+
+  ul {
+    @apply list-disc list-inside;
+  }
+
+  ol {
+    @apply list-decimal list-inside;
+  }
+}
+
+footer {
+
+}

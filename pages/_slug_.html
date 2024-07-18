@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang=${ site.language }>
+  ${ Punch.one({ from: "posts", slug: Punch.route.slug.replace(/\/+$/, '').replace(/\//g, '-').toLowerCase() }, ({ title, content, slug }) => `
+    ${ Punch.partial("head", { site, title  }) }
+    <body>
+      ${ Punch.partial("topbar") }
+      <article class="hentry">
+        <h2 class="entry-title">${title}</h2>
+        <time class="updated" pubdate datetime=${new Date(slug.split('-').slice(0, 3).join("-"))}>
+          ${new Intl.DateTimeFormat('en-GB', { dateStyle: 'long' }).format(new Date(slug.split('-').slice(0, 3).join("-")))}
+        </time>
+
+        <div class="entry-content">${content}</div>
+      </article>
+      ${ Punch.partial("footer") }
+    </body>
+  `)}
+</html>
