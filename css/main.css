@@ -3,18 +3,49 @@
 @tailwind utilities;
 
 body {
-  @apply antialiased text-slate-800 dark:text-slate-400 bg-white dark:bg-slate-900 max-w-3xl mx-auto my-4 px-2 leading-7;
+  @apply antialiased text-slate-800 dark:text-slate-300 bg-stone-200 dark:bg-stone-900 max-w-3xl mx-auto my-4 leading-8;
 }
 
 header {
+  @apply flex justify-between px-10 py-8;
+
+  h1 {
+    @apply text-2xl text-sky-500 tracking-wider;
+  }
+
+  h1 > a {
+    text-shadow: 0;
+    transition: text-shadow 500ms ease;
+  }
+
   h1 > a:hover {
-    text-shadow: 0 0 8px rgb(240 240 240);
+    text-shadow: 0 0 8px theme(colors.sky.600);
+  }
+
+  ul {
+    @apply w-1/2 md:w-1/4 flex flex-row justify-between text-lg;
+
+    a {
+      @apply p-2 bg-stone-200 dark:bg-stone-900 text-slate-600 dark:text-slate-300 transition-colors duration-500;
+    }
+
+    a:hover {
+      @apply bg-stone-300 dark:bg-stone-700 text-slate-800 dark:text-slate-100;
+    }
+  }
+}
+@media (prefers-color-scheme: dark) {
+  header > h1 > a:hover {
+    text-shadow: 0 0 8px theme(colors.sky.400);
   }
 }
 
 article {
+  @apply text-slate-800 dark:text-slate-400 bg-zinc-100 dark:bg-zinc-800 p-10;
+  box-shadow: 8px 8px #00000016;
+
   h2 {
-    @apply text-4xl mt-16 mb-2 font-black;
+    @apply text-4xl mb-1 font-black leading-normal;
   }
 
   time {
@@ -22,11 +53,11 @@ article {
   }
 
   h3 {
-    @apply text-xl my-6 text-zinc-900 font-semibold;
+    @apply text-xl my-6 text-zinc-900 dark:text-zinc-400 font-semibold;
   }
 
   p {
-    @apply my-4;
+    @apply my-5;
   }
 
   a {
@@ -34,7 +65,7 @@ article {
   }
 
   code {
-    @apply bg-neutral-200 p-1 font-mono;
+    @apply before:content-['`'] after:content-['`'] p-1 font-mono;
   }
 
   ul {
@@ -47,5 +78,9 @@ article {
 }
 
 footer {
+  @apply flex my-4 justify-center;
 
+  a {
+    @apply hover:underline;
+  }
 }
