@@ -1,11 +1,12 @@
---- 
+---
 layout: post
-title: A Few cURL Tips for Daily Use 
+title: A Few cURL Tips for Daily Use
 published: true
-tags: 
-- Code 
+tags:
+- Code
 type: post
 status: publish
+published_at: 1331510400000
 ---
 
 Though I knew cURL as a powerful tool; so far I never made an attempt to get familiar with it. Most of the time, I would just wade through its man pages to find a way get my stuff done. Recently I found myself make use of it for many of my daily tasks. By those excess usage, couple of recurring patterns emerged.
@@ -26,7 +27,7 @@ It's a shame that I came to know about this very recently. I would now be cursin
 
 Nowadays, most web service APIs demand request bodies to be formatted as JSON. Manually entering a JSON formatted string in command-line is not a very convenient option. Better way to do it would be to prepare the request body in a file and provide it to cURL.
 
-Here's an example of creating a gist, providing the payload from a JSON file. 
+Here's an example of creating a gist, providing the payload from a JSON file.
 
 ```bash
   curl -d @input.json https://api.github.com/gists
@@ -49,7 +50,7 @@ Another similar need is to test the behavior of cookies. Especially, when you wa
 You can use cURL to download the response cookies to a file and then use them on the subsequent requests. You can inspect the cookie file and even alter it to test the desired behavior.
 
 ```bash
-  curl -L -c cookies.txt http://example.com 
+  curl -L -c cookies.txt http://example.com
   curl -L -b cookies.txt http://example.com
 ```
 

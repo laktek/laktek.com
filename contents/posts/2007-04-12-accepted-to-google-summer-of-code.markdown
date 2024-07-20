@@ -1,14 +1,15 @@
---- 
+---
 layout: post
 title: Accepted for Google Summer of Code !
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172431"
-tags: 
+tags:
 - Life
 - GSOC
 type: post
 status: publish
+published_at: 1176336000000
 ---
 Today is a one of the greatest days in my life, as I got <a href="http://code.google.com/soc/silverstripe/appinfo.html?csaid=10BFD481863D0277">accepted</a> to Google Summer of Code (GSoC) 2007. It's a dream coming true for me and looking forward to have some great experiences with it.
 

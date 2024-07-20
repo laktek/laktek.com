@@ -1,15 +1,16 @@
---- 
+---
 layout: post
 title: Handy Git commands that saves my day
 published: true
-meta: 
+meta:
   dsq_thread_id: ""
   _edit_lock: "1275748978"
   _edit_last: "1"
-tags: 
+tags:
 - Code
 type: post
 status: publish
+published_at: 1275609600000
 ---
 There are 3 essential weapons every developer should have in their armory. A text editor, a terminal and a source code management system. Picking powerful, flexible and personalized tools will make your workflows more productive. As a developer, I use Vim for text editing, bash as the terminal and Git for source code management.
 

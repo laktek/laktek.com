@@ -1,17 +1,18 @@
---- 
+---
 layout: post
 title: Simple command line todo list
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172617"
   _edit_last: "1"
   _edit_lock: "1222580431"
-tags: 
+tags:
 - Code
 - FOSS
 - Ruby
 type: post
 status: publish
+published_at: 1219881600000
 ---
 They say <a href="http://lifehacker.com/software/notag/poll-results--tracking-to-dos-110928.php">pen and paper is the best</a> way to manage a todo list. Following the popular norm, I also started tracking my todos with pen and paper. But after several unsuccessful attempts of finding a pen or deciphering tasks from torn or soaked paper, I felt keyboard and the pixel-screen would be more accessible than the traditional method. Without relying on any sophisticated applications I relied on the most simple form - plain-text. It was better, but after being inspired from efforts like <a href="http://todotxt.com/library/todo.sh/">todo.sh</a> and<a href="bestpractical.typepad.com/worst_impractical/2006/09/todopl_or_how_i.html"> todo.pl</a>, I thought of coming up with a small command line utility of my own.
 <h3>Enter todo gem!</h3>

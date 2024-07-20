@@ -6,6 +6,7 @@ tags:
 - Muse
 type: post
 status: publish
+published_at: 1475280000000
 ---
 
 I was 16 when I first wanted to start my own business.
@@ -42,7 +43,7 @@ I coded. Still on web, but not portals. Google killed portals.
 
 I contributed to [open source software](http://www.laktek.com/2007/11/29/all-my-gsoc-contributions-released-officially). Collaborated with people from [different parts of the world](http://www.laktek.com/2011/06/08/a-month-in-vienna). Released my [own projects](). Talked about my projects [at conferences](http://www.laktek.com/2012/12/04/jscamp-asia/).
 
-I got opportunities to work cloesly with smart people. 
+I got opportunities to work cloesly with smart people.
 
 [CurdBee](http://www.laktek.com/2012/12/24/end-of-a-chapter/), a bootstrapped in Sri Lanka, made revenue and became profitable. [Nitrous](http://www.laktek.com/2015/03/13/adios-nitrous-sayonara-singapore/), a dev tools company born out of Singapore successfully raised a Series A in Silicon Valley. Atlassian, based in Sydney had one of the most impressive tech IPOs of 2015.
 

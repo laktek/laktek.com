@@ -1,14 +1,15 @@
---- 
+---
 layout: post
 title: eSriLanka PC - how it will affect ?
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172338"
-tags: 
+tags:
 - FOSS
 - SriLanka
 type: post
 status: publish
+published_at: 1152489600000
 ---
 Remember all flames we had with Intel CEO Craig Barrett labeling that <acronym title="One laptop per child">OLPC</acronym>'s $100 laptop project as just a gadget ? Even though $100 laptop is still in prototype, intel had made a step ahead by sponsoring the <a href="http://www.icta.lk/Insidepages/programmes/e-Sri_Lanka_PC.asp">eSriLankaPC</a>.
 

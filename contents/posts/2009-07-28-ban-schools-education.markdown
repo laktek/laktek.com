@@ -1,16 +1,17 @@
---- 
+---
 layout: post
 title: Ban Schools &amp; Education!
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172767"
   _edit_lock: "1248808630"
   _edit_last: "1"
-tags: 
+tags:
 - Life
 - Muse
 type: post
 status: publish
+published_at: 1248739200000
 ---
 It's very sad and alarming to hear the <a href="http://www.thecolombotimes.com/featured-news/6626-schoolgirl-commits-suicide-after-rebuked-by-teacher-for-using-mobile-phone.html">recent incidents</a> taking place at Sri Lankan schools. Government shows they are so concerned about these issues by banning everything they believe that can harm our next generation :) Mobile phones at all schools are banned, Web Sites with explicit content are banned, screening of "Adults only" movies are banned. Ok, now government could say they have taken all necessary steps to groom our next generation to be well disciplined citizens, and future our country is guaranteed to be prosperous.
 

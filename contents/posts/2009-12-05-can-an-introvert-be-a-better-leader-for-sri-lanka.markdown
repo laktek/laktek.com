@@ -1,16 +1,17 @@
---- 
+---
 layout: post
 title: Can an Introvert be a better leader for Sri Lanka?
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172788"
   _edit_last: "1"
   _edit_lock: "1260094814"
-tags: 
+tags:
 - SriLanka
 - Muse
 type: post
 status: publish
+published_at: 1259971200000
 ---
 This morning, I came across an interesting article in Forbes titled “<a target = "_blank" href="http://www.forbes.com/2009/11/30/introverts-good-leaders-leadership-managing-personality.html">Why Introverts Make the Best Leaders</a>”. It gives some really good reasons why introverts could lead better than their extroversive counterparts, who are normally considered as the natural leaders.
 

@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: Don't Fret Over Client-Side Rendering
 published: true
@@ -7,6 +7,7 @@ tags:
 - Code
 type: post
 status: publish
+published_at: 1338422400000
 ---
 
 Twitter is [ditching client-side rendering and moving back to server-side](http://engineering.twitter.com/2012/05/improving-performance-on-twittercom.html). Does this mean client-side rendering is bad? Should we also move back to server-side? Well, it's insane to have <abbr title="fear, uncertainty and doubt">FUD</abbr> on client-side rendering just because it didn't work for Twitter (remember [*Rails can't scale*](http://techcrunch.com/2008/05/01/twitter-said-to-be-abandoning-ruby-on-rails/)?). Rather, make it a lesson on how to use client-side rendering sensibly.
@@ -27,4 +28,3 @@ On most instances, users come to Home screen only to proceed to another action s
 We use a very simple client-side rendering logic. Templates and data(JSON) are fetched and rendered, only when they are actually needed on screen. There's no eager loading involved. This helps us to keep the bootstrapping JavaScript code to minimal, which loads and parses faster. Also, rendering happens asynchronously allowing us to progressively render the blocks. We use appropriate caching for the templates and data to make the responses fast.
 
 So if used properly, client-side rendering can actually improve the overall user experience. Rather than trying to do everything in server-side or client-side, figure out how you can have the best in the both worlds.
-

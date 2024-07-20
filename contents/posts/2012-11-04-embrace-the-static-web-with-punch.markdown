@@ -1,19 +1,20 @@
---- 
+---
 layout: post
-title: Embrace the Static Web with Punch 
+title: Embrace the Static Web with Punch
 published: true
 tags:
-- Punch 
+- Punch
 - Code
 type: post
 status: publish
+published_at: 1351987200000
 ---
 
 _This was originally published in the [November edition of Appliness](http://www.appliness.com/november-issue-with-addy-osmani) digital magazine._
 
 Remember the very first web sites we created? It was just bunch of HTML files that we uploaded to a remote host using our favorite FTP program. It was all static and it just worked. Yet it was boring. Visitors wanted sites that surprised them every time they hit refresh. Moreover, we also got tired by the slow and cumbersome process we had to follow every time to update the site. Editing content within a HTML tag soup was a chaos. We broke the sites because we forgot to close some nested tag.
 
-Along with the popularity of the LAMP (Linux, Apache, MySQL and PHP) stack, came the Content Management Systems. They seemed to be the right way to manage a web site and it didn't take long to become the de facto. CMSs allowed us to separate the content from the presentation and update our sites with just couple of mouse clicks. Anyone could run a site, even without knowing HTML. 
+Along with the popularity of the LAMP (Linux, Apache, MySQL and PHP) stack, came the Content Management Systems. They seemed to be the right way to manage a web site and it didn't take long to become the de facto. CMSs allowed us to separate the content from the presentation and update our sites with just couple of mouse clicks. Anyone could run a site, even without knowing HTML.
 
 However, as our sites grow and starts attracting more traffic, we see the shortcomings of CMSs. They become slow because they render the pages for each request. You need to tune the database and servers to handle the load. To add a trivial new feature to the site you need to modify the internals of the CMS (which is often a spaghetti code). Further,they are full of vulnerabilities. Remember the day your site got hacked, because you missed one of those daily security updates? Managing a web site seems to take up your life and become a chore.
 
@@ -33,7 +34,7 @@ Before we start the tutorial, let's install Punch. To run Punch you will need [N
 	npm install -g punch
 ```
 
-This will install Punch as a global package, allowing you to use it as a shell command. Enter the command `punch -v` to check whether Punch was installed properly. This tutorial was created using Punch version 0.4.17. 
+This will install Punch as a global package, allowing you to use it as a shell command. Enter the command `punch -v` to check whether Punch was installed properly. This tutorial was created using Punch version 0.4.17.
 
 ### Setup a New Site
 
@@ -43,7 +44,7 @@ Let's spin off a new project for our Reading List. By running the command `punch
 	punch setup reading_list
 ```
 
-This will create a directory named `reading_list`. Inside it we will see another two directories named `templates` and `contents`. Also, you will find a file named `config.json`. You will learn the purpose and role of these directories and files as the tutorial progress. 
+This will create a directory named `reading_list`. Inside it we will see another two directories named `templates` and `contents`. Also, you will find a file named `config.json`. You will learn the purpose and role of these directories and files as the tutorial progress.
 
 While we are inside the project directory, let's start the Punch server by running the command:
 
@@ -98,14 +99,14 @@ We only need to create a single web page to show these information. So we can di
 							<li><b>Favorite Quote</b> - {{{favorite_quote}}}</li>
 						</ul>
 					</div>
-				{{/books_list}}	
-			</div>	
+				{{/books_list}}
+			</div>
 		</div>
-		
+
 {{> footer }}
 ```
 
-Note that some Mustache tags are surrounded with three curly-braces, while others are surrounded with two curly-braces. By having three curly-braces we say Mustache not to escape the HTML within the content. In places where you want to have HTML formatted content, you must use the tags with three curly-braces. 
+Note that some Mustache tags are surrounded with three curly-braces, while others are surrounded with two curly-braces. By having three curly-braces we say Mustache not to escape the HTML within the content. In places where you want to have HTML formatted content, you must use the tags with three curly-braces.
 
 After modifying the layout, refresh the page in the browser to see the changes.
 
@@ -141,7 +142,7 @@ You can continue to add more books or update the existing entries in the `conten
 
 So now we have listed our favorite books, let's add a simple introduction to the page. Rather than defining it as a JSON string, you can use [Markdown](http://daringfireball.net/projects/markdown/) formatting to write this piece.
 
-When fetching contents for a page, Punch will look for extended contents such as Markdown formatted texts, in a directory by the name of the page prefixed with an underscore. This directory must be placed inside the `contents` directory along with the JSON file for the page. 
+When fetching contents for a page, Punch will look for extended contents such as Markdown formatted texts, in a directory by the name of the page prefixed with an underscore. This directory must be placed inside the `contents` directory along with the JSON file for the page.
 
 In this instance, we should create a directory named `_index` and save our introduction inside it as `intro.markdown`. The filename of an extended content should be the tag name you wish to use in the templates to retrieve that content.
 
@@ -151,7 +152,7 @@ You will notice site's title is still displayed as "Welcome". Let's change that 
 
 ### Styling with LESS
 
-Now we are done preparing the content, let's do some style changes to beautify the page. You can use [LESS](http://lesscss.org) to write the styles and Punch will automatically convert them into regular CSS. 
+Now we are done preparing the content, let's do some style changes to beautify the page. You can use [LESS](http://lesscss.org) to write the styles and Punch will automatically convert them into regular CSS.
 
 As I mentioned previously, all static assets such as stylesheets, JavaScript files and images must be stored in the `templates` directory. You can organize them in any way you like inside the `templates` directory.
 
@@ -170,11 +171,11 @@ We can bundle the CSS files used in the project like this:
 ```javascript
 "bundles": {
 	"/css/all.css": [
-		"/css/normalize.css",	
+		"/css/normalize.css",
 		"/css/main.css",
 		"/css/site.less"
-	]	
-}	
+	]
+}
 ```
 
 Then, you can use Punch's bundle [helper tags](https://github.com/laktek/punch/wiki/Helpers) to call defined bundles inside the templates.
@@ -182,7 +183,7 @@ Then, you can use Punch's bundle [helper tags](https://github.com/laktek/punch/w
 ```markup
 <head>
 	<!-- snip -->
-	{{#stylesheet_bundle}}/css/all.css{{/stylesheet_bundle}} 
+	{{#stylesheet_bundle}}/css/all.css{{/stylesheet_bundle}}
 </head>
 ```
 
@@ -191,7 +192,7 @@ This will produce a fingerprinted stylesheet tag (useful for caching) like this:
 ```markup
 <head>
 		<!-- snip -->
-		<link rel="stylesheet" type="text/css" media="screen" href="/css/all-1351313179000.css"> 
+		<link rel="stylesheet" type="text/css" media="screen" href="/css/all-1351313179000.css">
 </head>
 ```
 
@@ -205,7 +206,7 @@ Our Reading List page is now almost complete.
 <img src="/images/reading_list_final_screen.png" alt="Finished Site" class="portrait"/>
 </figure>
 
-Let's share it with others by publishing on the web. Punch allows you to either publish your site directly to [Amazon S3](http://aws.typepad.com/aws/2011/02/host-your-static-website-on-amazon-s3.html) or upload it to a preferred host using SFTP. 
+Let's share it with others by publishing on the web. Punch allows you to either publish your site directly to [Amazon S3](http://aws.typepad.com/aws/2011/02/host-your-static-website-on-amazon-s3.html) or upload it to a preferred host using SFTP.
 
 In this tutorial, we will publish the site to Amazon S3. You will have to signup with [Amazon Web Services](http://aws.amazon.com) and enable the S3 storage service for your account. Then, create a S3 bucket and a user who has access to bucket.
 
@@ -213,7 +214,7 @@ Enter those settings in the `config.json` file of your Punch project under the s
 
 ```javascript
 	"publish" : {
-		"strategy" : "s3", 
+		"strategy" : "s3",
 		"options" : {
 			"bucket" : "BUCKET",
 			"key" : "KEY",

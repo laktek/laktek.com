@@ -1,11 +1,12 @@
---- 
+---
 layout: post
-title: End of a Chapter 
+title: End of a Chapter
 published: true
 tags:
-- Life 
+- Life
 type: post
 status: publish
+published_at: 1356307200000
 ---
 
 <figure>
@@ -46,11 +47,11 @@ Couple of months later, I was [selected to the IT faculty](http://www.laktek.com
 
 </blockquote>
 
-That decision was no brainer. Vesess had already built-up a reputation for its quality work and seemed they are aiming at a different level compared to other Sri Lankan web design agencies. I knew this would be the perfect place for a freshman like me to groom my career. 
+That decision was no brainer. Vesess had already built-up a reputation for its quality work and seemed they are aiming at a different level compared to other Sri Lankan web design agencies. I knew this would be the perfect place for a freshman like me to groom my career.
 
 Few days later, I went to a nice little office in Horton Place. I was welcomed by two lanky pleasant looking guys, who seemed to be in their early twenties. They happened to be the two co-founders of Vesess. That was my first interaction with Lankitha and Prabhath in meatspace.
 
-Part of orientation at Vesess, involves answering a questionnaire called "Think First". It's a guide which both yourself and the company can use to asses your progress in the long run. One of the questions in it was: 
+Part of orientation at Vesess, involves answering a questionnaire called "Think First". It's a guide which both yourself and the company can use to asses your progress in the long run. One of the questions in it was:
 
 <blockquote>
 <strong>How would you like to describe yourself in 5 years from now? Can you explain this with targets?</strong>
@@ -68,13 +69,13 @@ Beginning of 2008, Lankitha wanted to diversify the company from being solely a 
 
 There were lot of unknowns when we started. How to monetize the product? How to get a payment gateway and a merchant account from Sri Lanka? How to market the product? How to get popular tech blogs to cover us? How to provide support? How to scale the application? How to make it secure? How to retain the users? How to find talent?
 
-During the last 4 years, we worked hard to find answers for these questions. Current state of CurdBee, proves we have answered them in the best way we could. It wasn't a overnight success. We had many arguments, sleepless nights, moments of panics, tears and bunch of small victories along the way. 
+During the last 4 years, we worked hard to find answers for these questions. Current state of CurdBee, proves we have answered them in the best way we could. It wasn't a overnight success. We had many arguments, sleepless nights, moments of panics, tears and bunch of small victories along the way.
 
 <blockquote>
 Once you’re successfully past 1.0, you have a choice: coast and die, or disrupt. No one in history has ever actually chosen coast and die; everyone thinks they’re choosing the path of continued disruption, but it’s a very different choice when it’s made by a Stable than by a Volatile. A Stable’s choice of disruption is within the context of the last war. They can certainly innovate, but they will attempt to do so within the box they bled to build. A second-generation Volatile will grin mischievously and remind you, “There is no box.”
 </blockquote>
 
-This [beautiful essay](http://www.randsinrepose.com/archives/2012/11/14/stables_and_volatiles.html) by Rands is a perfect summary to explain my decision to move away from Vesess. I still have that desire to disrupt, but I believe the time has come for me to pick a new battle. I love getting into adventures full of challenges and uncertainties. Those are the environments that brings the best in me. I prefer being a volatile than a stable. You will soon get to hear more about my next moves. 
+This [beautiful essay](http://www.randsinrepose.com/archives/2012/11/14/stables_and_volatiles.html) by Rands is a perfect summary to explain my decision to move away from Vesess. I still have that desire to disrupt, but I believe the time has come for me to pick a new battle. I love getting into adventures full of challenges and uncertainties. Those are the environments that brings the best in me. I prefer being a volatile than a stable. You will soon get to hear more about my next moves.
 
 The army I created at Vesess, is now ready for the limelight. There's a perfect blend of volatiles and stables, who could continue to disrupt. I'm sure they will take CurdBee to the next level and innovate better than in my reign.
 

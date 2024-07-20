@@ -1,16 +1,17 @@
---- 
+---
 layout: post
 title: jQuery isBlank()
 published: true
-meta: 
+meta:
   dsq_thread_id: "219743458"
   _edit_lock: "1294537388"
   _edit_last: "1"
-tags: 
+tags:
 - Code
-- JS 
+- JS
 type: post
 status: publish
+published_at: 1294358400000
 ---
 One of my favorite syntactic sugar methods available in Rails is the <em>Object.blank?</em>, which evaluates to true if the given object is false, empty, or a whitespace string. It makes your conditional expressions more readable; avoiding the use of boolean operators.
 

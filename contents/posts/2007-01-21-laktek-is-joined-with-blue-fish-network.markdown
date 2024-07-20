@@ -1,13 +1,14 @@
---- 
+---
 layout: post
 title: LakTEK is joined with Blue Fish Network
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172404"
-tags: 
+tags:
 - Web
 type: post
 status: publish
+published_at: 1169337600000
 ---
 One of my new year perspectives was to give more attention to my blog and serve it to much bigger audience. Today I was notified by <a href="http://www.bluefishnetwork.co.uk">Blue Fish Network</a> that they have added my blog to their network. I see this as yet another opportunity to expand my blog to a wider audience.
 

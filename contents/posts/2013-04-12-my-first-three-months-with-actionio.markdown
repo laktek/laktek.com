@@ -1,16 +1,17 @@
---- 
+---
 layout: post
 title: My First Three Months with Nitrous.IO
 published: true
 tags:
-- Muse 
+- Muse
 type: post
 status: publish
+published_at: 1365724800000
 ---
 
 Last 3 months has been the most exciting and yet challenging period of my life. I migrated from Sri Lanka to Singapore to join with an early-stage startup called [Action.IO](https://action.io).
 
-I first heard about Action.IO from [HackerNews](http://news.ycombinator.com), somewhere around last July. It got my immediate respect as an engineering startup emerging from Asia. Also, it was solving a real problem. I felt it could change the way we code, if executed well. 
+I first heard about Action.IO from [HackerNews](http://news.ycombinator.com), somewhere around last July. It got my immediate respect as an engineering startup emerging from Asia. Also, it was solving a real problem. I felt it could change the way we code, if executed well.
 
 I got to meet [Arun and Pete](https://www.action.io/team), while I was in Singapore for [JSCamp.Asia](http://www.laktek.com/2012/12/04/jscamp-asia/). We had a casual chat over a breakfast, that spanned across [Asian folk stories](http://en.wikipedia.org/wiki/Ramayana) to [OT engines](http://en.wikipedia.org/wiki/Operational_transformation). After I moved back to Sri Lanka, we had some lengthy email conversations. As a result of it, I decided to move to Singapore to join with the Action.IO team.
 
@@ -20,11 +21,11 @@ Personally, I'm a big fan of resources and tools that make life easy for develop
 
 After first-day at work with Action.IO team I said to myself - "Wow! These guys are super smart!".
 
-It was intimidating to work with such a smart and productive team. But during the next couple of weeks, I realized it's the process and the environment that creates the difference. 
+It was intimidating to work with such a smart and productive team. But during the next couple of weeks, I realized it's the process and the environment that creates the difference.
 
 At Action.IO, nobody will tell you what to do and how you should do it. You have to manage yourself. Company's goals and current position is briefed weekly during a stand-up. Also, you will be given access to support channels, application logs and stats from the first-day itself. Based on these inputs, you will get an idea of what needs to be done and how important it is. When you stumble upon a feature idea or a bug, you create a story for that in Pivotal Tracker. It could be either be you or someone else in the team that gets it done.
 
-At the start of each work day, you will glance through the pending tasks in the tracker and assign a task for you to work on. If a task could span more than a day, you should simplify it by breaking it into sub-tasks. This allows you to actually deliver something at the end of every day and have a good sleep. 
+At the start of each work day, you will glance through the pending tasks in the tracker and assign a task for you to work on. If a task could span more than a day, you should simplify it by breaking it into sub-tasks. This allows you to actually deliver something at the end of every day and have a good sleep.
 
 ### Pull-requests & Code reviews
 
@@ -50,11 +51,11 @@ On most days, whole team goes out for lunch together (best thing about being in 
 
 Though there's so much activity in HipChat during the week, it goes insanely silent during the weekend. If you happen to login accidentally, you will find yourself alone in the room. Instead you're encouraged to step away from the screen and seek other hobbies/interests during the weekend.
 
-### Connecting with other developers 
+### Connecting with other developers
 
-What I love most about Action.IO is getting to connect with lot of other developers. As I said earlier, everyone in the team has access to support channels and everyone do support. Insights you gain from these chats are invaluable. You will learn different contexts, workflows and approaches used by others. And it's [flattering](http://twitter.com/tobi/status/316730719453986816) [to](http://twitter.com/soffes/status/301928923602747393) [hear](http://twitter.com/jonnymustcreate/status/322275903130435584) how others make use of it to do interesting stuff. 
+What I love most about Action.IO is getting to connect with lot of other developers. As I said earlier, everyone in the team has access to support channels and everyone do support. Insights you gain from these chats are invaluable. You will learn different contexts, workflows and approaches used by others. And it's [flattering](http://twitter.com/tobi/status/316730719453986816) [to](http://twitter.com/soffes/status/301928923602747393) [hear](http://twitter.com/jonnymustcreate/status/322275903130435584) how others make use of it to do interesting stuff.
 
-At Action.IO, I feel I'm improving myself as a developer, while helping others to improve themselves. 
+At Action.IO, I feel I'm improving myself as a developer, while helping others to improve themselves.
 
 **PS:** Action.IO is always on the look for more passiontate people to join the team. If you're yearning for a challenge, you should [get in touch](http://action.io/jobs).
 

@@ -1,15 +1,16 @@
---- 
+---
 layout: post
 title: Apple is repeating the same mistakes from the past
 published: true
-meta: 
+meta:
   dsq_thread_id: ""
   _edit_lock: "1274491116"
   _edit_last: "1"
-tags: 
-- Muse 
+tags:
+- Muse
 type: post
 status: publish
+published_at: 1274400000000
 ---
 <blockquote>
 In the 1980s, Apple jumped out to an early lead in personal computers, but then got selfish. Steve Jobs, a notorious control freak, just could not play well with others.

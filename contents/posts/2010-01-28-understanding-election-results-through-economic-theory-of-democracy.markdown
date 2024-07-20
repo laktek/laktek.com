@@ -1,16 +1,17 @@
---- 
+---
 layout: post
 title: Understanding Election Results through Economic Theory of Democracy
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172802"
   _edit_last: "1"
   _edit_lock: "1264740957"
-tags: 
-- Muse 
+tags:
+- Muse
 - SriLanka
 type: post
 status: publish
+published_at: 1264636800000
 ---
 Though its been two days since the announcement of the results, still there is no end to the spread of speculations & rumors on the concluded <a href="http://en.wikipedia.org/wiki/Sri_Lankan_presidential_election,_2010">Presidential Election in Sri Lanka</a>. I don't have any strong political bias to either of the main two candidates and didn't want to accept anything reported in a blind eye.
 

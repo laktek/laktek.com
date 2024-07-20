@@ -1,14 +1,15 @@
---- 
+---
 layout: post
 title: Keeping the focus
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172401"
-tags: 
+tags:
 - Life
 - University
 type: post
 status: publish
+published_at: 1168646400000
 ---
 For the first time in this year I'm going to touch my blog. Since I started this blog back in last May, I got great exposure by coming to know various cool people and involving in great projects.Â  But when I was driven away by more work, attention to blog has been simply neglected. Actually I think at times, I filled the blog with more noise than signal. This year I'm going to give more focus on my blog and I hope the blog will also mature with experience.
 

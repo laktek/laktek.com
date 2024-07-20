@@ -1,16 +1,17 @@
---- 
+---
 layout: post
 title: I want to be a Ruby Hacker...
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172713"
   _edit_last: "1"
   _edit_lock: "1227271357"
-tags: 
+tags:
 - Code
 - Ruby
 type: post
 status: publish
+published_at: 1227225600000
 ---
 In the past couple of months, I heard this from number of my friends. I hope <a href="http://adam.blog.heroku.com/past/2008/11/19/ruby_isnt_fun_anymore/">there will be more</a> joining the club in the coming days. For the benefit of the freshers, I thought of sharing some tips I learned about Ruby hacking (though it may sound as obvious to many) .
 <ol>

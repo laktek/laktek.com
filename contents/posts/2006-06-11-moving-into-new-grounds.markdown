@@ -1,14 +1,15 @@
---- 
+---
 layout: post
 title: Becoming a Semi Geek...
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172324"
-tags: 
+tags:
 - Life
 - University
 type: post
 status: publish
+published_at: 1149984000000
 ---
 These days I'm undergoing a flip and turn in my life with the admission into University education. Now I'm spending most of the time in meatspace rather than in siliconspace. In this part of world, students still have more faith on <span style="font-style: italic">Kuppi(</span>local university slang for group studies) rather than <a href="http://www.oreillynet.com/">O'Reilly books</a> or <a href="http://www.wikipedia.com"><span style="text-decoration: underline">Wikipedia</span></a>, and the more healthy relationships you have in meatspace will assure your success in here.
 

@@ -1,17 +1,18 @@
---- 
+---
 layout: post
 title: Building Real-time web apps with Rails3
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172462"
   _edit_lock: "1273022283"
   _edit_last: "1"
-tags: 
+tags:
 - Code
 - Realie
 - Ruby
 type: post
 status: publish
+published_at: 1266278400000
 ---
 On deciding the web framework to build <a target="_blank" href="http://www.web2media.net/laktek/tag/realie/">Realie</a>, one of the main considerations was should I move to a totally asynchronous framework? Most established web frameworks, including my favorite Rails is built in a synchronous manner and follows a call-stack based model. Real-time web apps needs to be asynchronous. <a href="http://en.wikipedia.org/wiki/Event-driven_programming">Evented programming model</a> ideally suits to this.
 

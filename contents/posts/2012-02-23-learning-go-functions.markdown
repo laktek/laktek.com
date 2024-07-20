@@ -1,21 +1,22 @@
---- 
+---
 layout: post
-title: Learning Go - Functions 
+title: Learning Go - Functions
 published: true
-tags: 
-- Code 
-- Go 
+tags:
+- Code
+- Go
 type: post
 status: publish
+published_at: 1329955200000
 ---
 
 Functions are first-class citizens in Go. In the [very first post](http://laktek.com/2012/01/05/learning-go/) of this series, we learnt that Go functions can return multiple values. Apart from multiple return values, there are several other interesting features in Go functions that's worth exploring.
 
 ### Higher-order Functions
 
-In Go, a function can take another function as an argument and also define a function as a return type. This feature, which is known as higher-order functions in functional programming, is a great way to define dynamic and reusable behavior.  
+In Go, a function can take another function as an argument and also define a function as a return type. This feature, which is known as higher-order functions in functional programming, is a great way to define dynamic and reusable behavior.
 
-For example, `Map` function from the `strings` package takes a mapping function as its first argument. We can come up with a simple cipher algorithm by passing a function to `Map`. 
+For example, `Map` function from the `strings` package takes a mapping function as its first argument. We can come up with a simple cipher algorithm by passing a function to `Map`.
 
 ```go
   output := strings.Map(func(c int) int {
@@ -26,7 +27,7 @@ For example, `Map` function from the `strings` package takes a mapping function 
 	}, "hello")
 ```
 
-What if you want to encode your message with a different cryptabet? How about something fancy like Sherlock Holmes' Little Dancing Men? Current implementation doesn't have that flexibility, but let's try to extend our code. 
+What if you want to encode your message with a different cryptabet? How about something fancy like Sherlock Holmes' Little Dancing Men? Current implementation doesn't have that flexibility, but let's try to extend our code.
 
 ```go
   func CipherGenerator(cryptabet string) func(int) int {
@@ -45,7 +46,7 @@ What if you want to encode your message with a different cryptabet? How about so
   }
 ```
 
-So we created a function called `CipherGenerator`. It can accept any unicode string as a cryptabet and return a function of type `func(int) int` which is assignable as a mapping function to `strings.Map`. 
+So we created a function called `CipherGenerator`. It can accept any unicode string as a cryptabet and return a function of type `func(int) int` which is assignable as a mapping function to `strings.Map`.
 
 ### User-Defined Function types
 
@@ -69,7 +70,7 @@ Since the underlying type matches, it is still assignable to the `strings.Map`.
 
 In the function literal that's returned from the `CipherGenerator`, we are referencing to the variable `cryptabet`. However, `cryptabet` is defined only in the scope of `CipherGenerator`. Then how does returned function has access to `cryptabet` each time it runs?
 
-This property is known as [Closure](<http://en.wikipedia.org/wiki/Closure_(computer_science)>). In simple terms, a function will inherit the variables from the scope it was declared. 
+This property is known as [Closure](<http://en.wikipedia.org/wiki/Closure_(computer_science)>). In simple terms, a function will inherit the variables from the scope it was declared.
 
 Applying the same principle, we can also move the variable `alphabet` from the scope of returning function to the scope of `CipherGenerator`.
 
@@ -87,7 +88,7 @@ Applying the same principle, we can also move the variable `alphabet` from the s
   }
 ```
 
-### Deferred Calls 
+### Deferred Calls
 
 In Go functions you can define a special statement called `defer`. Defer statements invoke function or method calls immediately before the surrounding function (function that contains the defer statement) returns.
 
@@ -96,7 +97,7 @@ Defer statements are most commonly used for cleanup jobs. Its execution is ensur
 ```go
   func Read(reader io.ReadCloser) string {
     defer reader.Close()
-    
+
     // ...
   }
 ```
@@ -137,8 +138,8 @@ You can have mulitple defer statements within a function.
 
 ```go
   func f() (output string) {
-    defer fmt.Printf("first deferred call executed.") 
-    defer fmt.Printf("second deferred call executed.") 
+    defer fmt.Printf("first deferred call executed.")
+    defer fmt.Printf("second deferred call executed.")
 
     return "Function returned"
   }
@@ -157,7 +158,7 @@ As you can see from the output, defer statements are executed in the Last-In-Fir
 
 If you've noticed, you can invoke `fmt.Printf` with variable number of arugments. On one instance, you may simply call it as `fmt.Printf("Hello")` and in another as `fmt.Printf("Result of %v plus %v is %v", num1, num2, (num1 + num2))`. Since you have to define the parameters when declaring a function signature, how this is possible?
 
-You can define the last parameter to a function with a type prefixed with `...`. Then it means the function can take zero or more arguments of the given type. Such functions are known as variadic functions. 
+You can define the last parameter to a function with a type prefixed with `...`. Then it means the function can take zero or more arguments of the given type. Such functions are known as variadic functions.
 
 Here's a simple variadic function to calculate the average of a series of integers.
 
@@ -185,4 +186,3 @@ By using [blank interface type](http://laktek.com/2012/02/13/learning-go-interfa
 ### Further Reference
 
 Go Coderwalk on First-Class Functions. [http://golang.org/doc/codewalk/functions/](http://golang.org/doc/codewalk/functions/)
-

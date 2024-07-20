@@ -1,13 +1,14 @@
---- 
+---
 layout: post
 title: Enjoying my Summer Of Code with SilverStripe
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172476"
-tags: 
-- GSOC 
+tags:
+- GSOC
 type: post
 status: publish
+published_at: 1184112000000
 ---
 First of all, I beg your pardon for not updating you with my summer of code experiences as I promised. Once I get busy with coding I tend to forget all other <a href="http://www.catb.org/~esr/faqs/hacker-howto.html#respect3">essential stuff which needs to go along with hacking</a>. Yeah I know that's not a good practice as a FOSS developer and trying to get rid of that :)
 

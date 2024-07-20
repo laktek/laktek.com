@@ -16,4 +16,16 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/vim.min.js"></script>
 
   <script src="/js/main.js"></script>
+
+  <script type="speculationrules">
+		{
+			"prerender": [{
+				"source": "document",
+				"where": {
+					"href_matches": "/*"
+				},
+				"eagerness": "moderate"
+			}]
+		}
+	</script>
 </head>

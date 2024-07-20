@@ -1,18 +1,19 @@
---- 
+---
 layout: post
 title: Real-time Collaborative Editing with Web Sockets, Node.js &amp; Redis
 published: true
-meta: 
+meta:
   dsq_thread_id: ""
   _edit_last: "1"
   _edit_lock: "1274832567"
-tags: 
+tags:
 - Code
 - FOSS
 - JS
 - Realie
 type: post
 status: publish
+published_at: 1274745600000
 ---
 Few months ago, I mentioned I'm developing a real-time collaborative code editor (codenamed as Realie) for my individual research project in the university. Since then I did couple of posts on the <a href="http://www.web2media.net/laktek/2010/02/11/realie-project-data-structure-storage/">design decisions</a> and <a href="http://www.web2media.net/laktek/2010/02/16/building-real-time-web-apps-with-rails3/">on technologies</a> I experimented for the project. After some excessive hacking, today I've got something tangible to share with you.
 

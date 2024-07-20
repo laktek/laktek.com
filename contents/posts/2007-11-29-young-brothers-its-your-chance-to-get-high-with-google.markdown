@@ -1,13 +1,14 @@
---- 
+---
 layout: post
 title: It's your chance to fly high with Google
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172531"
-tags: 
+tags:
 - FOSS
 type: post
 status: publish
+published_at: 1196294400000
 ---
 <img src="http://www.web2media.net/laktek/wp-content/files/ghoplogo.jpg" alt="Google Highly Open Participation - Logo" height="200" width="187" />When I was in college, I envy Google Summer of Code for being only open to university students. Maybe it might have indirectly influenced me to get into the university ;). Anyway I ended my envy later by participating in GSOC. If you are also a <strong>college/high school</strong> student<strong> under 18 years</strong> and have such envy as I had, then here is a news for you ! Google has announced "<a href="http://code.google.com/opensource/ghop/2007-8/">The Google Highly Open Participation Contest</a>".
 

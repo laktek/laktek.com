@@ -1,17 +1,18 @@
---- 
+---
 layout: post
 title: A Month in Vienna
 published: true
-meta: 
+meta:
   dsq_thread_id: "325252192"
   _edit_last: "1"
   _edit_lock: "1312045926"
   _wp_old_slug: ""
-tags: 
+tags:
 - Life
 - Muse
 type: post
 status: publish
+published_at: 1307491200000
 ---
 I'm writing this post from 30,000ft above the ground, flying back home from Vienna.
 

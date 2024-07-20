@@ -1,39 +1,40 @@
---- 
+---
 layout: post
-title: Learning Go - Types 
+title: Learning Go - Types
 published: true
-tags: 
-- Code 
-- Go 
+tags:
+- Code
+- Go
 type: post
 status: publish
+published_at: 1327622400000
 ---
 
-One of the main reasons I embrace Golang is its simple and concise type system. It follows the principle of least surprise and as per [Rob Pike](http://en.wikipedia.org/wiki/Rob_Pike) these design choices were largely influenced by the prior experiences.  
+One of the main reasons I embrace Golang is its simple and concise type system. It follows the principle of least surprise and as per [Rob Pike](http://en.wikipedia.org/wiki/Rob_Pike) these design choices were largely influenced by the prior experiences.
 
 In this post, I will discuss some of the main concepts which are essential in understanding Golang's type system.
 
 ### Pre-declared Types
 
-Golang by default includes several pre-declared [boolean, numeric and string types](http://golang.org/doc/go_spec.html#Boolean_types). These pre-declared types are used to construct other composite types, such as array, struct, pointer, slice, map and channel. 
+Golang by default includes several pre-declared [boolean, numeric and string types](http://golang.org/doc/go_spec.html#Boolean_types). These pre-declared types are used to construct other composite types, such as array, struct, pointer, slice, map and channel.
 
 ### Named vs Unnamed Type
 
-A type can be represented with an identifier (called _type name_) or from a composition of previously declared types (called _type literal_). In Golang, these two forms are known as **named** and **unnamed** types respectively. 
+A type can be represented with an identifier (called _type name_) or from a composition of previously declared types (called _type literal_). In Golang, these two forms are known as **named** and **unnamed** types respectively.
 
-Named types can have their own method sets. As I explained in a [previous post](http://laktek.com/2012/01/05/learning-go), methods are also a form of functions, which you can specify a receiver. 
+Named types can have their own method sets. As I explained in a [previous post](http://laktek.com/2012/01/05/learning-go), methods are also a form of functions, which you can specify a receiver.
 
 ```go
   type Map map[string]string
-  
+
   //this is valid
   func (m Map) Set(key string, value string){
-    m[key] = value 
+    m[key] = value
   }
 
   //this is invalid
   func (m map[string]string) Set(key string, value string){
-    m[key] = value 
+    m[key] = value
   }
 ```
 
@@ -43,7 +44,7 @@ An important thing to remember is **pre-declared types are also named types**. S
 
 ### Underlying Type
 
-Every type do have an _underlying type_. Pre-declared types and type literals refers to itself as the underlying type. When declaring a new type, you have to provide an existing type. The new type will have the same underlying type as the existing type. 
+Every type do have an _underlying type_. Pre-declared types and type literals refers to itself as the underlying type. When declaring a new type, you have to provide an existing type. The new type will have the same underlying type as the existing type.
 
 Let's see an example:
 
@@ -64,13 +65,13 @@ Another important thing to note is **the declared type will not inherit any meth
   var my_str MyString = str //gives a compile error
 ```
 
-You can't assign `str` to `my_str` in the above case. That's because `str` and `my_str` are of different types. Basically, to assign a value to a variable, value's type should be identical to the variable's type. It is also possible to assign a value to a variable if their underlying types are identical and one of them is an unnamed type.  
+You can't assign `str` to `my_str` in the above case. That's because `str` and `my_str` are of different types. Basically, to assign a value to a variable, value's type should be identical to the variable's type. It is also possible to assign a value to a variable if their underlying types are identical and one of them is an unnamed type.
 
 Let's try to understand this with a more elaborative example:
 
 ```go
   package main
-  
+
   import "fmt"
 
   type Person map[string]string
@@ -100,13 +101,13 @@ Let's try to understand this with a more elaborative example:
   }
 ```
 
-Here both `Person` and `Job` has `map[string]string` as the underlying type. If you try to pass an instance of type `Job`, to `name` function it gives a compile error because it expects an argument of type `Person`. However, you will note that we can pass instances of both `Person` and `Job` types to `keys` function which expects an argument of unamed type `map[string]string`. 
+Here both `Person` and `Job` has `map[string]string` as the underlying type. If you try to pass an instance of type `Job`, to `name` function it gives a compile error because it expects an argument of type `Person`. However, you will note that we can pass instances of both `Person` and `Job` types to `keys` function which expects an argument of unamed type `map[string]string`.
 
 If you still find assignability of types confusing; I'd recommend you to read the explanations by Rob Pike in the [following discussion](https://groups.google.com/group/golang-nuts/browse_thread/thread/e036f6cf674485f7/43c1ab29a44f5f82?lnk=gst&q=type+assignment#43c1ab29a44f5f82).
-  
+
 ### Type Embedding
 
-Previously, I mentioned when you declare a new type, it will not inherit the method set of the existing type. However, there's a way you can embed a method set of an existing type in a new type. This is possible by using the properties of annonymous field in a `struct` type. When you define a annonymous field inside a `struct`, all its fields and methods will be promoted to the defined struct type. 
+Previously, I mentioned when you declare a new type, it will not inherit the method set of the existing type. However, there's a way you can embed a method set of an existing type in a new type. This is possible by using the properties of annonymous field in a `struct` type. When you define a annonymous field inside a `struct`, all its fields and methods will be promoted to the defined struct type.
 
 ```go
   package main
@@ -156,4 +157,3 @@ You can convert a string to a slice of integers or bytes and vice-versa.
 ```
 
 More robust and complex run-time type manupilations are possible in Golang using the Interfaces and [Relection Package](http://blog.golang.org/2011/09/laws-of-reflection.html). We'll see more about them in a future post.
-

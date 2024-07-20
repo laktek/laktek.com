@@ -1,15 +1,16 @@
---- 
+---
 layout: post
 title: Sweet Summer of Code, Thank you Google...
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172506"
-tags: 
+tags:
 - Code
-- GSOC 
+- GSOC
 - University
 type: post
 status: publish
+published_at: 1188000000000
 ---
 GSOC 2007 finally came to an end on last 20th, providing loads of experience and lots of other good things to take with us. It helps to create passion for Open Source software among students, by providing an opportunity to work with more than 100 OSS projects in their summer holidays. Even it implies as a summer vacation program any university student in the globe can participate in the program. So students like me who is actually doesn't have such summer vacation (In Sri Lanka we don't experience seasons, thus no summer holidays) are also eligible to participate. Best thing for some, is the $45K stipend paid by the Google for the work done in the program. Honestly it's a great relief for our academic expenses for the year, but what I believe is the experience and reputation the program brings what is more important in long term.
 

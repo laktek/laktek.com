@@ -1,17 +1,18 @@
---- 
+---
 layout: post
 title: "Realie Project: Data Structure &amp; Storage"
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172809"
   _edit_last: "1"
   _edit_lock: "1265954934"
-tags: 
+tags:
 - Code
 - Realie
 - Ruby
 type: post
 status: publish
+published_at: 1265846400000
 ---
 Last couple of days, I found some time to work on my individual research project for the degree course. The topic area I selected for my project was on "<a href="http://www.readwriteweb.com/archives/introduction_to_the_real_time_web.php" target="_blank">Real-time Web</a>". Real-time Web is just the opposite of the current way we use the web. Rather than we checking (polling) content providers for updates, content providers will feed (push) us with the updates. This concept is getting rapid adoption and I believe it would be the de-facto behaviour of the web in couple of years.
 

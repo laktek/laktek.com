@@ -1,17 +1,18 @@
---- 
+---
 layout: post
 title: Simple Helper to Extract Values from a String
 published: true
 tags:
-- JS 
+- JS
 - Code
 type: post
 status: publish
+published_at: 1349308800000
 ---
 
-While writing a blogging engine based on [Punch](https://github.com/laktek/punch), I needed to implement a way to extract values from a path based on a permalink pattern defined by the user. 
+While writing a blogging engine based on [Punch](https://github.com/laktek/punch), I needed to implement a way to extract values from a path based on a permalink pattern defined by the user.
 
-After writing a helper function to solve this case, I realized it can be useful in other similar cases too. So I extracted it to a its own package named, [ExtractValues](https://github.com/laktek/extract-values). 
+After writing a helper function to solve this case, I realized it can be useful in other similar cases too. So I extracted it to a its own package named, [ExtractValues](https://github.com/laktek/extract-values).
 
 Here's how you can use it:
 
@@ -44,7 +45,7 @@ From the above examples, you may realize the helper function accepts several opt
 
 **lowercase** - converts the input string to lowercase before matching.
 
-**delimiters** - You can specify which characters are the value delimiters in the pattern. 
+**delimiters** - You can specify which characters are the value delimiters in the pattern.
 Default delimiters are `{` and `}`.
 
 This is intended to be used for matching trivial and definite patterns, especially in contexts where you want to give the option to end-users to provide patterns. For more complex and fuzzy matching, you would be better off with regular expressions.
@@ -57,4 +58,3 @@ This helper since ported to several other languages:
 
 * Ruby version - [https://github.com/ezkl/excise](https://github.com/ezkl/excise)
 * Python version - [https://github.com/gnrfan/extract-values](https://github.com/gnrfan/extract-values)
-

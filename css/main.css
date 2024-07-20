@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@view-transition {
+  navigation: auto;
+}
+
 body {
   @apply antialiased text-slate-800 dark:text-slate-300 bg-stone-200 dark:bg-stone-900 max-w-3xl mx-auto my-4 leading-8;
 }
@@ -40,12 +44,12 @@ header {
   }
 }
 
-article {
+main {
   @apply text-slate-800 dark:text-slate-400 bg-zinc-100 dark:bg-zinc-800 p-10;
   box-shadow: 8px 8px #00000016;
 
   h2 {
-    @apply text-4xl mb-1 font-black leading-normal;
+    @apply text-4xl text-stone-900 dark:text-stone-400 font-black leading-normal mb-1;
   }
 
   time {
@@ -53,7 +57,7 @@ article {
   }
 
   h3 {
-    @apply text-xl my-6 text-zinc-900 dark:text-zinc-400 font-semibold;
+    @apply text-xl my-6 text-stone-900 dark:text-stone-400 font-semibold;
   }
 
   p {
@@ -64,8 +68,12 @@ article {
     @apply text-blue-500 underline;
   }
 
-  code {
+  p > code {
     @apply before:content-['`'] after:content-['`'] p-1 font-mono;
+  }
+
+  pre {
+    @apply shadow-lg;
   }
 
   ul {

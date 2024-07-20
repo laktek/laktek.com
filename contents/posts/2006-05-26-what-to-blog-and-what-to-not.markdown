@@ -1,12 +1,13 @@
---- 
+---
 layout: post
 title: What to blog and what to not ?
 published: true
 meta: {}
-tags: 
+tags:
 - Life
 type: post
 status: publish
+published_at: 1148601600000
 ---
 Blogging is a unique art. Bloggers are not poets or Technical Writers and not even News Reporters. Bloggers are bloggers and blog post should feel like a blog post ! Even though Blogs are reffered as a free media with no bounds, I feel itâ€™s always quite trivial to decide what to blog and what to not!
 

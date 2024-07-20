@@ -1,17 +1,18 @@
---- 
+---
 layout: post
 title: Interesting stuff to watch out in 2010
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172793"
   _edit_lock: "1262535518"
   _edit_last: "1"
-tags: 
+tags:
 - Code
 - Ruby
 - JS
 type: post
 status: publish
+published_at: 1262390400000
 ---
 We are already into the 2nd decade of 21st century and it is very evident that this would be the decade, where Cloud Computing, Realtime web and Mobile Web will start to rule!
 

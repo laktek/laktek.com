@@ -1,14 +1,15 @@
---- 
+---
 layout: post
 title: Stepping into the Higher Studies
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172316"
-tags: 
+tags:
 - Life
 - University
 type: post
 status: publish
+published_at: 1149379200000
 ---
 Last week I began the chapter 2 of my life, after going through 13 exciting years of college education, I finally entered into higher education. I got selected as an internal student of <a href="http://www.itfac.mrt.ac.lk/">IT Faculty of University of Moratuwa (UoM)</a>.
 

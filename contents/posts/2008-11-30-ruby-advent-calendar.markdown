@@ -1,16 +1,17 @@
---- 
+---
 layout: post
 title: Ruby Advent Calendar
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172717"
   _edit_last: "1"
   _edit_lock: "1232127213"
-tags: 
+tags:
 - Code
 - Ruby
 type: post
 status: publish
+published_at: 1228003200000
 ---
 Inspired by the <a href='http://www.rubyinside.com/advent2006/16-lastyear.html'>previous</a> incarnations of Ruby advent calendars, I thought of running<a href="http://advent2008.hackruby.com"> one for this year</a>. For those who are unaware, idea is simple. To serve an interesting article on Ruby, each day for the first 24 days of December.
 

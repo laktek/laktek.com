@@ -1,14 +1,15 @@
---- 
+---
 layout: post
 title: Daily reads for wannabe WebDs
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172464"
-tags: 
+tags:
 - Code
 - Web
 type: post
 status: publish
+published_at: 1179792000000
 ---
 This is a collection of sites, which I recommend for daily use for the people who are eager to pimp their web design/development skills. This was initially prepared to send to my fellow batch mates at the university, but later I thought why not share it with the rest of the world too :) These resources may not be nothing new for seasoned players in the game, but I hope noobs may have something to reap.
 <ul>

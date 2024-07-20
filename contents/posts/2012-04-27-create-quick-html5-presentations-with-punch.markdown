@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: Create Quick HTML5 Presentations with Punch
 published: true
@@ -8,6 +8,7 @@ tags:
 - Punch
 type: post
 status: publish
+published_at: 1335484800000
 ---
 
 HTML5 presentations are cool and convenient. They just work in the browser and thanks to CSS3 & JavaScript they can be made to look even better than the traditional slides. It's easy to link to individual slides. Also, demos (if you're showing something related to web technologies) can done on the slides itself. There are already couple of good frameworks such as [Google's HTML5Slides](http://code.google.com/p/html5slides/), [deck.js](http://imakewebthings.com/deck.js/) and [impress.js](http://bartaz.github.com/impress.js) to create HTML5 presentations.

@@ -1,19 +1,20 @@
---- 
+---
 layout: post
-title: Learning Go - Interfaces & Reflections 
+title: Learning Go - Interfaces & Reflections
 published: true
-tags: 
-- Code 
-- Go 
+tags:
+- Code
+- Go
 type: post
 status: publish
+published_at: 1329091200000
 ---
 
 In the [post about Go Types](http://laktek.com/2012/01/27/learning-go-types/), I briefly mentioned that Go provides a way to do run-time type inference using interfaces and reflection package. In this post, we are going to explore these concepts in depth.
 
 ### What is an Interface?
 
-Imagine you stop a random cab expecting to go from A to B. You wouldn't care much about the nationality of the driver, how long he's been in this profession, to whom he voted in the last election or even whether he is a robot; as long as he can take you from A to B.  
+Imagine you stop a random cab expecting to go from A to B. You wouldn't care much about the nationality of the driver, how long he's been in this profession, to whom he voted in the last election or even whether he is a robot; as long as he can take you from A to B.
 
 This is how the interfaces works in Go. Instead of expecting for a value of particular type, you are willing to accept a value from any type that implements the methods you want.
 
@@ -23,20 +24,20 @@ We can represent our Cab Driver analogy in Go like this (assuming there are huma
 
   type Human struct {
   }
-  
+
   func (p *Human) Drive(from Location, to Location){
     //implements the drive method
   }
 
   type Robot struct {
   }
-  
+
   func (p *Robot) Drive(from Location, to Location){
     //implements the drive method
   }
 
   type Driver interface {
-    Drive(from Location, to Location) 
+    Drive(from Location, to Location)
   }
 
   func TakeRide(from Location, to Location, driver Driver){
@@ -58,7 +59,7 @@ We can represent our Cab Driver analogy in Go like this (assuming there are huma
 
 ```
 
-Here we defined a type called `Driver` which is an `interface` type. An interface type contains a set of methods. Type supporting the interface, should fully implement this method set. 
+Here we defined a type called `Driver` which is an `interface` type. An interface type contains a set of methods. Type supporting the interface, should fully implement this method set.
 
 In this instance, pointer types of both `Human` and `Robot` (`*Human` and `*Robot`)  implements the `Drive` method. Hence, they satisfies the `Driver` interface. So when calling the `TakeRide` function, which expects a `Driver` interface as an argument, we can pass a pointer to either `Human` or `Robot` types.
 
@@ -70,7 +71,7 @@ I recommend you to read the section on [Interfaces in Effective Go](http://golan
 
 Another benefit of Interfaces are they can be used for encapsulation. If a type is only implements the methods of a given interface, it's ok to export only the interface without the underlying type. Obviously, this is helpful in maintaining a cleaner and concise API.
 
-In our previous Cab Driver example, both `Human` and `Robot` types doesn't have any other methods apart from the `Drive` method. Which means we can export only the `Driver` interface and keep `human` and `robot` types encapsulated to the package (hm...a paranoid cab company which doesn't reveal the true identities of the drivers!). 
+In our previous Cab Driver example, both `Human` and `Robot` types doesn't have any other methods apart from the `Drive` method. Which means we can export only the `Driver` interface and keep `human` and `robot` types encapsulated to the package (hm...a paranoid cab company which doesn't reveal the true identities of the drivers!).
 
 ```go
 
@@ -82,7 +83,7 @@ In our previous Cab Driver example, both `Human` and `Robot` types doesn't have 
   }
 
   func NewDriver() Driver {
-    // this constructor will assign 
+    // this constructor will assign
     // a random value of type *human or *robot
     // to Driver interface.
 
@@ -93,7 +94,7 @@ In our previous Cab Driver example, both `Human` and `Robot` types doesn't have 
     var A Location
     var B Location
 
-    var random_driver Driver = NewDriver() 
+    var random_driver Driver = NewDriver()
 
     //...
 
@@ -106,7 +107,7 @@ We have introduced a new function called `NewDriver()` which will return a `Driv
 
 ### Empty Interface - interface{}
 
-It's possible to define an interface without any methods. Such an interface is known as an *empty interface*, and it's denoted by `interface{}`. Since there are no methods, any type will satisfy this interface. 
+It's possible to define an interface without any methods. Such an interface is known as an *empty interface*, and it's denoted by `interface{}`. Since there are no methods, any type will satisfy this interface.
 
 I'm sure most of you are familiar with the [`fmt.Printf`](http://golang.org/pkg/fmt/#Printf) function; which accepts variable number of arguments of different types and produce a formatted output. If we take a look at its definition, it accepts variable number of empty interface(`interface{}`) values. This means, `Printf` is using a mechanism based on empty interfaces to infer the types of values at run-time. If you read through the next sections, you will get a clue how it does that.
 
@@ -117,20 +118,20 @@ In Go, there's a special expression, which let's you assert the type of the valu
 In our Cab Driver example, we can use type assertion to verify whether the given driver is a human.
 
 ```go
-  var random_driver Driver = NewDriver() 
+  var random_driver Driver = NewDriver()
   v, ok := random_driver.(*human)
 ```
 
-If the `NewDriver()` method returns an interface with the value of type `*human`; `v` will be assigned with that value and value of `ok` will be `true`. If `NewDriver()` returns a value of `*robot` type; `v` will be set to nil and value of `ok` will be `false`. 
+If the `NewDriver()` method returns an interface with the value of type `*human`; `v` will be assigned with that value and value of `ok` will be `true`. If `NewDriver()` returns a value of `*robot` type; `v` will be set to nil and value of `ok` will be `false`.
 
 With type assertion it is possible to convert one interface value to another interface value too. For the purpose of this example; let's assume there's another interface called `Runner` which defines a `Run` method and our `*human` type also implements the `Run` method.
 
 ```go
-  var random_driver Driver = NewDriver() 
+  var random_driver Driver = NewDriver()
   runner, ok := random_driver.(Runner)
 ```
 
-Now when the `Driver` interface is contained with a value of `*human`; it is possible for us to convert the same value to be used with the `Runner` interface too. 
+Now when the `Driver` interface is contained with a value of `*human`; it is possible for us to convert the same value to be used with the `Runner` interface too.
 
 ### Type Switches
 
@@ -178,7 +179,7 @@ This gives the output as:
   value: awesome
 ```
 
-However, this is just the tip of the iceberg. There are lot more powerful stuff possible with the Reflection package. I'll leave you with the ["Laws of Reflection" blog post](http://blog.golang.org/2011/09/laws-of-reflection.html) and [Godoc of the relection package](http://golang.org/pkg/reflect/). Hope its capabilities will fascinate you. 
+However, this is just the tip of the iceberg. There are lot more powerful stuff possible with the Reflection package. I'll leave you with the ["Laws of Reflection" blog post](http://blog.golang.org/2011/09/laws-of-reflection.html) and [Godoc of the relection package](http://golang.org/pkg/reflect/). Hope its capabilities will fascinate you.
 
 ### Further Reading
 

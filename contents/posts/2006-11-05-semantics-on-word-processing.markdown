@@ -1,13 +1,14 @@
---- 
+---
 layout: post
 title: Semantics on Word Processing
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172383"
-tags: 
-- Web 
+tags:
+- Web
 type: post
 status: publish
+published_at: 1162684800000
 ---
 As an adamant fan of web standards and semantically correct web design, I always tried to avoid using tables in <strong>web page layout design</strong>. But I never thought of taking that practice beyond web design.
 

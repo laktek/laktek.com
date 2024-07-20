@@ -1,17 +1,18 @@
---- 
+---
 layout: post
 title: Understanding Prototypal Inheritance in JavaScript
 published: true
-meta: 
+meta:
   dsq_thread_id: "220824299"
   _edit_lock: "1296865221"
   _edit_last: "1"
   _wp_old_slug: understanding-rototypical-inheritance-in-javascript
-tags: 
+tags:
 - Code
-- JS 
+- JS
 type: post
 status: publish
+published_at: 1296604800000
 ---
 Behavior reuse is one of the key aspects of Object Oriented programming. Many mainstream Object Oriented languages, achieves behavior reuse by using <a href="http://en.wikipedia.org/wiki/Class-based_programming">class based inheritance</a>. In class based inheritance, a class defines how objects stemming from it should behave.
 

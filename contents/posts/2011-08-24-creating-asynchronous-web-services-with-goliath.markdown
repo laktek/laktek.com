@@ -1,17 +1,18 @@
---- 
+---
 layout: post
 title: Creating asynchronous web services with Goliath
 published: true
-meta: 
+meta:
   dsq_thread_id: "394386869"
   _edit_lock: "1314156864"
   _edit_last: "1"
   _wp_old_slug: ""
-tags: 
+tags:
 - Code
 - Ruby
 type: post
 status: publish
+published_at: 1314144000000
 ---
 Recently, I've been working on improving the performance of <a href="http://curdbee.com">CurdBee</a> API. There were certain highly consumable end-points which also had tight coupling to external resources. I wanted to extract these endpoints out of the main app to cut the cruft and improve the throughput. 
 
@@ -76,7 +77,7 @@ require 'mysql2/em_fiber'
 
 environment :development do
   config['db'] = EM::Synchrony::ConnectionPool.new(:size => 20) do
-                                      ::Mysql2::EM::Fiber::Client.new(:host => 'localhost', 
+                                      ::Mysql2::EM::Fiber::Client.new(:host => 'localhost',
                                       :username => 'root',
                                       :socket => nil,
                                       :database => 'myapi_db',

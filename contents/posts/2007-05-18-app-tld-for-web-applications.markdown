@@ -1,15 +1,16 @@
---- 
+---
 layout: post
 title: .app TLD for Web Applications
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172459"
   _edit_last: "1"
   _edit_lock: "1311053240"
-tags: 
+tags:
 - Web
 type: post
 status: publish
+published_at: 1179446400000
 ---
 Web applications have become the next trend of the internet and it seems the day it'll replace traditional desktop apps are not that far. But still web applications aren't the easiest to use for average users one of the major barriers is accessing the application itself. As I mentioned in my previous post most of the web applications have got <a href="http://www.web2media.net/laktek/2007/05/14/confusing-web-20-domains/">confusing domain names</a>.
 

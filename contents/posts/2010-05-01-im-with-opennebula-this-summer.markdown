@@ -1,16 +1,17 @@
---- 
+---
 layout: post
 title: I'm with OpenNebula this Summer!
 published: true
-meta: 
+meta:
   dsq_thread_id: ""
   _edit_last: "1"
   _edit_lock: "1272734941"
-tags: 
+tags:
 - GSOC
 - Life
 type: post
 status: publish
+published_at: 1272672000000
 ---
 I had the opportunity to <a href="http://www.web2media.net/laktek/2007/04/12/accepted-to-google-summer-of-code/" target="_blank">get selected for Google Summer of Code</a> on the freshman year itself in my academic life. The experience <a href="http://www.web2media.net/laktek/2007/08/25/sweet-summer-of-code-thank-you-google/"  target="_blank">I gained in that summer working with  SilverStripe project</a> boosted my self confidence and helped me immensely to shape up my career.
 

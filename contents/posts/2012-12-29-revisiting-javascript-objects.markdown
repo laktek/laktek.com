@@ -1,15 +1,16 @@
---- 
+---
 layout: post
-title: Revisiting JavaScript Objects 
+title: Revisiting JavaScript Objects
 published: true
 tags:
-- Code 
+- Code
 - JS
 type: post
 status: publish
+published_at: 1356739200000
 ---
 
-During the holidays, I spent some time catching up on the developments in ES6 (next version of JavaScript). While going through some of the proposals such as [Minimal Class Definitions](http://wiki.ecmascript.org/doku.php?id=strawman:maximally_minimal_classes), [Proxy API](http://wiki.ecmascript.org/doku.php?id=harmony:direct_proxies) and [Weak Maps](http://wiki.ecmascript.org/doku.php?id=harmony:weak_maps); I noticed most of these enhancements make extensive use of the object manipulation features introduced in ES5 (ie. ECMAScript5 - the current JavaScript standard). 
+During the holidays, I spent some time catching up on the developments in ES6 (next version of JavaScript). While going through some of the proposals such as [Minimal Class Definitions](http://wiki.ecmascript.org/doku.php?id=strawman:maximally_minimal_classes), [Proxy API](http://wiki.ecmascript.org/doku.php?id=harmony:direct_proxies) and [Weak Maps](http://wiki.ecmascript.org/doku.php?id=harmony:weak_maps); I noticed most of these enhancements make extensive use of the object manipulation features introduced in ES5 (ie. ECMAScript5 - the current JavaScript standard).
 
 One of the main focuses of ES5, has been to improve the JavaScript's object structure and manipulation. The features it introduced do make lot of sense, especially if you're working with large and complex applications.
 
@@ -17,14 +18,14 @@ We've been little reluctant to adopt ES5 features, especially due to browser com
 
 ### Data and Accessor Properties
 
-ES5 introduces two kinds of object properties - data and accessors. A *data property* directly maps a name to a value (eg. integer, string, boolean, array, object or a function). An *accessor property* maps a name to a defined getter and/or setter function. 
+ES5 introduces two kinds of object properties - data and accessors. A *data property* directly maps a name to a value (eg. integer, string, boolean, array, object or a function). An *accessor property* maps a name to a defined getter and/or setter function.
 
 ```javascript
 var square = {
 	length: 10,
 	get area() { return this.length * this.length },
 	set area(val) { this.length = Math.sqrt(val) }
-} 
+}
 ```
 
 Here we have defined a `square` object, with `length` as a data property and `area` as an accessor property.
@@ -35,7 +36,7 @@ Here we have defined a `square` object, with `length` as a data property and `ar
 > square.area
   100
 > square.area = 400
-  400 
+  400
 > square.length
   20
 ```
@@ -46,7 +47,7 @@ When we access the `area` property, its getter will calculate and return the val
 
 ES5 allows you to have more fine-grained control over the properties defined in an object. There's a special attribute collection associated with each property, known as the *property descriptor*.
 
-You can check the attributes associated to a property by calling the `Object.getOwnPropertyDescriptor` method. 
+You can check the attributes associated to a property by calling the `Object.getOwnPropertyDescriptor` method.
 
 ```javascript
 > Object.getOwnPropertyDescriptor(square, "length")
@@ -68,7 +69,7 @@ You can check the attributes associated to a property by calling the `Object.get
 
 As you can see from the above two examples - `value` and `writeable` attributes are only defined for *data property descriptors*, while `get` and/or `set` are defined for *accessor property descriptors*. Both `configurable` and `enumerable` attributes applies to any kind of property descriptor.
 
-The `writable` attribute specify whether a value can be assigned to a property. If `writable` is `false`, property becomes read-only. As the name implies, `configurable` specifies whether the property's attributes are configurable and also whether the property can be deleted from the object (using the `delete` operation). The `enumerable` attribute determines whether the property should be visible in `for..in` loops or `Object.keys` methods. 
+The `writable` attribute specify whether a value can be assigned to a property. If `writable` is `false`, property becomes read-only. As the name implies, `configurable` specifies whether the property's attributes are configurable and also whether the property can be deleted from the object (using the `delete` operation). The `enumerable` attribute determines whether the property should be visible in `for..in` loops or `Object.keys` methods.
 
 We can modify these attributes in the *property descriptor* by using the `Object.defineProperty` method.
 
@@ -94,7 +95,7 @@ This will make the `length` property in `square` read-only and permanently set t
 
 ### Tamper-proof Objects
 
-On some instances, you need to preserve the objects in its current state during the run-time without any further extensions or modifications to the properties. ES5 provides three levels of controls that you can apply to the objects. 
+On some instances, you need to preserve the objects in its current state during the run-time without any further extensions or modifications to the properties. ES5 provides three levels of controls that you can apply to the objects.
 
 Calling `preventExtensions` method will make the object non-extensible. This means no further properties can be defined for the object.
 
@@ -111,16 +112,16 @@ Sealing the object, will prevent both defining of new properties and the deletio
 > Object.seal(square);
 
 > delete square.length
-  false 
+  false
 ```
 
-If we go one step further and freeze the object, it will also disallow changing the existing property values in the object. At this point, whole object effectively becomes a constant. 
+If we go one step further and freeze the object, it will also disallow changing the existing property values in the object. At this point, whole object effectively becomes a constant.
 
 ```javascript
 > Object.freeze(square);
 
 > square.length = 20
-  20 
+  20
 > square.length
   10
 ```
@@ -147,12 +148,12 @@ Often, we use JavaScript objects as associative arrays or collections. On such i
 To avoid such side effects, [JSLint](http://jslint.com) suggests to manually check whether the given property is defined in the object.
 
 ```javascript
-for (name in object) { if (object.hasOwnProperty(name)) { .... } } 
+for (name in object) { if (object.hasOwnProperty(name)) { .... } }
 ```
 
 ES5 provides `Object.keys` method, which would return an array of own enumerable properties of an object.
 
-We can use this method to safely iterate over a property list: 
+We can use this method to safely iterate over a property list:
 
 ```javascript
 Object.keys(obj).forEach( function(key) {
@@ -162,9 +163,9 @@ Object.keys(obj).forEach( function(key) {
 
 Note: [Array.forEach](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/forEach) is also a new feature introduced in ES5
 
-### Inheritance 
+### Inheritance
 
-We know JavaScript provides behavior reuse in terms of [prototypal inheritance](http://laktek.com/2011/02/02/understanding-prototypical-inheritance-in-javascript). However, lack of direct mechanism to create a new object using another object as a prototype, has been one of pet peeves in the language. 
+We know JavaScript provides behavior reuse in terms of [prototypal inheritance](http://laktek.com/2011/02/02/understanding-prototypical-inheritance-in-javascript). However, lack of direct mechanism to create a new object using another object as a prototype, has been one of pet peeves in the language.
 
 The standard way to create a new object is to use a constructor function. This way, the newly created object will inherit the prototype of the constructor function.
 
@@ -183,7 +184,7 @@ Person.prototype = {
 var ron = new Person("Ron", "Swanson");
 ```
 
-If someone calls the constructor function without the `new` operator, it could lead to unwarranted side-effects during the execution. Also, there's no semantical relationship between the constructor function and its prototype, which could cause confusions when trying to comprehend the code. 
+If someone calls the constructor function without the `new` operator, it could lead to unwarranted side-effects during the execution. Also, there's no semantical relationship between the constructor function and its prototype, which could cause confusions when trying to comprehend the code.
 
 For those who prefer to have a alternate syntax, ES5 provides the `Object.create` method. It takes a prototype object and a property descriptor as arguments.
 
@@ -249,24 +250,24 @@ Finally, let's see how to create a shallow clone of an object using ES5's object
 ```javascript
 var clone = function(obj) {
 	// create clone using given object's prototype
-	var cloned_obj = Object.create(Object.getPrototypeOf(obj)); 
+	var cloned_obj = Object.create(Object.getPrototypeOf(obj));
 
 	// copy all properties
 	var props = Object.getOwnPropertyNames(obj);
 	props.forEach(function(prop) {
-		var propDescriptor = Object.getOwnPropertyDescriptor(obj, prop);			
+		var propDescriptor = Object.getOwnPropertyDescriptor(obj, prop);
 		Object.defineProperty(cloned_obj, prop, propDescriptor);
 	});
 
 	return cloned_obj;
-}	
+}
 ```
 
 Here, we retrieve the prototype of the given object and using it to create the clone. Then we traverse all properties defined in the object (including the non-enumerable properties) and copy their property descriptors to the clone.
 
-### Further Reading 
+### Further Reading
 
-If you're interested in learning more about the JavaScript objects and how to manipulate them, I would recommend you to peruse the following resources: 
+If you're interested in learning more about the JavaScript objects and how to manipulate them, I would recommend you to peruse the following resources:
 
 * [Discussion about this post on HackerNews](http://news.ycombinator.com/item?id=4988462)
 * [Annotated ECMAScript 5.1](http://es5.github.com/)

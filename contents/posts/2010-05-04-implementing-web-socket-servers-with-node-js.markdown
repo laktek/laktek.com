@@ -1,17 +1,18 @@
---- 
+---
 layout: post
 title: Implementing Web Socket servers with Node.js
 published: true
-meta: 
+meta:
   dsq_thread_id: ""
   _edit_lock: "1275703091"
   _edit_last: "1"
-tags: 
+tags:
 - Code
-- JS 
+- JS
 - Realie
 type: post
 status: publish
+published_at: 1272931200000
 ---
 Web Sockets are one of the most interesting features included in HTML5 spec. It would open up a whole different paradigm in web application development by allowing asynchronous, long-lived connections between client and server. As Web Sockets were supported in Google Chrome's beta release, it signaled now the time to use it in your apps.
 

@@ -1,14 +1,15 @@
---- 
+---
 layout: post
 title: They know where you've been......
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172357"
-tags: 
+tags:
 - Code
 - Web
 type: post
 status: publish
+published_at: 1157068800000
 ---
 I stumbled on this critical exploit (or rather smart technique) while I was visiting "<a href="http://www.schillmania.com/random/humour/web20awareness/">How Web2.0 - Aware are you ??</a>" They calculated a percentage based on the sites I have visited out of the 42 sites that were on their list. So how did they knew I visited these site ? Yeah they sniff my browser history !!
 

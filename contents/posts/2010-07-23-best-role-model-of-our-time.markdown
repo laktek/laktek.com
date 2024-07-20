@@ -1,17 +1,18 @@
---- 
+---
 layout: post
 title: The Best Role Model of Our Time
 published: true
-meta: 
+meta:
   dsq_thread_id: ""
   _edit_last: "1"
   _edit_lock: "1310391364"
-tags: 
+tags:
 - Muse
 - Life
 - SriLanka
 type: post
 status: publish
+published_at: 1279843200000
 ---
 "Who is the biggest role model of your life?" My answer to that question would be <a href="http://en.wikipedia.org/wiki/Muttiah_Muralitharan" target="_blank">Muttiah Muralitharan</a>. I know that answer would confuse most of you. You would expect a geek like me to name some one like Linus Torlvards, <a href="http://en.wikipedia.org/wiki/Yukihiro_Matsumoto" target="_blank">Yukihiro  Matsumoto</a> or Sergy Brin and Larry Page as a role model. But how come a cricketer be my role model??
 

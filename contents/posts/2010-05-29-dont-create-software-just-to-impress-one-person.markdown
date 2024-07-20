@@ -1,15 +1,16 @@
---- 
+---
 layout: post
 title: Are you creating software to impress one person?
 published: true
-meta: 
+meta:
   dsq_thread_id: ""
   _edit_last: "1"
   _edit_lock: "1275203526"
-tags: 
-- Muse 
+tags:
+- Muse
 type: post
 status: publish
+published_at: 1275091200000
 ---
 Ever wondered why we have so much of crappy and bloated software? The root cause they are built just to impress one person.
 

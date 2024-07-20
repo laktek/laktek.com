@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 title: Winning People with Code
 published: true
@@ -7,6 +7,7 @@ tags:
 - Punch
 type: post
 status: publish
+published_at: 1337731200000
 ---
 
 Last Monday, myself and Laknath, met with [Jervis](http://www.whit.com.au/) and his lovely wife Himashini, for what it turned out to be the first <s>unofficial</s> meetup of [Punch](http://laktek.github.com/punch) users.

@@ -1,16 +1,17 @@
---- 
+---
 layout: post
 title: What's your next move after A/L ?
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172549"
   _edit_lock: "1314838853"
   _edit_last: "1"
-tags: 
-- Muse 
+tags:
+- Muse
 - SriLanka
 type: post
 status: publish
+published_at: 1199318400000
 ---
 Results of the G.C.E.Advanced Level (A/L) examination for year 2007 was released yesterday and as usual we got to see lot of drama with mixed emotions over the results. I don't know whether there is any other more competitive exams in the world than A/L's in Sri Lanka. This is due to A/L is the pathway to enter to State University System (which provides free higher education). Anyhow this opportunity is limited, out of 250,000 students who sit for A/Ls only about 20,000 will get a chance to enter to a state university. So for many students (or at least their parents) what matters is not passing the exam, but passing it with flying colours to get selected to a State University (Unfortunately there were some cases even 3-A passes weren't adequate for university entrance). For students from families with lower incomes, this is the only hope in changing their living conditions. In contrast for parents in middle class, their child selecting to a state university is more a symbol of social esteem.
 
@@ -39,4 +40,3 @@ The facts I mentioned in the above context also applies here. Try to find unique
 Apart from that another thing you should consider is the quality of the private institute you are going to enroll. What are the professional bodies they are affiliated with, if they are providing a degree, is it a internal or external degree, what sort of facilities available (libraries, labs, lecture rooms) and what is the demand for these field in the job market.
 <h3>Finding a Job</h3>
 Finally, next popular option of among many students is to find a job after A/Ls. Actually, what you should be targeting is a career rather than a job at this point of the life. Don't settle for jobs where you don't see a clear career growth. Most of the people blindly fall into the trap of high starting salary, without looking at the opportunities available in evolving the career. Look carefully whether the job will lock you in doing the same task for the entire life. At least the job you take should encourage you to follow a professional course by providing flexible working schedule.
-

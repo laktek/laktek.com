@@ -1,16 +1,17 @@
---- 
+---
 layout: post
 title: Contact Form using Merb &amp; DataMapper
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172597"
   _edit_lock: "1311335735"
   _edit_last: "1"
-tags: 
+tags:
 - Ruby
 - Code
 type: post
 status: publish
+published_at: 1217203200000
 ---
 Major benefit of using Rails to develop web applications is its smart conventions, which promote developers to adapt to common patterns and avoid wasting time in reinventing the wheel. Rails is strictly bonded with a database and has a pre-defined directory structure. Though these conventions are helpful in common cases, it reduces the flexibility of its use in custom contexts.
 

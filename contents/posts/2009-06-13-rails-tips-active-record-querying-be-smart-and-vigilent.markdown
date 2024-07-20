@@ -1,16 +1,17 @@
---- 
+---
 layout: post
 title: "[Rails Tips] Reduce Queries in ActiveRecord with :group"
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172748"
   _edit_last: "1"
   _edit_lock: "1266367259"
-tags: 
+tags:
 - Ruby
-- Code 
+- Code
 type: post
 status: publish
+published_at: 1244851200000
 ---
 I thought of sharing some tips in Ruby on Rails development, which would come in handy especially if you are a newbie.  The cornerstone of all of Rails' magic is ActiveRecord. As you know it's an <acronym title="Object Relational Mapper">ORM</acronym>, which hides all cumbersome and mundane SQL by a syntactic sugar coating. However, blind and lazy usage of ActiveRecord could really hurt your application's performance.  I found this particular instance when revisiting code of an app, I have written in my early days of Rails. As a newbie overdosed with ActiveRecord's magic, had written a blunt piece of code which looks horrible and also would make the app painfully slow.
 <blockquote><strong>1550</strong> items in total (<strong>1350</strong> Available, <strong>150</strong> Out of Stock and <strong>50</strong> Discontinued)</blockquote>

@@ -1,16 +1,17 @@
---- 
+---
 layout: post
 title: Passion
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172583"
   _edit_last: "1"
   _edit_lock: "1216025958"
-tags: 
+tags:
 - Life
 - Muse
 type: post
 status: publish
+published_at: 1215993600000
 ---
 Most of us do work hard in our lives, but how many of us achieve the goals we strive for? Complains such as "I never missed a class and never missed homework but I couldn't get through the exam" or "Though I work 12 hours a day I'm not getting a promotion in my job" are very common in our society. Is it just the bad luck or is there any better reason for this?Â  As I feel it's mainly because we don't have a true passion on what we do.
 

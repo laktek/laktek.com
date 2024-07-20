@@ -1,15 +1,16 @@
---- 
+---
 layout: post
 title: Still Alive.
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172575"
   _edit_last: "1"
   _edit_lock: "1213777156"
-tags: 
+tags:
 - Life
 type: post
 status: publish
+published_at: 1213747200000
 ---
 I know most of you may have already assumed this blog is dead and removed from your RSS readers too. However it's not..I always have the intent to keep on blogging, but lack of consistentcy and pure laziness of mine didn't really help the cause.
 

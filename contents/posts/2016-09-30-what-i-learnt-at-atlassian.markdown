@@ -6,13 +6,14 @@ tags:
 - Muse
 type: post
 status: publish
+published_at: 1475193600000
 ---
 
 You don't have to be in Silicon Valley to build a great tech company.
 
 I hear this from lot of people. There are so many tweets, blog posts, podcasts and even books dedicated to this very belief.
 
-It's a convincing idea - you build a good product, use internet to sell it and you will have the reach to customers all over the globe. Your location doesn't matter. 
+It's a convincing idea - you build a good product, use internet to sell it and you will have the reach to customers all over the globe. Your location doesn't matter.
 
 Yet, successful case studies are rare to find.
 
@@ -30,7 +31,7 @@ Back in 2011, I [went to Vienna](http://www.laktek.com/2011/06/08/a-month-in-vie
 
 I congratulated Haymo on Messenger. He asked if I'd be interested in working with them again, but this time at Atlassian. I happily agreed.
 
-Haymo made some intros. I talked with few different people at Atlassian. They offered me to join their product growth team. I felt this would be the perfect place to understand Atlassian's secret to success. 
+Haymo made some intros. I talked with few different people at Atlassian. They offered me to join their product growth team. I felt this would be the perfect place to understand Atlassian's secret to success.
 
 In early 2015, I moved to Sydney to join Atlassian.
 
@@ -66,7 +67,7 @@ If you look at the history JIRA, it was born as an alternate for Bugzilla for op
 
 Hierarchies and bureaucracy are still rampant part of the large enterprises. Middle managers spend majority of their time in either in meetings or compiling some bullshit report on project progress. With JIRA these could be distilled into a JQL query that runs periodically and some embedded macros. No wonder these people love JIRA.
 
-_Note - JQL stands for JIRA Query Language, which is a subset of SQL specific to JIRA domain. It's such a brilliant idea_. 
+_Note - JQL stands for JIRA Query Language, which is a subset of SQL specific to JIRA domain. It's such a brilliant idea_.
 
 ### Not made in Sillicon Valley
 

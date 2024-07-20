@@ -1,15 +1,16 @@
---- 
+---
 layout: post
 title: Belated Resolutions
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172720"
   _edit_last: "1"
   _edit_lock: "1231695549"
-tags: 
+tags:
 - Life
 type: post
 status: publish
+published_at: 1231632000000
 ---
 It is almost mid January and this is my first post for the new year. I'm looking at 2009 to be a switching year in my life. The days of adolescence have almost comes to its' end and real life responsibilities seems to be creeping up. The days for bullshitting are numbered, and "I'm still learning" and "I'm still trying" will no longer be accepted as excuses. So it's the high time to get real and face the music.
 

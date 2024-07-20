@@ -1,18 +1,19 @@
---- 
+---
 layout: post
 title: Six virtues of being an IT undergrad...
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172761"
   _edit_last: "1"
   _edit_lock: "1247316337"
   _wp_old_slug: why-i-love-my-degree
-tags: 
-- University 
+tags:
+- University
 - Muse
 - Life
 type: post
 status: publish
+published_at: 1247011200000
 ---
 If you were one of the early readers of my blog, you would know that <a href="http://www.web2media.net/laktek/2006/06/04/stepping-into-the-higher-studies/">I was selected </a>to do my Bachelors in IT at <a href="http://itfac.mrt.ac.lk">Faculty of Information Technology in University of Moratuwa</a>. It's hard to believe 3 years have gone pass in a flash, but reminiscing what I gathered during this period it feels really awesome.
 

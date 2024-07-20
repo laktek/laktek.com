@@ -1,13 +1,14 @@
---- 
+---
 layout: post
 title: Confusing Web 2.0 Domains
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172452"
-tags: 
+tags:
 - Web
 type: post
 status: publish
+published_at: 1179100800000
 ---
 How do you define a web 2.0 application ? Normal distinguishable features includes AJAX, rounded corners, large input fields and badges. But did you notice a another feature which is common to most of the apps of web 2.0 culture ? Most of them have confusing and difficult to spell domain adresess or URLs.
 

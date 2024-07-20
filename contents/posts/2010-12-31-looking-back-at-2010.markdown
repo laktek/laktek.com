@@ -1,15 +1,16 @@
---- 
+---
 layout: post
 title: Looking Back at 2010
 published: true
-meta: 
+meta:
   dsq_thread_id: ""
   _edit_lock: "1293766397"
   _edit_last: "1"
-tags: 
-- Life 
+tags:
+- Life
 type: post
 status: publish
+published_at: 1293753600000
 ---
 It was a year of transition in my life. Some of the highlights of 2010 were:
 <ol>

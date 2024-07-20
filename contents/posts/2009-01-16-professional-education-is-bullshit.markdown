@@ -1,15 +1,16 @@
---- 
+---
 layout: post
 title: Professional Education is Bullshit!
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172727"
   _edit_last: "1"
   _edit_lock: "1307464833"
-tags: 
+tags:
 - Muse
 type: post
 status: publish
+published_at: 1232064000000
 ---
 Most of my university colleagues has this craze of following various professional education courses and certifications. They call it CIMA, BIT, BCS, ACS, SCJP, CCNA, MSDN, PMP and the list goes on. I don't get the rationale behind this, What's the benefit of having all these qualifications? What exactly you gain by spending such hefty amounts of money for these courses? Is it because you think you could decorate your CVs with all these bullshit? Or is it just for the sheer pleasure of seeing random Latin characters printed after your name?
 

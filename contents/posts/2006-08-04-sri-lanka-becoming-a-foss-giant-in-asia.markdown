@@ -1,16 +1,17 @@
---- 
+---
 layout: post
 title: Sri Lanka becoming a FOSS giant in Asia ?
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172346"
-tags: 
+tags:
 - Code
 - FOSS
 - SriLanka
 - University
 type: post
 status: publish
+published_at: 1154649600000
 ---
 Recently Google has released a report with the statistics of the <a href="http://code.google.com/soc/GSoC2006Statistics.pdf">Google Summer of Code 2006</a> (FYI : It's a program where Google pay for students for working on various open-source projects). According to this report Sri Lanka comes under top 20 countries with highest accepted students and highest number of applications. It seems 10 projects out of 75 projects from Sri Lanka has been accepted.
 

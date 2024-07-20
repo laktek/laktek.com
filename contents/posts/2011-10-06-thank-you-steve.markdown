@@ -1,17 +1,15 @@
---- 
+---
 layout: post
 title: Thank You, Steve!
 published: true
-meta: 
+meta:
   dsq_thread_id: "435352065"
-  _edit_lock: "1317863170"
-  _edit_last: "1"
-  _wp_old_slug: ""
-tags: 
+tags:
 - Life
 - Muse
 type: post
 status: publish
+published_at: 1317859200000
 ---
 It's still early morning here in Sri Lanka; I was just starting the day passively glancing over my Twitter feed. In a stream filled with rants over iPhone 4S' form factor and predications on how Siri is changing the world, seeing <a href="http://twitter.com/BreakingNews/status/121730537000943616">this tweet</a> just shocked me. It feels like the passing of someone closer to my life. Yes, Steve was terminally ill, but who'd have thought it will come to him so soon?
 

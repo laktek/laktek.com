@@ -1,16 +1,17 @@
---- 
+---
 layout: post
 title: Ruby Best Practices
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172743"
   _edit_last: "1"
   _edit_lock: "1239757918"
-tags: 
+tags:
 - Code
 - Ruby
 type: post
 status: publish
+published_at: 1239667200000
 ---
 First of all sorry for letting this space go on a hiatus yet again.. Though I tried to make it a habit of posting regularly, other priorities didn't allow me to do it as I wish. In last few months I had to run through lot of challenges in real life and in hacking, which I feel would be worthy to share. I promise that I will start posting them soon.
 

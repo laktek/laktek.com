@@ -1,16 +1,17 @@
---- 
+---
 layout: post
 title: Walkthrough of the Redesign
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172518"
   _edit_last: "1"
   _edit_lock: "1314555247"
-tags: 
+tags:
 - Code
 - Life
 type: post
 status: publish
+published_at: 1194048000000
 ---
 When I first launched my blog the main intention was to make my mark online. Without sticking into blogspot (Anyway, I had a blog on there for a short stint) or wordpress.com,  I decided to go one step ahead and host the blog in my own domain with a customized template. That was a good move at that time and it did caught the eyes of several people. The blog enabled me to get into networks and I had a niche readership community composed mainly of local geeks. That was fine for a start.
 

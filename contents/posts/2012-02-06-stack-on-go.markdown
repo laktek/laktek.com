@@ -1,21 +1,22 @@
---- 
+---
 layout: post
 title: Stack on Go - A Wrapper for Stack Exchange API
 published: true
-tags: 
-- Code 
-- Go 
+tags:
+- Code
+- Go
 type: post
 status: publish
+published_at: 1328486400000
 ---
 
-Regular readers of this blog would know I've been spending my free time to [learn Go](http://laktek.com/tag/go). Today, I present you the first fruit of those learning experiences. [Stack on Go](https://github.com/laktek/stack-on-go) is a wrapper library written in Go for [Stack Exchange API](https://api.stackexchange.com). 
+Regular readers of this blog would know I've been spending my free time to [learn Go](http://laktek.com/tag/go). Today, I present you the first fruit of those learning experiences. [Stack on Go](https://github.com/laktek/stack-on-go) is a wrapper library written in Go for [Stack Exchange API](https://api.stackexchange.com).
 
 When I first stumbled upon the version 2.0 of Stack Exchange API, I felt it as one of the best API designs I've ever seen. So I decided to write a wrapper for it in Go, which was a good way to learn both Golang and modern API design techniques.
 
-*Stack on Go* fully implements the Stack Exchange API 2.0 and it is compatible with the Go runtime at Google AppEngine. I hope this could be a good platform for some interesting apps such as notifiers, aggregators and stat analyzers based on Stack Exchange API (well, the possibilities are endless with such a rich dataset). 
+*Stack on Go* fully implements the Stack Exchange API 2.0 and it is compatible with the Go runtime at Google AppEngine. I hope this could be a good platform for some interesting apps such as notifiers, aggregators and stat analyzers based on Stack Exchange API (well, the possibilities are endless with such a rich dataset).
 
-Also, bear in mind Stack Exchange is running a competition and [offering an iPad2](http://blog.stackoverflow.com/2011/12/stack-exchange-api-v2-0-public-beta/) for the most awesome application submitted (that'd also give *Stack on Go* a great chance to become the best library ;) ). 
+Also, bear in mind Stack Exchange is running a competition and [offering an iPad2](http://blog.stackoverflow.com/2011/12/stack-exchange-api-v2-0-public-beta/) for the most awesome application submitted (that'd also give *Stack on Go* a great chance to become the best library ;) ).
 
 So If you always wanted to learn Go but never got the start, hope this would be a great motivator.
 
@@ -28,9 +29,9 @@ Let's have a look how to get started with *Stack on Go*.
 To install the package, run:
 
 ```bash
-  go get github.com/laktek/Stack-on-Go 
+  go get github.com/laktek/Stack-on-Go
 ```
- 
+
 ### Basic Usage
 
 Once installed, you can use *Stack on Go* by importing it in your source.
@@ -59,7 +60,7 @@ Then call the methods in scope of the created session.
   info, err := session.Info()
 ```
 
-Most methods accept a map of parameters. There's a special `Params` type that you can use to create a parameter map. 
+Most methods accept a map of parameters. There's a special `Params` type that you can use to create a parameter map.
 
 ```go
   //set the params
@@ -95,7 +96,7 @@ You can use the returned meta information to make run-time decisions. For exampl
 	}
 ```
 
-### Authentication 
+### Authentication
 
 Stack Exchange follows the OAuth 2.0 workflow for user authentication. *Stack on Go* includes two helper functions tailored for authentication offered by the Stack Exchange API.
 
@@ -127,7 +128,7 @@ Check the following code sample, which explains the authentication flow:
       //get authenticated user
       session := stackongo.NewSession("stackoverflow")
       user, err := session.AuthenticatedUser(map[string]string{}, map[string]string{"key": client_key, "access_token": access_token["access_token"]})
-      
+
       // do more with the authenticated user
     }
 
@@ -136,7 +137,7 @@ Check the following code sample, which explains the authentication flow:
 
 ### Using with AppEngine
 
-If you plan to deploy your app on [Google AppEngine](http://code.google.com/appengine/docs/go/), remember to do a one slight modification in your code. Since AppEngine has a special package to fetch external URLs you have to set it as the transport method for *Stack on Go*. 
+If you plan to deploy your app on [Google AppEngine](http://code.google.com/appengine/docs/go/), remember to do a one slight modification in your code. Since AppEngine has a special package to fetch external URLs you have to set it as the transport method for *Stack on Go*.
 
 Here's how to do it:
 
@@ -161,7 +162,7 @@ Here's how to do it:
 
 If you wish to write wrappers for other web app APIs in Go, you might be interested in knowing the implementation details of *Stack on Go*.
 
-Actually, the implementation is fairly straightforward. The following method is the essence of the whole library. 
+Actually, the implementation is fairly straightforward. The following method is the essence of the whole library.
 
 ```go
   func get(section string, params map[string]string, collection interface{}) (error os.Error) {
@@ -210,5 +211,4 @@ I used `httptest`, which is available in Go's standard packages to unit test the
   }
 ```
 
-For those who like to dig deeper the [source code is available on GitHub](https://github.com/laktek/Stack-on-Go). You can contact me if you need any help in using *Stack on Go*. Also, feel free to [report any issues and improvements](https://github.com/laktek/Stack-on-Go/issues).  
-
+For those who like to dig deeper the [source code is available on GitHub](https://github.com/laktek/Stack-on-Go). You can contact me if you need any help in using *Stack on Go*. Also, feel free to [report any issues and improvements](https://github.com/laktek/Stack-on-Go/issues).

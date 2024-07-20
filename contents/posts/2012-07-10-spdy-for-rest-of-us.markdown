@@ -1,11 +1,12 @@
---- 
+---
 layout: post
-title: SPDY for Rest of Us 
+title: SPDY for Rest of Us
 published: true
 tags:
 - Code
 type: post
 status: publish
+published_at: 1341878400000
 ---
 
 There had been lot of buzz around SPDY lately, which is a brand new protocol introduced by Google to make the web faster. Most [major](http://hacks.mozilla.org/2012/02/spdy-brings-responsive-and-scalable-transport-to-firefox-11/) [browsers](http://dev.opera.com/articles/view/opera-spdy-build/) and [web servers](http://mailman.nginx.org/pipermail/nginx-devel/2012-June/002343.html) have begun to make releases with SPDY support. So I felt it's worthwhile to explore more about SPDY and how it matters to us as web developers.
@@ -68,7 +69,7 @@ On the other hand, SPDY's inherently asynchronous streams will help in implement
 
 ### SPDY is not a silver bullet!
 
-SPDY will continue to improve as a more stable protocol and with the time it will succeed the HTTP protocol. Unless you run a heavyweight site, there won't be any immediate effect by supporting SPDY to your conversions or cost savings. 
+SPDY will continue to improve as a more stable protocol and with the time it will succeed the HTTP protocol. Unless you run a heavyweight site, there won't be any immediate effect by supporting SPDY to your conversions or cost savings.
 
 So it's always better to start with the [general page optimization techniques](https://developers.google.com/speed/pagespeed/) and then consider SPDY if you still want to cut down those extra milliseconds.
 

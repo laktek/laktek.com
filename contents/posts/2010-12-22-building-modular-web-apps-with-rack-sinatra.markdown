@@ -1,18 +1,19 @@
---- 
+---
 layout: post
 title: Building Modular Web Apps with Rack &amp; Sinatra
 published: true
-meta: 
+meta:
   dsq_thread_id: ""
   _edit_lock: "1293764891"
   _edit_last: "1"
   _wp_old_slug: ""
-tags: 
+tags:
 - Code
 - GSOC
 - Ruby
 type: post
 status: publish
+published_at: 1292976000000
 ---
 Working on <a href="http://www.web2media.net/laktek/2010/05/01/im-with-opennebula-this-summer/">OpenNebula's Administration tool in last Google Summer of Code</a>, was one of the best development experiences I had during 2010. The project has been successfully completed and awaiting to be released with a future version of OpenNebula.
 

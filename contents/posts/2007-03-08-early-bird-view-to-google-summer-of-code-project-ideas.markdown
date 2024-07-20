@@ -1,14 +1,15 @@
---- 
+---
 layout: post
 title: Early Bird view to Google Summer of Code Project Ideas
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172410"
-tags: 
+tags:
 - Code
-- GSOC 
+- GSOC
 type: post
 status: publish
+published_at: 1173312000000
 ---
 As most of you may aware (or not) <a href="http://code.google.com/soc">Google Summer of Code for 2007</a> has been announced. This year I'm eager to apply for a project, eventhough I'm not sure whetehr I will get accepted. Anyway project ideas of accepted mentoring organizations will be released only on 14th March and student application period will be ended on 24th of March. Since I (and many others too) haven't been actively involve in projects with these organizations, I thought better to begin preparations early and select a good project. Most of the organizations have included a wiki page of potential projects.
 

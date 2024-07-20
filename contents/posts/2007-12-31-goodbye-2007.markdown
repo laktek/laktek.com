@@ -1,13 +1,12 @@
---- 
+---
 layout: post
 title: Goodbye 2007
 published: true
-meta: {}
-
-tags: 
-- Life 
+tags:
+- Life
 type: post
 status: publish
+published_at: 1199059200000
 ---
 So today it see the end of another wonderful year in our lives. It's hard to believe how fast time travels,  it was like  yesterday I remember the dawn of year  2007. However, this constantly reminds us how short is our lives and how limited the time we got in our lives to do something worthwhile.
 

@@ -1,27 +1,28 @@
---- 
+---
 layout: post
-title: Different flavors of JavaScript 
+title: Different flavors of JavaScript
 published: true
-tags: 
-- Code 
-- JS 
+tags:
+- Code
+- JS
 type: post
 status: publish
+published_at: 1326931200000
 ---
 
 If you are programming with JavaScript, knowing about `ES3`, `ES5` & `Harmony` specifications and their usage will be useful. Here's a plain & simple explanation of them for your easy understanding.
 
 ### ECMAScript
 
-If we look into the history of JavaScript, it was originated from a side project of [Brendan Eich](http://brendaneich.com) called "Mocha". In 1995, it was shipped with Netscape browser as "LiveScript" and it soon renamed as "JavaScript" (mainly from the influence of Sun Microsystems). Due to the quick popularity of JavaScript, Microsoft also decided to ship it with Internet Explorer in 1996. Microsoft's implementation had slight differences from the original, thus they aptly named it as "JScript".  
+If we look into the history of JavaScript, it was originated from a side project of [Brendan Eich](http://brendaneich.com) called "Mocha". In 1995, it was shipped with Netscape browser as "LiveScript" and it soon renamed as "JavaScript" (mainly from the influence of Sun Microsystems). Due to the quick popularity of JavaScript, Microsoft also decided to ship it with Internet Explorer in 1996. Microsoft's implementation had slight differences from the original, thus they aptly named it as "JScript".
 
-As browser wars between Netscape and Microsoft fired up, Netscape soon pushed JavaScript to [Ecma International](http://en.wikipedia.org/wiki/Ecma_International) for standardization. Ecma accepted the proposal and began the standardization under the ECMA-262 standard. As a compromise for all organizations involved in the standardization process, ECMA-262 baptized this scripting language as "ECMAScript". 
+As browser wars between Netscape and Microsoft fired up, Netscape soon pushed JavaScript to [Ecma International](http://en.wikipedia.org/wiki/Ecma_International) for standardization. Ecma accepted the proposal and began the standardization under the ECMA-262 standard. As a compromise for all organizations involved in the standardization process, ECMA-262 baptized this scripting language as "ECMAScript".
 
-Even though we still call it as JavaScript, the technically correct name is *ECMAScript*. 
+Even though we still call it as JavaScript, the technically correct name is *ECMAScript*.
 
 ### ES3
 
-Over the years, Ecma has released different editions of ECMAScript standard. For the ease of use we call these standards as "ESx", where `x` refers to the edition. So the 3rd edition of ECMAScript is known as `ES3`. `ES3` can be considered as the most widely adopted edition of ECMASCript. 
+Over the years, Ecma has released different editions of ECMAScript standard. For the ease of use we call these standards as "ESx", where `x` refers to the edition. So the 3rd edition of ECMAScript is known as `ES3`. `ES3` can be considered as the most widely adopted edition of ECMASCript.
 
 The most outdated browser in mainstream (*aka Disease*) Internet Explorer 6 is compliant with `ES3`. Sadly, other common IE versions(7 & 8) are also only compatible with `ES3`. Early versions of most other browsers also supported `ES3`.  This means all JavaScript features you commonly use are part of `ES3`. Most JavaScript libraries, frameworks, tutorials, best practices and books written in the past are based on these features standardized in `ES3`.
 
@@ -47,6 +48,6 @@ For the full reference of `ES5`, I recommend using the annotated HTML version do
 
 The long-term plan for the ECMAScript in 2008 meeting, was code-named `Harmony`. Committee is still accepting proposals for this edition. Most probably, this will become the `ES6`, but given the past track-record of ECMA-262 `ES.Next` would be more suitable name until a release is made.
 
-Currently planned features for `Harmony` sounds promising. Brendan Eich has shared [some ideas](http://brendaneich.com/2011/01/harmony-of-my-dreams/) for Harmony which seems to make the language more concise and poweful. Also, his [presentation on Proxy Objects](http://jsconf.eu/2010/speaker/be_proxy_objects.html) in Harmony sounds awesome.  
+Currently planned features for `Harmony` sounds promising. Brendan Eich has shared [some ideas](http://brendaneich.com/2011/01/harmony-of-my-dreams/) for Harmony which seems to make the language more concise and poweful. Also, his [presentation on Proxy Objects](http://jsconf.eu/2010/speaker/be_proxy_objects.html) in Harmony sounds awesome.
 
-SpiderMonkey and V8 JavaScript engines has already started implementing some of the [Harmony related features](https://bugzilla.mozilla.org/show_bug.cgi?id=Harmony), such as [Proxies](http://code.google.com/p/v8/issues/detail?id=1543&q=label%3AHarmony&colspec=ID%20Type%20Status%20Priority%20Owner%20Summary%20HW%20OS%20Area%20Stars) and [WeakMaps](https://bugzilla.mozilla.org/show_bug.cgi?id=547941). It would be still premature to use these features at the client-side (in Chromium browser you need to explicitly enable Harmony features via a special flag). [Node.js 0.7](http://blog.nodejs.org/2012/01/16/node-v0-7-0-unstable/), will ship with v8 version 3.8 giving you the opportunity to tase some of the Harmony features in server-side.  
+SpiderMonkey and V8 JavaScript engines has already started implementing some of the [Harmony related features](https://bugzilla.mozilla.org/show_bug.cgi?id=Harmony), such as [Proxies](http://code.google.com/p/v8/issues/detail?id=1543&q=label%3AHarmony&colspec=ID%20Type%20Status%20Priority%20Owner%20Summary%20HW%20OS%20Area%20Stars) and [WeakMaps](https://bugzilla.mozilla.org/show_bug.cgi?id=547941). It would be still premature to use these features at the client-side (in Chromium browser you need to explicitly enable Harmony features via a special flag). [Node.js 0.7](http://blog.nodejs.org/2012/01/16/node-v0-7-0-unstable/), will ship with v8 version 3.8 giving you the opportunity to tase some of the Harmony features in server-side.

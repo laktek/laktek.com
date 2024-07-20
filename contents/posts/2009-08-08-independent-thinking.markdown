@@ -1,16 +1,17 @@
---- 
+---
 layout: post
 title: Independent Thinking
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172776"
   _edit_last: "1"
   _edit_lock: "1249787331"
-tags: 
+tags:
 - Life
 - Muse
 type: post
 status: publish
+published_at: 1249689600000
 ---
 Independent thinking and self-concious decision making is what builds a person and the society. Yet, it's the most discouraged, criticised and often punishable act that a person can do. Our culture has done a nice job by misinterpreting and abusing values - such as obedience, loyalty and teamwork to suppress the importance of independent thinking.
 

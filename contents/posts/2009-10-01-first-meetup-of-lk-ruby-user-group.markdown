@@ -1,17 +1,18 @@
---- 
+---
 layout: post
 title: First Meetup of LK Ruby User Group
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172782"
   _edit_lock: "1254731947"
   _edit_last: "1"
-tags: 
+tags:
 - Ruby
 - SriLanka
 - Life
 type: post
 status: publish
+published_at: 1254355200000
 ---
 Last Wednesday (30th September 2009), the first-ever meatspace gathering of Sri Lankan Ruby Users was held at Ridgecrest Asia (Pvt) Ltd. There were more than 20 passionate, enthusiastic Rubyists filling the room and I would call it a promising start.
 

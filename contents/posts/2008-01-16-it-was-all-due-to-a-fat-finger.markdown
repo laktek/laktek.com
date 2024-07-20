@@ -1,14 +1,15 @@
---- 
+---
 layout: post
 title: It was all due to a fat finger !
 published: true
 meta:
   dsq_thread_id: "68172557"
-tags: 
+tags:
 - Life
 - Web
 type: post
 status: publish
+published_at: 1200441600000
 ---
 After that bizarre story of <a href="http://consumerist.com/344547/microsoft-customer-service-calls-back-10-years-later">Microsoft's support team calling a client back after 10 years</a>, similar thing happend to me yesterday, from <a href="http://www.dreamhost.com">Dreamhost</a> (my hosting provider). They have sent me a payment overdue notice as of February 1st, 2009. Initially, I was wondering whether these tech companies are doing time travelling ? However later revealed as  in the case of M$, Dreamhost too have made a typo while entering the figures....
 

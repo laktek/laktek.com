@@ -1,13 +1,14 @@
---- 
+---
 layout: post
 title: Basic Patterns for Everyday Programming
 published: true
-tags: 
+tags:
 - Code
 - Ruby
 - JS
 type: post
 status: publish
+published_at: 1322006400000
 ---
 
 For most of you the patterns mentioned below should be nothing new. These are very basic stuff we slap into our code everyday and at times feels they are actually code smells than smart patterns. However, I've been doing some code reviewing lately and came across many code that lacks even these basic traits. So I thought of writing them down as a help for novice developers who would want to get a better grasp at these.
@@ -42,7 +43,7 @@ can be written as:
 
 <h3>Set a default value with assignments</h3>
 
-When we want to assign a value for a variable, the value returned could actually be null or undefined. On such a instances it's better to assign a default value. This minimizes the surprises later in the code and simplifies the conditional logic involving that variable. 
+When we want to assign a value for a variable, the value returned could actually be null or undefined. On such a instances it's better to assign a default value. This minimizes the surprises later in the code and simplifies the conditional logic involving that variable.
 
 To assign a default value in a single assignment statement, we can use logical OR operator (||), which assigns the latter value if former is falsy.
 
@@ -58,10 +59,10 @@ Here's a simple example in Ruby:
 
 Imagine an instance where you have to perform an action if the <em>current_day</em> is either Monday, Wednesday or Friday. How would you check that condition?
 
-I've seen many write this as: 
+I've seen many write this as:
 
 ```ruby
-  if(current_day == "Monday" || current_day == "Wednesday" || current_day == "Friday") 
+  if(current_day == "Monday" || current_day == "Wednesday" || current_day == "Friday")
     # perform action
   end
 ```
@@ -71,27 +72,27 @@ It does the job, but as you see it's verbose. What happens if we have to mix ano
 A better way to do this is collecting the given values to an Array and checking against it. Here's the modified code:
 
 ```ruby
-  if(["Monday", "Wednesday", "Friday"].include?(current_day)) 
+  if(["Monday", "Wednesday", "Friday"].include?(current_day))
     # perform action
   end
 ```
 
-Same example can be written in JavaScript like this: 
+Same example can be written in JavaScript like this:
 
 ```javascript
   if(["Monday", "Wednesday", "Friday"].indexOf(current_day) >= 0){
     // perform action
-  } 
+  }
 ```
 
 <h3>Extract complex or repeated logic into functions</h3>
 
-When you have long, complex logic in condition or assignment statements, extract them into functions. It improves the code clarity and also makes refactoring lot easier. 
+When you have long, complex logic in condition or assignment statements, extract them into functions. It improves the code clarity and also makes refactoring lot easier.
 
 Here's a slightly modified version of previous example:
 
 ```ruby
-  if(["Monday", "Wednesday", "Friday"].include?(current_day) && (current_date > 20)) 
+  if(["Monday", "Wednesday", "Friday"].include?(current_day) && (current_date > 20))
     # perform action
   end
 ```
@@ -105,18 +106,18 @@ We can extract this logic into a function and call it like this:
 
   ...
 
-  if(discount_day?) 
+  if(discount_day?)
     # perform action
   end
 ```
 
-This refactoring allows others to read the code in context to the domain, without having to comprehend the internal logic. 
+This refactoring allows others to read the code in context to the domain, without having to comprehend the internal logic.
 
 Doing similar refactoring should be possible in every language.
 
 <h3>Memoize the results of repeated function calls</h3>
 
-Another advantage of extracting logic into functions is you can <a href="http://en.wikipedia.org/wiki/Memoization">memoize</a> the result of calculation, if it's going to be called repeatedly. 
+Another advantage of extracting logic into functions is you can <a href="http://en.wikipedia.org/wiki/Memoization">memoize</a> the result of calculation, if it's going to be called repeatedly.
 
 Here's how simple memoization works in Ruby.
 

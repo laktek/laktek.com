@@ -1,15 +1,16 @@
---- 
+---
 layout: post
 title: RMS in Sri Lanka
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172563"
-tags: 
+tags:
 - FOSS
 - Life
 - SriLanka
 type: post
 status: publish
+published_at: 1200700800000
 ---
 <img src="http://farm3.static.flickr.com/2136/2201904660_0138ea4fe5.jpg?v=0" alt="with RMS" height="375" width="500" />
 

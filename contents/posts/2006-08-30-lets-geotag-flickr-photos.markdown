@@ -1,13 +1,14 @@
---- 
+---
 layout: post
 title: Lets geotag Flickr photos
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172354"
-tags: 
+tags:
 - Web
 type: post
 status: publish
+published_at: 1156896000000
 ---
 Two days ago <a title="Flickr" href="http://www.flickr.com">Flickr</a> has added another awesome feature to its service, <a href="http://www.techcrunch.com/2006/08/28/flickr-to-launch-geo-tagging-today/">drag and drop geotagging</a>. Integrated with Yahoo maps this allows you to go down to the street levels in any part of the world. <strong>Yeah ! you can find many major cities in Sri Lanka too!</strong>
 

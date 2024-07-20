@@ -1,12 +1,13 @@
---- 
+---
 layout: post
 title: Learning Go - Constants &amp; Iota
 published: true
-tags: 
-- Code 
+tags:
+- Code
 - Go
 type: post
 status: publish
+published_at: 1326326400000
 ---
 
 When you learn Golang, your first encounter with constant declarations can be little confusing.
@@ -52,9 +53,9 @@ You can declare multiple constants in a single line as a comma-separated list. H
  const a, b, c = 1 //invalid assignment
 ```
 
-is invalid. 
+is invalid.
 
-You should write it in this way: 
+You should write it in this way:
 
 ```go
  const a, b, c = 1, 1, 1 //valid assignment
@@ -88,7 +89,7 @@ A practical usage of constants is to represent enumerated values. For example, w
 
 ```go
 const (
-  Sunday = 0 
+  Sunday = 0
   Monday = 1
   Tuesday = 2
   Wednesday = 3
@@ -132,4 +133,3 @@ const (
 ```
 
 In the above example, `c` will take the value `2`. That's because value of `iota` is incremented at each line within a declaration. Eventhough, the 2nd line doesn't use the `iota` value it will still get incremented.
-

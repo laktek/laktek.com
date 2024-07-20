@@ -1,17 +1,18 @@
---- 
+---
 layout: post
 title: Really Simple Color Picker in jQuery
 published: true
-meta: 
+meta:
   dsq_thread_id: "68171898"
   _edit_last: "1"
   _edit_lock: "1294940762"
-tags: 
+tags:
 - Code
 - FOSS
-- JS 
+- JS
 type: post
 status: publish
+published_at: 1225065600000
 ---
 <img title="screenshot of color picker" src="/images/posts/color_picker.png" alt="" /> Recently, I needed to use a color picker with predefined color palette for my work. Thanks to many enthusiastic developers, there are several <a title="Farbtastic popular jQuery color picker" href="http://www.google.com/url?sa=t&source=web&ct=res&cd=1&url=http%3A%2F%2Facko.net%2Fdev%2Ffarbtastic&ei=I8z_SI_EN4TmswLnzLH_Cw&usg=AFQjCNEqUt-sxpiKTYPVvrkC4cnp9h9cuQ&sig2=I3V3nLbYagbUA3H6hBAE2w">popular</a>, <a href="http://ui.jquery.com/repository/latest/demos/functional/#ui.colorpicker">sophisticated</a> color pickers already exist for <a href="http://www.jquery.com">jQuery</a>. However, most of these plugins looks complex as if they are made to be used in a online image editor. They are overwhelming for simple usage and less flexible for customization. So I had to write my own simple color picker from the scratch.
 

@@ -1,14 +1,15 @@
---- 
+---
 layout: post
 title: Will Google come to Sri Lanka ?
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172361"
-tags: 
+tags:
 - FOSS
 - SriLanka
 type: post
 status: publish
+published_at: 1158796800000
 ---
 Today I came across this <a href="http://www.google.com/jobs/openingsintl.html#southasia">Google Job Openings page</a> which lists four job openings in South Asia, that includes a position for a <a href="http://www.google.com/jobs/openingsintl.html#crom_sl">Sri Lanka Country Consultant</a>. For these positions Google doesn't mention an exact location, only mentions <strong>This position is located in South Asia. </strong>This sounds like Google is going to open up a new South Asian Regional office apart from the ones they have in India. What is more exciting is opening up a position for country consultant only in Sri Lanka (not in Pakistan or Bangladesh). Is this signify a possibility of seeing a Google office in Sri Lanka ?
 

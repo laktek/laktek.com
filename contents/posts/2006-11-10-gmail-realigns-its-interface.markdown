@@ -1,13 +1,14 @@
---- 
+---
 layout: post
 title: Gmail realigns it's interface
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172392"
-tags: 
+tags:
 - Web
 type: post
 status: publish
+published_at: 1163116800000
 ---
 It seems Gmail has also joined the rounded corner and drop shadow galore with it's upgrade to the interface. Even though there isn't a major upgrade in the main UI message interface has become much sweet.
 

@@ -1,16 +1,17 @@
---- 
+---
 layout: post
 title: Love what you do
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172638"
   _edit_last: "1"
   _edit_lock: "1224111661"
-tags: 
+tags:
 - Life
 - Muse
 type: post
 status: publish
+published_at: 1224028800000
 ---
 In <a href="http://sethgodin.typepad.com/seths_blog/2008/10/maybe-you-cant.html">"Maybe you can't make money doing what you love"</a>, Seth Godin challenges the conventional wisdom about careers. He argues sometimes converting your passion in to a profession may not work. Though most of us may not willing to accept, this is the harsh reality of life. Rather than doing what you love, you have to begin loving what you do.
 

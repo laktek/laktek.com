@@ -1,14 +1,15 @@
---- 
+---
 layout: post
 title: Twitter Widget for SilverStripe CMS
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172522"
-tags: 
+tags:
 - Code
 - FOSS
 type: post
 status: publish
+published_at: 1195084800000
 ---
 I released a new widget for SilverStripe CMS, which allows you to show your Twitter status in your SilverStripe based blogs.  <a href="http://www.silverstripe.com/tweet-tweet/">More Info and Instructions for usage.</a>
 

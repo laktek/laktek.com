@@ -1,14 +1,15 @@
---- 
+---
 layout: post
 title: Why Sri Lankan designers should adapt to Web Standards ?
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172289"
-tags: 
+tags:
 - SriLanka
 - Web
 type: post
 status: publish
+published_at: 1148515200000
 ---
 It seems most of the web designers in the world are adapting to web standards and many major sites are redesigning (realigning or rebooting or what ever) to comply with the web standards, but the interest of the subject here in Sri Lanka is very poor. Most of the sites, whether it government or commercial, are still stuck with the table based or totally flash based layouts. Forget about existing sites, not even the new sites follow web standards.
 

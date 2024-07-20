@@ -1,16 +1,17 @@
---- 
+---
 layout: post
 title: Startups and Real Life
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172632"
   _edit_last: "1"
   _edit_lock: "1222616503"
-tags: 
+tags:
 - Muse
 - Life
 type: post
 status: publish
+published_at: 1222560000000
 ---
 Yesterday I participated in the first Academic Symposium organized by <a title="Faculty of IT, University of Moratuwa" href="http://fit.uom.lk">our faculty</a>. The topic for the day was Graduation, Entrepreneurship and Success. The panel, which was modereated by Peter D'Almeida (he is also an old <a href="http://stbenedictscollege.org">Benedictine</a>) included <a href="http://sanjiva.weerawarana.org/">Dr.Sanjeeva Weerawarna</a>, Wegapitiya (Laughs), Harsha Purasinghe (Microimage), Ramesh Shamuganathan (JKCS) and Mohammed Azmeez (Concept Nursery). The discussion raised some insightful and interesting thoughts on passion, ideas, startups and funding.
 

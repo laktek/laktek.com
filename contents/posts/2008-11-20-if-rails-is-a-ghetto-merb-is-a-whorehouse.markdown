@@ -1,15 +1,16 @@
---- 
+---
 layout: post
 title: If Rails is a Ghetto, Merb is a Whorehouse
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172709"
   _edit_lock: "1227230747"
   _edit_last: "1"
-tags: 
+tags:
 - Ruby
 type: post
 status: publish
+published_at: 1227139200000
 ---
 Don't get confused over the title, I'm not trying to punch the Merb community as <a href="http://www.zedshaw.com/rants/rails_is_a_ghetto.html">Zed did to Rails</a>. A grasshopper like me don't even qualify to do such a rant. I'm actually trying to pimp <a href="http://www.merbivore.com">Merb!</a>
 

@@ -1,18 +1,19 @@
---- 
+---
 layout: post
-title: Punch - A Fun and Easy Way to Build Modern Websites 
+title: Punch - A Fun and Easy Way to Build Modern Websites
 published: true
-tags: 
-- Code 
-- JS 
+tags:
+- Code
+- JS
 - Punch
 type: post
 status: publish
+published_at: 1334793600000
 ---
 
 Few months ago, [I switched this blog](http://laktek.com/2011/11/17/why-and-how-i-revamped-my-blog) from Wordpress to Jekyll. I love how Jekyll allows me to prepare everything locally and simply publish when it's ready. There's no server-side logic involved, which means I can host the whole blog in a S3 bucket. Also, there's no more worries on mundane issues like security, performance or database corruptions.
 
-I wanted to have this freedom and control in any site that I would create and manage. Actually, most websites can be thought as static sites. They may contain few bits and pieces that needs to be rendered dynamically. The rise of modern browsers means we can pass this concern to the client-side. 
+I wanted to have this freedom and control in any site that I would create and manage. Actually, most websites can be thought as static sites. They may contain few bits and pieces that needs to be rendered dynamically. The rise of modern browsers means we can pass this concern to the client-side.
 
 However, websites have different requirements from a blog. It contains different pages carrying unique presentation along with few reusable blocks (for example, take a look at [different](http://37signals.com/about) [pages](http://37signals.com/speaks) in [37Signals site](http://37signals.com) ). A page will not contain just a title and block of text, but composed of different types of content such as lists, images, videos, slides and maps. Also, a modern website often needs to be A/B tested and translated in to other languages. Even though, we use can use blog engines like Jekyll (or Wordpress) I felt there's still a void for a tool tailored to create and manage websites.
 
@@ -32,7 +33,7 @@ Here's a quick screencast on how to use Punch.
 
 <iframe src="http://player.vimeo.com/video/40645795?title=0&amp;byline=0&amp;portrait=0" width="704" height="396" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-For more details on installation and usage, please refer the [README](https://github.com/laktek/punch/blob/master/README.md) and the [User Guide](http://laktek.github.com/punch/user_guide.html). 
+For more details on installation and usage, please refer the [README](https://github.com/laktek/punch/blob/master/README.md) and the [User Guide](http://laktek.github.com/punch/user_guide.html).
 
 ### Easy Client-side Rendering
 
@@ -70,8 +71,8 @@ Then you have to initate a new instance of `MustacheRenderer` and provide the te
   })();
 ```
 
-### Start Playing! 
+### Start Playing!
 
-I have been already using Punch to create few personal sites and just finished porting [CurdBee's public site](http://curdbee.com) to Punch. Every time I used Punch it has been a pleasant experience and I feel I have the freedom and control to create sites the way I want. I hope most of you will start to feel the same with Punch.  Also, I have plans to support features such as browser-based content editing and easy publishing options, which could make Punch more awesome. 
+I have been already using Punch to create few personal sites and just finished porting [CurdBee's public site](http://curdbee.com) to Punch. Every time I used Punch it has been a pleasant experience and I feel I have the freedom and control to create sites the way I want. I hope most of you will start to feel the same with Punch.  Also, I have plans to support features such as browser-based content editing and easy publishing options, which could make Punch more awesome.
 
 Go [install it](http://laktek.github.com/punch), build nice sites, spread the word and [send me pull requests!](http://github.com/laktek/punch)!

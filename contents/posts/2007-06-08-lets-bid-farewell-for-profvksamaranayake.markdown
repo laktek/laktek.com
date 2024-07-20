@@ -1,15 +1,16 @@
---- 
+---
 layout: post
 title: Let's bid farewell for Prof.V.K.Samaranayake
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172473"
-tags: 
+tags:
 - Life
 - SriLanka
 - University
 type: post
 status: publish
+published_at: 1181260800000
 ---
 Today would be a day of mourning for Sri Lankan IT industry, with the demise of Sri Lanka's "Father of IT", <a href="http://www.google.com/url?sa=t&ct=res&cd=1&url=http%3A%2F%2Fwww.ucsc.cmb.ac.lk%2FPeople%2Fsam%2Findex.htm&ei=3W1oRp-HCpvYigHDleCPAw&usg=AFQjCNGceaElQqCESHW5cEOB-Hk3N_UiBw&sig2=Ex9u6xJhGd2YnjSgCPQEVw">Prof.V.K.Samaranayake</a>. Many will unanimously agree today Sri Lanka's IT industries successes are mainly due to visionaries of Prof.Samaranayake.
 

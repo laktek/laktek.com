@@ -1,15 +1,16 @@
---- 
+---
 layout: post
 title: Sticking to Basics
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172754"
   _edit_lock: "1246986256"
   _edit_last: "1"
-tags: 
-- Muse 
+tags:
+- Muse
 type: post
 status: publish
+published_at: 1246924800000
 ---
 I love Test Cricket. I believe it has very close resemblance to our real lives, and it gives so much of inspiration. Sri Lanka's <a href="http://www.cricinfo.com/slvpak2009/content/current/story/413084.html">remarkable victory today</a> against Pakistan after being at the jaws of defeat, yet another classic example for that. Pakistan were dominating in first 3 days of the game and it was almost certain they have sealed the victory by end of yesterday. Yet, within just one unfocused, carefree session of play they did let go all the good they did in past 3 days.
 

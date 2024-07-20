@@ -1,14 +1,15 @@
---- 
+---
 layout: post
 title: City under attack ?
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172449"
-tags: 
+tags:
 - Life
 - SriLanka
 type: post
 status: publish
+published_at: 1177804800000
 ---
 Update on the current situation in Colombo (exactly here in Wattala). Still nothing is yet to confirm and moments passed by were filled with fear and uncertainity.
 

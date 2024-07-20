@@ -1,16 +1,17 @@
---- 
+---
 layout: post
 title: Passenger - Holy Grail for Ruby Deployment
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172590"
   _edit_lock: "1216302797"
   _edit_last: "1"
-tags: 
-- Code 
+tags:
+- Code
 - Ruby
 type: post
 status: publish
+published_at: 1216252800000
 ---
 Popular notion about developing web apps with Ruby on Rails (or other Ruby frameworks) was "You can write a web app in 15 minutes, but it will take 15 days to deploy it correctly". Especially if you are coming from the world of PHP, where you have to just write the app and upload it, this might have been utterly confusing. Having to juggle with Apache/Nginx, Mongrel clusters, or FastCGI, just to deploy a simple web app would surely have sounded a nightmare.Â  You must have wondered countless number of times why doesn't it <strong>just work</strong> as in PHP ??
 

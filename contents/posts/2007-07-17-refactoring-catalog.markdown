@@ -1,13 +1,14 @@
---- 
+---
 layout: post
 title: Refactoring Catalog
 published: true
-meta: 
+meta:
   dsq_thread_id: "68172483"
-tags: 
+tags:
 - Code
 type: post
 status: publish
+published_at: 1184630400000
 ---
 Refactoring holds same level of importance as coding the behavior.Â  I enjoy refactoring my code as it leads to much cleaner code and also gives you the knowledge of how to do something better. But identifying what and where to refactor is something that a programmer gains through the practice.
 

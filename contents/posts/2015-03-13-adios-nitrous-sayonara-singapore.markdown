@@ -3,9 +3,10 @@ layout: post
 title: Adiós Nitrous. Sayonara Singapore.
 published: true
 tags:
-- Muse 
+- Muse
 type: post
 status: publish
+published_at: 1426204800000
 ---
 
 <figure>

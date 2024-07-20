@@ -1,17 +1,18 @@
---- 
+---
 layout: post
 title: Introducing jQuery Smart AutoComplete...
 published: true
-meta: 
+meta:
   dsq_thread_id: "244628629"
   _edit_lock: "1299174395"
   _edit_last: "1"
   _wp_old_slug: ""
-tags: 
+tags:
 - Code
-- JS 
+- JS
 type: post
 status: publish
+published_at: 1299110400000
 ---
 Few months ago, we did a major revamp in <a href="http://curdbee.com">CurdBee</a> UI. In this revamp we decided to make use of autocomplete on several data heavy inputs to improve the usability. We assumed any existing JavaScript autocomplete plugin could be easily modified to suit to our requirements.   
 
@@ -206,4 +207,4 @@ In this post, I only highlighted the most important features of the Smart Autoco
 
 As always, I encourage you to fork the plugin's code from the <a href="https://github.com/laktek/jQuery-Smart-Auto-Complete"><strong>Github repo</strong></a> and modify it for your requirements. If you feel your changes can improve the plugin, please feel free to send a pull request via GitHub. 
 
-Also, if you run into any issues in using the plugin, please report them to <a href="https://github.com/laktek/jQuery-Smart-Auto-Complete/issues">GitHub issues</a>. 
+Also, if you run into any issues in using the plugin, please report them to <a href="https://github.com/laktek/jQuery-Smart-Auto-Complete/issues">GitHub issues</a>.
