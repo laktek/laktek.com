@@ -1,19 +1,21 @@
 <!doctype html>
 <html lang=${ site.language }>
-  ${ Punch.partial("head", { site, title: "Home" }) }
-  <body class="antialiased text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900">
-    <div class="flex items-center flex-col my-20">
-      <h1 class="w-full text-center text-6xl font-black tracking-wide my-8 text-red-400">Welcome to ${ site.title }</h1>
-      <div class="w-full flex justify-center">
-        <img class="-rotate-12 max-w-80 dark:invert" src="/images/logo.png" alt="Punch logo" />
-      </div>
-      <div class="w-1/2 flex flex-col items-start p-4 rounded outline outline-1 outline-lime-600 bg-lime-200 dark:text-slate-800">
-        <div class="text-2xl my-3 font-bold">${ site.description }</div>
-        <div class="my-4">Open <code class="inline font-mono bg-lime-100 outline-lime-600 p-1">contents/site.json</code> to update the title and description.</div>
-        <div class="mb-4">Open <code class="inline font-mono bg-lime-100 outline-lime-600 p-1">pages/index.html</code> to update the markup and styles (yes, you can use Tailwind).</div>
-      </div>
+  ${ Punch.partial("head", { site, title: "Personal website of Lakshan Perera"  }) }
+  <body>
+      <div class="home">
+        <h2 class="col-span-2">Hi, I'm Lakshan Perera</h2>
+        <div>
+          <p>I'm an Internet geek. I love to play with Web Technologies.</p>
+          <p>Originally from Sri Lanka, living in Sydney since 2015.</p>
+        </div>
 
-      ${ posts.at(-1).slug }
-    </div>
+        <div class="row-span-3">
+          <img class="rounded-full h-48 w-48 object-center object-none shadow-inner" src="/images/avatar.jpg" alt="Lakshan's Internet Avatar" />
+        </div>
+
+        ${ Punch.partial("nav") }
+
+        ${ Punch.partial("footer", { cls: "col-span-2" }) }
+      </div>
   </body>
 </html>

@@ -77,12 +77,24 @@ main {
   }
 
   ul {
-    @apply list-disc list-inside;
+    @apply list-disc my-5 pl-4;
   }
 
   ol {
-    @apply list-decimal list-inside;
+    @apply list-decimal my-5 pl-4;
   }
+}
+
+.posts ul {
+    @apply list-none mt-4;
+
+    li {
+      @apply flex justify-between;
+    }
+}
+
+.home {
+  @apply min-h-screen grid grid-cols-2 place-content-center;
 }
 
 footer {

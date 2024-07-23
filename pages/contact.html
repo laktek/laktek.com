@@ -1,13 +1,16 @@
 <!doctype html>
 <html lang=${ site.language }>
   ${ Punch.partial("head", { site, title: "Contact"  }) }
-  <body class="antialiased text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900">
-    <div class="flex items-center flex-col my-20">
-        ${ Punch.partial("topbar") }
-        <div class="">
-          <h2>Contact</h2>
-        </div>
-    </div>
-    ${ Punch.partial("footer") }
+  <body>
+    ${ Punch.partial("topbar") }
+      <main class="now">
+        <h2>Contact</h2>
+          ${ Punch.one({ from: "contact" }, ({ content }) => `
+            <div>
+              ${content}
+            </div>
+          `)}
+      </main>
+      ${ Punch.partial("footer") }
   </body>
 </html>

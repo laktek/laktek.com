@@ -3,15 +3,15 @@
   ${ Punch.partial("head", { site, title: "Posts"  }) }
   <body>
     ${ Punch.partial("topbar") }
-      <main>
+      <main class="posts">
         <h2>Posts</h2>
         <ul>
         ${ Punch.all({ from: "posts", order_by: "published_at desc" }, ({ title, slug, published_at }) => `
           <li>
+              <a href="${ slug }">${ title }</a>
               <time class="updated" pubdate datetime=${new Date(published_at)}>
                 ${new Intl.DateTimeFormat('en-GB', { dateStyle: 'long' }).format(new Date(published_at))}
               </time>
-              <a href="${ slug }">${ title }</a>
           </li>
         `)}
         </ul>
