@@ -3,19 +3,25 @@
   ${ Punch.partial("head", { site, title: "Personal website of Lakshan Perera"  }) }
   <body>
       <div class="home">
-        <h2 class="col-span-2">Hi, I'm Lakshan Perera</h2>
-        <div>
-          <p>I'm an Internet geek. I love to play with Web Technologies.</p>
-          <p>Originally from Sri Lanka, living in Sydney since 2015.</p>
+        <h1 class="col-span-2 bg-clip-text text-transparent bg-gradient-to-r from-red-800 to-red-400 dark:from-amber-600 dark:to-amber-200 hover:bg-gradient-to-br text-5xl font-bold my-4">
+          Hi, I'm Lakshan Perera
+        </h1>
+        <div class="text-2xl text-red-950 dark:text-amber-100 leading-8">
+          <p class="my-4">I'm an internet geek. Crafting web apps for almost two decades.</p>
+          <p class="my-4">Originally from Sri Lanka. Now living in Sydney.</p>
+          <p class="my-4 text-pretty">You can contact me via email: <em>hello&nbsp;[at]&nbsp;laktek&nbsp;[dot]&nbsp;com</em></p>
         </div>
 
-        <div class="row-span-3">
-          <img class="rounded-full h-48 w-48 object-center object-none shadow-inner" src="/images/avatar.jpg" alt="Lakshan's Internet Avatar" />
+        <div class="row-span-3 place-self-center rounded-full h-48 w-48 overflow-hidden shadow-xl hover:rotate-180 transition-transform duration-500">
+          <img class="object-none" src="/images/avatar.jpg" alt="Lakshan's Internet Avatar" />
         </div>
 
-        ${ Punch.partial("nav") }
+        <ul class="flex-col text-2xl text-red-700 dark:text-amber-500 my-8">
+          <li class="nav-li"><a href="/now">Now</a></li>
+          <li class="nav-li"><a href="/archive">Posts</a></li>
+        </ul>
 
-        ${ Punch.partial("footer", { cls: "col-span-2" }) }
+        ${ Punch.partial("footer", { class: "col-span-2 mt-8" }) }
       </div>
   </body>
 </html>

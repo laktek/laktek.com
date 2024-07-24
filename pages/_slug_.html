@@ -1,20 +1,26 @@
 <!doctype html>
 <html lang=${ site.language }>
-  ${ Punch.one({ from: "posts", slug: Punch.route.slug.replace(/\/+$/, '').replace(/\//g, '-').toLowerCase() }, ({ title, content, slug, published_at }) => `
-    ${ Punch.partial("head", { site, title  }) }
-    <body>
-      ${ Punch.partial("topbar") }
-      <main>
-        <article class="hentry">
-          <h2 class="entry-title">${title}</h2>
-          <time class="updated" pubdate datetime=${new Date(published_at)}>
-            ${new Intl.DateTimeFormat('en-GB', { dateStyle: 'long' }).format(new Date(published_at))}
-          </time>
+  ${ Punch.one({ from: "posts", slug: Punch.route.slug.replace(/\/+$/, '').replace(/\//g, '-').toLowerCase() }, (post) => `
+    ${ post ?
+      (({title, published_at, content }) => `
+        ${ Punch.partial("head", { site, title  }) }
+        <body>
+          ${ Punch.partial("topbar") }
+          <main>
+            <article class="hentry">
+              <h2 class="entry-title">${title}</h2>
+              <time class="updated" pubdate datetime=${new Date(published_at)}>
+                ${new Intl.DateTimeFormat('en-GB', { dateStyle: 'long' }).format(new Date(published_at))}
+              </time>
 
-          <div class="entry-content">${content}</div>
-        </article>
-      </main>
-      ${ Punch.partial("footer") }
-    </body>
+              <div class="entry-content">${content}</div>
+            </article>
+          </main>
+          ${ Punch.partial("footer") }
+        </body>
+      `)(post)
+      :
+      Punch.notFound()
+    }
   `)}
 </html>

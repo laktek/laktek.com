@@ -3,22 +3,22 @@
     <title>${ site.title }</title>
     <link>${ site.url }</link>
     <description>${ site.description }</description>
-    <pubDate>${ /* blog.at(-1).publishDate */ '' }</pubDate>
+    <pubDate>${ Punch.one({ from: "posts", order_by: "published_at desc" }, ({ published_at }) => new Date(published_at).toUTCString() )}</pubDate>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <generator>https://github.com/laktek/punch</generator>
+    <generator>https://punch.dev</generator>
     <language>${ site.language }</language>
 
-    ${/* Punch.all({ from: "blog", order_by: "created_at desc" }, ({ title, slug, publishDate, content }) => `
+    ${ Punch.all({ from: "posts", order_by: "published_at desc" }, ({ title, slug, published_at, content }) => `
       <item>
         <title>
           <![CDATA[ ${ title } ]]>
         </title>
         <link>${site.url}/${ slug }</link>
-        <pubDate>${ publishDate }</pubDate>
+        <pubDate>${ new Date(published_at).toUTCString() }</pubDate>
         <description>
           <![CDATA[ ${ content } ]]>
         </description>
       </item>
-      `) */ ''}
+      `) }
   </channel>
 </rss>

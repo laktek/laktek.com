@@ -14,7 +14,7 @@ header {
   @apply flex justify-between px-10 py-8;
 
   h1 {
-    @apply text-2xl text-sky-500 tracking-wider;
+    @apply text-2xl text-red-800 dark:text-amber-400 tracking-wider;
   }
 
   h1 > a {
@@ -23,7 +23,7 @@ header {
   }
 
   h1 > a:hover {
-    text-shadow: 0 0 8px theme(colors.sky.600);
+    text-shadow: 0 0 8px theme(colors.red.950);
   }
 
   ul {
@@ -40,7 +40,7 @@ header {
 }
 @media (prefers-color-scheme: dark) {
   header > h1 > a:hover {
-    text-shadow: 0 0 8px theme(colors.sky.400);
+    text-shadow: 0 0 8px theme(colors.amber.400);
   }
 }
 
@@ -65,7 +65,7 @@ main {
   }
 
   a {
-    @apply text-blue-500 underline;
+    @apply text-blue-500 hover:underline;
   }
 
   p > code {
@@ -86,15 +86,23 @@ main {
 }
 
 .posts ul {
-    @apply list-none mt-4;
+    @apply list-none mt-4 -ml-4;
 
     li {
       @apply flex justify-between;
+
+      a {
+        @apply text-stone-900 dark:text-stone-400;
+      }
     }
 }
 
 .home {
-  @apply min-h-screen grid grid-cols-2 place-content-center;
+  @apply px-4 min-h-screen grid grid-cols-2 place-content-center;
+
+  .nav-li {
+    @apply w-1/3 mb-2 after:block after:h-0.5 after:transition-transform after:bg-current after:scale-0 hover:after:scale-100 after:origin-left after:duration-200
+  }
 }
 
 footer {

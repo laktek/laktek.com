@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang=${ site.language }>
-  ${ Punch.partial("head", { site, title: "Page Not Found" }) }
-
+  ${ Punch.partial("head", { site, title: "Not Found"  }) }
   <body>
-    <div>
-      <h1 class="text-3xl">Page Not Found</h1>
-      <p>Page you tried to access doesn't exist</p>
-    </div>
-    <footer>
-      <p>Powered by Punch</p>
-    </footer>
+    ${ Punch.partial("topbar") }
+      <main>
+        <h2>Not Found :(</h2>
+            <div>
+              Sorry, looks like you followed a broken link.
+            </div>
+      </main>
+      ${ Punch.partial("footer") }
   </body>
 </html>
