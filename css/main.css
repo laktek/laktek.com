@@ -83,6 +83,10 @@ main {
   ol {
     @apply list-decimal my-5 pl-4;
   }
+
+  blockquote {
+    @apply ml-4 pl-4 border-l-4 border-current;
+  }
 }
 
 .posts ul {
