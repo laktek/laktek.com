@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang=${ site.language }>
-  ${ Punch.partial("head", { site, title: "Personal website of Lakshan Perera"  }) }
+  ${ Punch.partial("head", { site, title: "Lakshan Perera's personal website"  }) }
   <body>
       <div class="home">
         <h1 class="col-span-2 bg-clip-text text-transparent bg-gradient-to-r from-red-800 to-red-400 dark:from-amber-600 dark:to-amber-200 hover:bg-gradient-to-br text-5xl font-bold my-4">
@@ -17,8 +17,9 @@
         </div>
 
         <ul class="flex-col text-2xl text-red-700 dark:text-amber-500 my-8">
-          <li class="nav-li"><a href="/now">Now</a></li>
-          <li class="nav-li"><a href="/archive">Posts</a></li>
+          <li class="nav-li"><a href="/now">What am I doing now?</a></li>
+          <li class="nav-li"><a href="/archive">Find old posts</a></li>
+          <li class="nav-li"><a href="/feeds/rss.xml">Subscribe to RSS Feed</a></li>
         </ul>
 
         ${ Punch.partial("footer", { class: "col-span-2 mt-8" }) }

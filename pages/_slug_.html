@@ -3,7 +3,7 @@
   ${ Punch.one({ from: "posts", slug: Punch.route.slug.replace(/\/+$/, '').replace(/\//g, '-').toLowerCase() }, (post) => `
     ${ post ?
       (({title, published_at, content }) => `
-        ${ Punch.partial("head", { site, title  }) }
+        ${ Punch.partial("head", { site, title, description: Punch.escape(content.slice(0, 140))  }) }
         <body>
           ${ Punch.partial("topbar") }
           <main>

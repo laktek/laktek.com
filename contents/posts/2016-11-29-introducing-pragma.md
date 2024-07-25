@@ -41,35 +41,26 @@ I'll provide only a basic overview in this post, saving deep dives for future po
 
 Pragma is built on 3 pillars - pages, components and integrations. A page is composed of components and integrations. It's a tree data structure defined in JSON. A typical page would look like this:
 
-  `{ `
+```json
+{
+  "metadata": {
+    "cache": 600,
+    "favicons": {...}
+  },
 
-`   "metadata": { `
+  "contents": [
+    { "type": "header", "contents": [
+      { "type": "title", "contents": [
+        {"type": "text", "contents": "My Site"}
+      ] }
+    ] },
+  ... ],
 
-`     "cache": 600, `
-
-`    "favicons": {...}`
-
-` },`
-
-` "contents": [`
-
-`    { "type": "header", "contents": [ `
-
-`     { "type": "title", "contents": [`
-
-`        {"type": "text", "contents": "My Site"}`
-
-`     ] }`
-
-` ] },`
-
-`  ... ], `
-
-`"integrations": [ `
-
-`   "set-headers", "google-analytics", "open-graph", "json-ld", ... `
-
-`] }`
+  "integrations": [
+    "set-headers", "google-analytics", "open-graph", "json-ld", ...
+  ]
+}
+```
 
 A component defines the look and the behaviour of a content-type. For example, a `title `component will contain the HTML, CSS and JS to render its content. I know components are a convoluted term these days. But Pragma's components are totally agnostic to client-side rendering frameworks. So a component is free to use React, Vue or vanilla js to set its behavior on the client.
 

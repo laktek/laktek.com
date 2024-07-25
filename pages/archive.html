@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang=${ site.language }>
-  ${ Punch.partial("head", { site, title: "Posts"  }) }
+  ${ Punch.partial("head", { site, title: "Archive"  }) }
   <body>
     ${ Punch.partial("topbar") }
       <main class="posts">
-        <h2>Posts</h2>
+        <h2>Archive</h2>
         <ul>
         ${ Punch.all({ from: "posts", order_by: "published_at desc" }, ({ title, slug, published_at }) => `
           <li>
