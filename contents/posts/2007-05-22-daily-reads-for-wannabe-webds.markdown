@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2007/05/22/daily-reads-for-wannabe-webds
 layout: post
 title: Daily reads for wannabe WebDs
 published: true

@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2011/08/24/creating-asynchronous-web-services-with-goliath
 layout: post
 title: Creating asynchronous web services with Goliath
 published: true

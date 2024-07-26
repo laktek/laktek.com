@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2010/07/23/best-role-model-of-our-time
 layout: post
 title: The Best Role Model of Our Time
 published: true

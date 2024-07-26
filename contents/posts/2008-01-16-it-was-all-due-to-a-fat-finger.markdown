@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2008/01/16/it-was-all-due-to-a-fat-finger
 layout: post
 title: It was all due to a fat finger !
 published: true

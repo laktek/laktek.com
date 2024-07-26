@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2010/01/02/interesting-stuff-to-watch-out-in-2010
 layout: post
 title: Interesting stuff to watch out in 2010
 published: true

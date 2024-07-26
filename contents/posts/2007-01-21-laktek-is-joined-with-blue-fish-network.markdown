@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2007/01/21/laktek-is-joined-with-blue-fish-network
 layout: post
 title: LakTEK is joined with Blue Fish Network
 published: true

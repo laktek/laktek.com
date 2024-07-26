@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2007/11/03/walkthrough-of-the-redesign
 layout: post
 title: Walkthrough of the Redesign
 published: true

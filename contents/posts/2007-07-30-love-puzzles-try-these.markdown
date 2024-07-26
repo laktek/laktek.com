@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2007/07/30/love-puzzles-try-these
 layout: post
 title: Love Puzzles ? Try these...
 published: true

@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/06/30/punch-status
 layout: post
 title: Punch Status - Instant Previews, Easy Publishing & More
 published: true

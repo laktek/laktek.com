@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2010/02/11/realie-project-data-structure-storage
 layout: post
 title: "Realie Project: Data Structure &amp; Storage"
 published: true

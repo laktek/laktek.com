@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/04/19/punch-a-fun-and-easy-way-to-build-modern-websites
 layout: post
 title: Punch - A Fun and Easy Way to Build Modern Websites
 published: true

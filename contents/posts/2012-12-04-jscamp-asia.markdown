@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/12/04/jscamp-asia
 layout: post
 title: JSCamp Asia
 published: true

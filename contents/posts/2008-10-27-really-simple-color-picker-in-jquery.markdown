@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2008/10/27/really-simple-color-picker-in-jquery
 layout: post
 title: Really Simple Color Picker in jQuery
 published: true

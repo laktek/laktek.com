@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2007/06/08/lets-bid-farewell-for-profvksamaranayake
 layout: post
 title: Let's bid farewell for Prof.V.K.Samaranayake
 published: true

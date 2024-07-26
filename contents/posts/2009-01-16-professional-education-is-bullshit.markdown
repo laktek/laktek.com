@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2009/01/16/professional-education-is-bullshit
 layout: post
 title: Professional Education is Bullshit!
 published: true

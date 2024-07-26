@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/05/23/winning-people-with-code
 layout: post
 title: Winning People with Code
 published: true

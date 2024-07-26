@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/01/12/learning-go-constants-iota
 layout: post
 title: Learning Go - Constants &amp; Iota
 published: true

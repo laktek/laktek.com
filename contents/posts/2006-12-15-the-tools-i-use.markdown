@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2006/12/15/the-tools-i-use
 layout: post
 title: The tools I use
 published: true

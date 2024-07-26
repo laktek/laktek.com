@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2007/04/25/one-step-away-from-the-ulitmate-title
 layout: post
 title: One step away from the ultimate title
 published: true

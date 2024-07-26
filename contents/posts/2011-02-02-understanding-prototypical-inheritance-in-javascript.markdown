@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2011/02/02/understanding-prototypical-inheritance-in-javascript
 layout: post
 title: Understanding Prototypal Inheritance in JavaScript
 published: true

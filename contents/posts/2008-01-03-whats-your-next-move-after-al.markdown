@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2008/01/03/whats-your-next-move-after-al
 layout: post
 title: What's your next move after A/L ?
 published: true

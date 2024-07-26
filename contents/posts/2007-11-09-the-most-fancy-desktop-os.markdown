@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2007/11/09/the-most-fancy-desktop-os
 layout: post
 title: The Linux Desktop
 published: true

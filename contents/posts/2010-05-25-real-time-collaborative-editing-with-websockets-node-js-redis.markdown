@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2010/05/25/real-time-collaborative-editing-with-websockets-node-js-redis
 layout: post
 title: Real-time Collaborative Editing with Web Sockets, Node.js &amp; Redis
 published: true

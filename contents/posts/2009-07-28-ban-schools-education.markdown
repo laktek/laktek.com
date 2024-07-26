@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2009/07/28/ban-schools-education
 layout: post
 title: Ban Schools &amp; Education!
 published: true

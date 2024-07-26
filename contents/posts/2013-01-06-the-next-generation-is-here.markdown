@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2013/01/06/the-next-generation-is-here
 layout: post
 title: The Next Generation is Here!
 published: true

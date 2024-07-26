@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2009/10/01/first-meetup-of-lk-ruby-user-group
 layout: post
 title: First Meetup of LK Ruby User Group
 published: true

@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2009/07/07/sticking-to-basics
 layout: post
 title: Sticking to Basics
 published: true

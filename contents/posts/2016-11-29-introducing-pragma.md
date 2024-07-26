@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2016/11/29/introducing-pragma
 title: Introducing Pragma
 published_at: 1480377600000
 ---

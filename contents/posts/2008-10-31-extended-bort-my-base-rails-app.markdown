@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2008/10/31/extended-bort-my-base-rails-app
 layout: post
 title: "Extended-Bort: My base Rails app"
 published: true

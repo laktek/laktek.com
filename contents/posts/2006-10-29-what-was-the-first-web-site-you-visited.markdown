@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2006/10/29/what-was-the-first-web-site-you-visited
 layout: post
 title: What was the first web site you visited ?
 published: true

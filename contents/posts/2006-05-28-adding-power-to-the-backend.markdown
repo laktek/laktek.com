@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2006/05/28/adding-power-to-the-backend
 title: "Adding Power to the Backend"
 published: true
 meta:
@@ -10,6 +11,7 @@ type: post
 status: publish
 published_at: 1148774400000
 ---
+
 Web 2.0 is all about Web Applications. Blogs, Wikis, Discussion Groups and other custom made web apps have made the life easy. Web Application development has it's own recipe. You need to depend on XHTML, CSS and JavaScript for front-end, but for the backend you have the option of selecting a scripting language or a framework of your choice. This process is more important as the whole business logic of your app relies on this. Getting the right tool involves both knowledge and experience.
 <h3>Choosing the Right Tool</h3>
 When choosing a language or a framework for a project you will need to look into certain aspects such as:

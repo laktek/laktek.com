@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/12/24/end-of-a-chapter
 layout: post
 title: End of a Chapter
 published: true

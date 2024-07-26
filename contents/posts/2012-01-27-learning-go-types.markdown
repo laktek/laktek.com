@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/01/27/learning-go-types
 layout: post
 title: Learning Go - Types
 published: true

@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2007/11/02/the-renaissance
 layout: post
 title: The Renaissance
 published: true

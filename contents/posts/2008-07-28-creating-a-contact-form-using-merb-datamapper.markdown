@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2008/07/28/creating-a-contact-form-using-merb-datamapper
 layout: post
 title: Contact Form using Merb &amp; DataMapper
 published: true

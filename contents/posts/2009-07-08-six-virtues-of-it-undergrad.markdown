@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2009/07/08/six-virtues-of-it-undergrad
 layout: post
 title: Six virtues of being an IT undergrad...
 published: true

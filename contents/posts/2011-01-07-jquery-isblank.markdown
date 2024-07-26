@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2011/01/07/jquery-isblank
 layout: post
 title: jQuery isBlank()
 published: true

@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2006/06/11/moving-into-new-grounds
 layout: post
 title: Becoming a Semi Geek...
 published: true

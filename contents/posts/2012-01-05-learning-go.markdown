@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/01/05/learning-go
 layout: post
 title: Learning Go
 published: true

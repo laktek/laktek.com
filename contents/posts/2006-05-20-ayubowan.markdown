@@ -1,15 +1,13 @@
 ---
-layout: post
+legacy_slug: /2006/05/20/ayubowan
 title: Ayubowan
-published: true
 meta:
   dsq_thread_id: "68172275"
 tags:
 - Life
-type: post
-status: publish
 published_at: 1148083200000
 ---
+
 Rather than saying <em>Hello World</em>, I prefer to welcome you to my blog saying Ayubowan ! (FYI : It's the way of saying welcome in Sinhalese).
 
 It seems like I'm the last person of this world to enter blogsphere, eventhough it's a late start I hope I could deliver something good (actually I did a blog that nobody read at blogspot for couple of months). Let's see how this goes.

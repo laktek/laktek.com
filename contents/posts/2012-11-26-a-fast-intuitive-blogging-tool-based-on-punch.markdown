@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/11/26/a-fast-intuitive-blogging-tool-based-on-punch
 layout: post
 title: Punch based Boilerplate to Power Your Blog
 published: true

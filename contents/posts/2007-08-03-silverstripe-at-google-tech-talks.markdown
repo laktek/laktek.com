@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2007/08/03/silverstripe-at-google-tech-talks
 layout: post
 title: Silverstripe at Google Tech Talks
 published: true

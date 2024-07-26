@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2008/11/21/i-want-to-be-a-ruby-hacker
 layout: post
 title: I want to be a Ruby Hacker...
 published: true

@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/05/31/dont-fret-over-client-side-rendering
 layout: post
 title: Don't Fret Over Client-Side Rendering
 published: true

@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2008/10/15/love-what-you-do
 layout: post
 title: Love what you do
 published: true

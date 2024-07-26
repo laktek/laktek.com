@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2017/01/12/next-wave-of-saas
 title: Next wave of SaaS
 published_at: 1484179200000
 ---

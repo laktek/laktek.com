@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2009/01/11/belated-resolutions
 layout: post
 title: Belated Resolutions
 published: true

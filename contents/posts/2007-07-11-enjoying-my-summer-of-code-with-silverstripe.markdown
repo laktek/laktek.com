@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2007/07/11/enjoying-my-summer-of-code-with-silverstripe
 layout: post
 title: Enjoying my Summer Of Code with SilverStripe
 published: true

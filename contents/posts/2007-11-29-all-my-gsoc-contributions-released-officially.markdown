@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2007/11/29/all-my-gsoc-contributions-released-officially
 layout: post
 title: My contributions released officially !
 published: true

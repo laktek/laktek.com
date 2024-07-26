@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2010/05/01/im-with-opennebula-this-summer
 layout: post
 title: I'm with OpenNebula this Summer!
 published: true

@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2010/12/22/building-modular-web-apps-with-rack-sinatra
 layout: post
 title: Building Modular Web Apps with Rack &amp; Sinatra
 published: true

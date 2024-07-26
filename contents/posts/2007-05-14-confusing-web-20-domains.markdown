@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2007/05/14/confusing-web-20-domains
 layout: post
 title: Confusing Web 2.0 Domains
 published: true

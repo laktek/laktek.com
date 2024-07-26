@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2007/01/13/keeping-the-focus
 layout: post
 title: Keeping the focus
 published: true

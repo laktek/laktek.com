@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2007/11/29/young-brothers-its-your-chance-to-get-high-with-google
 layout: post
 title: It's your chance to fly high with Google
 published: true

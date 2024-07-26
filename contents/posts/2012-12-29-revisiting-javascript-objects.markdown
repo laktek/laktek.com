@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/12/29/revisiting-javascript-objects
 layout: post
 title: Revisiting JavaScript Objects
 published: true

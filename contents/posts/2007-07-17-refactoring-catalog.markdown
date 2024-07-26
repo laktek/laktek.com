@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2007/07/17/refactoring-catalog
 layout: post
 title: Refactoring Catalog
 published: true

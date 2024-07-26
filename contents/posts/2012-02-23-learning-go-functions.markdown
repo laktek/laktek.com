@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/02/23/learning-go-functions
 layout: post
 title: Learning Go - Functions
 published: true

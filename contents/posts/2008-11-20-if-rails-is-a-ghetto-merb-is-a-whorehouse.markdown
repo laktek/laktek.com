@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2008/11/20/if-rails-is-a-ghetto-merb-is-a-whorehouse
 layout: post
 title: If Rails is a Ghetto, Merb is a Whorehouse
 published: true

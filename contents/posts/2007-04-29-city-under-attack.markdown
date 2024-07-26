@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2007/04/29/city-under-attack
 layout: post
 title: City under attack ?
 published: true

@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2008/11/30/ruby-advent-calendar
 layout: post
 title: Ruby Advent Calendar
 published: true

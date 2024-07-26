@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2007/05/18/app-tld-for-web-applications
 layout: post
 title: .app TLD for Web Applications
 published: true

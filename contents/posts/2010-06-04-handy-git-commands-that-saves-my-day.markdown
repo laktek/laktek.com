@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2010/06/04/handy-git-commands-that-saves-my-day
 layout: post
 title: Handy Git commands that saves my day
 published: true

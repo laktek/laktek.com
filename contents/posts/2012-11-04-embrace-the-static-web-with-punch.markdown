@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/11/04/embrace-the-static-web-with-punch
 layout: post
 title: Embrace the Static Web with Punch
 published: true

@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2008/08/28/simple-command-line-todo-list-manager
 layout: post
 title: Simple command line todo list
 published: true

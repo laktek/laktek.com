@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2006/10/10/hacking-made-easy-with-google-code-search
 layout: post
 title: Hacking made easy with Google Code Search
 published: true

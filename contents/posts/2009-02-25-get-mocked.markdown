@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2009/02/25/get-mocked
 layout: post
 title: Get mocked!
 published: true

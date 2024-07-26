@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2006/09/01/they-know-where-youve-been
 layout: post
 title: They know where you've been......
 published: true

@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2013/04/12/my-first-three-months-with-actionio
 layout: post
 title: My First Three Months with Nitrous.IO
 published: true

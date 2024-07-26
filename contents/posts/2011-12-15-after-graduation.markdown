@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2011/12/15/after-graduation
 layout: post
 title: After Graduation
 published: true

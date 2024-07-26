@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2011/03/03/introducing-jquery-smart-autocomplete
 layout: post
 title: Introducing jQuery Smart AutoComplete...
 published: true
@@ -41,14 +42,14 @@ To get the Smart Autocomplete plugin visit its <a href="https://github.com/lakte
 
 Once you have downloaded both jQuery and the Smart Autocomplete plugin, reference them in the header of your page like this:
 
-```markup
+```javascript
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js" type="text/javascript"></script>
   <script src="jquery.smart_autocomplete.js" type="text/javascript"></script>
 ```
 
 Now, define an input field to use for autocomplete.
 
-```markup
+```javascript
   <div>
     <label for="fruits_field">Favorite Fruit</label>
     <input type="text" autocomplete="off" id="fruits_field"/>

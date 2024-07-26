@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2010/05/21/apple-is-repeating-the-mistakes-from-the-past
 layout: post
 title: Apple is repeating the same mistakes from the past
 published: true

@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2007/03/08/early-bird-view-to-google-summer-of-code-project-ideas
 layout: post
 title: Early Bird view to Google Summer of Code Project Ideas
 published: true

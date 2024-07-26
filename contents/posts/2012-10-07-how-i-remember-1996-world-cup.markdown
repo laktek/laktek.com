@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/10/07/how-i-remember-1996-world-cup
 layout: post
 title: My Story of 1996 World Cup
 published: true

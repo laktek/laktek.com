@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2010/01/28/understanding-election-results-through-economic-theory-of-democracy
 layout: post
 title: Understanding Election Results through Economic Theory of Democracy
 published: true

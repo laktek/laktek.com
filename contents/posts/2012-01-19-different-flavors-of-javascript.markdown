@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/01/19/different-flavors-of-javascript
 layout: post
 title: Different flavors of JavaScript
 published: true

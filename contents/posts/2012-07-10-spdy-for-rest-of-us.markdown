@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/07/10/spdy-for-rest-of-us
 layout: post
 title: SPDY for Rest of Us
 published: true

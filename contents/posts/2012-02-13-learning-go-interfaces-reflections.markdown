@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/02/13/learning-go-interfaces-reflections
 layout: post
 title: Learning Go - Interfaces & Reflections
 published: true

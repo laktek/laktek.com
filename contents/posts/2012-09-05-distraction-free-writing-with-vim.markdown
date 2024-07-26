@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/09/05/distraction-free-writing-with-vim
 layout: post
 title: Distraction Free Writing with Vim
 published: true

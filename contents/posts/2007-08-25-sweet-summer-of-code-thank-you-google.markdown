@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2007/08/25/sweet-summer-of-code-thank-you-google
 layout: post
 title: Sweet Summer of Code, Thank you Google...
 published: true

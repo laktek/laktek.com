@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2007/04/12/accepted-to-google-summer-of-code
 layout: post
 title: Accepted for Google Summer of Code !
 published: true

@@ -6,11 +6,11 @@
       <main class="posts">
         <h2>Archive</h2>
         <ul>
-        ${ Punch.all({ from: "posts", order_by: "published_at desc" }, ({ title, slug, published_at }) => `
+        ${ Punch.all({ from: "posts", order_by: "published_at desc" }, (post) => `
           <li>
-              <a href="${ slug }">${ title }</a>
-              <time class="updated" pubdate datetime=${new Date(published_at)}>
-                ${new Intl.DateTimeFormat('en-GB', { dateStyle: 'long' }).format(new Date(published_at))}
+              <a href="${ post.legacy_slug ?? post.slug }">${ post.title }</a>
+              <time class="updated" pubdate datetime=${new Date(post.published_at)}>
+                ${new Intl.DateTimeFormat('en-GB', { dateStyle: 'long' }).format(new Date(post.published_at))}
               </time>
           </li>
         `)}

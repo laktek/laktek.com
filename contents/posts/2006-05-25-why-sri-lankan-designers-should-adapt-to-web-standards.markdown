@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2006/05/25/why-sri-lankan-designers-should-adapt-to-web-standards
 layout: post
 title: Why Sri Lankan designers should adapt to Web Standards ?
 published: true
@@ -11,6 +12,7 @@ type: post
 status: publish
 published_at: 1148515200000
 ---
+
 It seems most of the web designers in the world are adapting to web standards and many major sites are redesigning (realigning or rebooting or what ever) to comply with the web standards, but the interest of the subject here in Sri Lanka is very poor. Most of the sites, whether it government or commercial, are still stuck with the table based or totally flash based layouts. Forget about existing sites, not even the new sites follow web standards.
 
 You don't need require High-end hardware or any sophisticated software to create web standard based designs (that's why I like it most) and you it's not rocket science to learn and most of the learning resources are free !(actually I haven't spend a cent to learn on web standards). I think there are few reasons which keep developers away from web standards, such as:

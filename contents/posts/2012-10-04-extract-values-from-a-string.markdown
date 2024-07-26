@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/10/04/extract-values-from-a-string
 layout: post
 title: Simple Helper to Extract Values from a String
 published: true

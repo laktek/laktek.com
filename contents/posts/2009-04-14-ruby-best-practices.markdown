@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2009/04/14/ruby-best-practices
 layout: post
 title: Ruby Best Practices
 published: true

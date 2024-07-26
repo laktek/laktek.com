@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2011/12/30/reviewing-my-2011
 layout: post
 title: Reviewing My 2011
 published: true

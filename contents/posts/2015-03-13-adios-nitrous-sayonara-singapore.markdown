@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2015/03/13/adios-nitrous-sayonara-singapore
 layout: post
 title: Adiós Nitrous. Sayonara Singapore.
 published: true

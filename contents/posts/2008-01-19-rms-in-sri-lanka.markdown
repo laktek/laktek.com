@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2008/01/19/rms-in-sri-lanka
 layout: post
 title: RMS in Sri Lanka
 published: true

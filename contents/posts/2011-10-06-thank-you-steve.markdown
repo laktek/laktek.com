@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2011/10/06/thank-you-steve
 layout: post
 title: Thank You, Steve!
 published: true

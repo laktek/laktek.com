@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2016/10/01/going-independent
 title: Going Independent
 published_at: 1475280000000
 ---

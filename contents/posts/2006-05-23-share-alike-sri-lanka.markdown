@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2006/05/23/share-alike-sri-lanka
 layout: post
 title: Share Alike Sri Lanka
 tags:
@@ -7,6 +8,7 @@ type: post
 status: publish
 published_at: 1148342400000
 ---
+
 Sri Lankan geek community has been all excited for these days with the arrivel of <strong>Prof. Lawrence Lessig</strong> founder of <a title="Creative Commons Web Site" href="http://www.creativecommons.com">Creative Commons.</a> Eventhough I was not able to attend for the <a title="FossLK web site" href="http://www.foss.lk/">conference</a> for unforseen circumstances, I'm keeping track of the event thanks to some hardworking <a href="http://budlite.blogspot.com/2006/05/foss-ed-for-geeks-day-1.html">bloggers</a> and flickers (unfortunately no podcasters !)
 <h3>CreativeCommons.lk Launched ??</h3>
 Eventhough several blogs claimed that, ICTA launched the Sri Lankan version of the Creative Commons web site, still I couldn't access it. Maybe the server is crammed with all Sri Lankan Artists, Musicians, Writers claiming their Creative Commons License Lol! (I get the smell of another "Ruwanwelisaya type" Web Launch !)

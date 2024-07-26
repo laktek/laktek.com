@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2011/06/08/a-month-in-vienna
 layout: post
 title: A Month in Vienna
 published: true

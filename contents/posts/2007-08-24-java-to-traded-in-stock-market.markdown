@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2007/08/24/java-to-traded-in-stock-market
 layout: post
 title: JAVA to traded in Stock Market ??
 published: true

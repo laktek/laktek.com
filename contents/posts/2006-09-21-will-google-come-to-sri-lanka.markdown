@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2006/09/21/will-google-come-to-sri-lanka
 layout: post
 title: Will Google come to Sri Lanka ?
 published: true

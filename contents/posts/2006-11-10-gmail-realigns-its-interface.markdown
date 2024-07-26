@@ -9,7 +9,9 @@ tags:
 type: post
 status: publish
 published_at: 1163116800000
+legacy_slug: /2006/11/10/gmail-realigns-its-interface
 ---
+
 It seems Gmail has also joined the rounded corner and drop shadow galore with it's upgrade to the interface. Even though there isn't a major upgrade in the main UI message interface has become much sweet.
 
 Also they have taken all the message actions to a top-right drop-down menu, which actually becomes quite irritating than the what they had earlier. However it seems google is going to have some become upgrades to Gmail. This may be just a tip of an ice berg.

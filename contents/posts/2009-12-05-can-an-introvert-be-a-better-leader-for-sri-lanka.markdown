@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2009/12/05/can-an-introvert-be-a-better-leader-for-sri-lanka
 layout: post
 title: Can an Introvert be a better leader for Sri Lanka?
 published: true

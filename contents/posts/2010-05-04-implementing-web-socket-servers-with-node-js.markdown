@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2010/05/04/implementing-web-socket-servers-with-node-js
 layout: post
 title: Implementing Web Socket servers with Node.js
 published: true

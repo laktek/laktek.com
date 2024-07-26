@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2006/08/30/lets-geotag-flickr-photos
 layout: post
 title: Lets geotag Flickr photos
 published: true

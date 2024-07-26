@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2010/02/16/building-real-time-web-apps-with-rails3
 layout: post
 title: Building Real-time web apps with Rails3
 published: true

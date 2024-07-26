@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/05/17/rapidly-prototyping-web-applications-using-punch
 layout: post
 title: Rapidly Prototyping Web Applications with Punch
 published: true

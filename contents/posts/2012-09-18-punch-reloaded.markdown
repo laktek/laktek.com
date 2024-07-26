@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/09/18/punch-reloaded
 layout: post
 title: Punch Reloaded
 published: true

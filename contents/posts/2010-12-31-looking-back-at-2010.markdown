@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2010/12/31/looking-back-at-2010
 layout: post
 title: Looking Back at 2010
 published: true

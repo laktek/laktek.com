@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2007/11/15/twitter-widget-for-silverstripe-cms
 layout: post
 title: Twitter Widget for SilverStripe CMS
 published: true

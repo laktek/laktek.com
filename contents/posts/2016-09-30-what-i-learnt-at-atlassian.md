@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2016/09/30/what-i-learnt-at-atlassian
 title: What I learnt at Atlassian
 published_at: 1475193600000
 ---

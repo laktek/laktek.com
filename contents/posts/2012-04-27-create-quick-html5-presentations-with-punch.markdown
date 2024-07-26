@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/04/27/create-quick-html5-presentations-with-punch
 layout: post
 title: Create Quick HTML5 Presentations with Punch
 published: true

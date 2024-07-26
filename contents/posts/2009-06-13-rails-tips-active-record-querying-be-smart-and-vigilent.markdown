@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2009/06/13/rails-tips-active-record-querying-be-smart-and-vigilent
 layout: post
 title: "[Rails Tips] Reduce Queries in ActiveRecord with :group"
 published: true

@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/02/06/stack-on-go
 layout: post
 title: Stack on Go - A Wrapper for Stack Exchange API
 published: true

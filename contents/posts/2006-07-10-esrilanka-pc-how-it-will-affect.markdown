@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2006/07/10/esrilanka-pc-how-it-will-affect
 layout: post
 title: eSriLanka PC - how it will affect ?
 published: true
@@ -11,6 +12,7 @@ type: post
 status: publish
 published_at: 1152489600000
 ---
+
 Remember all flames we had with Intel CEO Craig Barrett labeling that <acronym title="One laptop per child">OLPC</acronym>'s $100 laptop project as just a gadget ? Even though $100 laptop is still in prototype, intel had made a step ahead by sponsoring the <a href="http://www.icta.lk/Insidepages/programmes/e-Sri_Lanka_PC.asp">eSriLankaPC</a>.
 
 eSriLankaPC is a project under <a href="http://www.icta.lk/"><acronym title="Information and Communication Agency in Sri Lanka.">ICTA</acronym></a> which has the object of increasing the PC adoption in country. As Mr.Barret wanted this is a fully functional PC based on IntelÂ® architecture. PC comes with Pre-Installed software and educational programmes. Desktop environment will be based on Linux. You can take home the PC and pay in monthly installments. The lowest model costs Rs.32,300 and you have to pay Rs.1140 monthly. Also they are ready to offer trilingual Help Desk.

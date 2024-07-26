@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2008/06/18/still-live
 layout: post
 title: Still Alive.
 published: true

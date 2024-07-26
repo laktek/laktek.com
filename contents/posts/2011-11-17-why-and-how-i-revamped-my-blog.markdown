@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2011/11/17/why-and-how-i-revamped-my-blog
 layout: post
 title: Why and How I Revamped My Blog
 published: true

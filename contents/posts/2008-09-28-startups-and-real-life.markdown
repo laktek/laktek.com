@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2008/09/28/startups-and-real-life
 layout: post
 title: Startups and Real Life
 published: true

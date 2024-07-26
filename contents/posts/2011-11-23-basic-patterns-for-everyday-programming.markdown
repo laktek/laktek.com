@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2011/11/23/basic-patterns-for-everyday-programming
 layout: post
 title: Basic Patterns for Everyday Programming
 published: true

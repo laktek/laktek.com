@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2009/08/08/independent-thinking
 layout: post
 title: Independent Thinking
 published: true

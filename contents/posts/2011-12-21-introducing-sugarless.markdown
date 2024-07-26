@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2011/12/21/introducing-sugarless
 layout: post
 title: Sugarless - A Functional & Context Oriented way to write JavaScript
 published: true

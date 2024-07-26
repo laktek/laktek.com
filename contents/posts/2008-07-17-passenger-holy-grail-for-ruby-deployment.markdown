@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2008/07/17/passenger-holy-grail-for-ruby-deployment
 layout: post
 title: Passenger - Holy Grail for Ruby Deployment
 published: true

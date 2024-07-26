@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2008/07/14/passion
 layout: post
 title: Passion
 published: true

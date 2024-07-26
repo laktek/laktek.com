@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2012/03/12/curl-tips-for-daily-use
 layout: post
 title: A Few cURL Tips for Daily Use
 published: true

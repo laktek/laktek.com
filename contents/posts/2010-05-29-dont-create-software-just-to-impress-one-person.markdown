@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2010/05/29/dont-create-software-just-to-impress-one-person
 layout: post
 title: Are you creating software to impress one person?
 published: true

@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2017/01/11/end-of-the-first-wave-of-saas
 title: End of the first wave of SaaS
 published_at: 1484092800000
 ---

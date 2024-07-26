@@ -1,4 +1,5 @@
 ---
+legacy_slug: /2006/11/05/semantics-on-word-processing
 layout: post
 title: Semantics on Word Processing
 published: true
