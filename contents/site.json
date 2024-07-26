@@ -3,5 +3,6 @@
 	"description": "Lakshan Perera's personal website",
 	"url": "https://www.laktek.com",
   "domain": "laktek.com",
-	"language": "en-US"
+	"language": "en-US",
+  "image": "/images/og-image.png"
 }

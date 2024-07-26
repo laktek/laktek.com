@@ -1,3 +1,5 @@
+@import url("/css/highlight-apathy.min.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,6 +7,7 @@
 @view-transition {
   navigation: auto;
 }
+
 
 body {
   @apply antialiased text-slate-800 dark:text-slate-300 bg-stone-200 dark:bg-stone-900 max-w-3xl mx-auto my-4 leading-8;
@@ -96,7 +99,7 @@ main {
       @apply flex flex-col md:flex-row justify-between;
 
       a {
-        @apply text-stone-900 dark:text-stone-400;
+        @apply text-stone-900 dark:text-stone-200;
       }
       time {
         @apply text-sm md:text-base;
