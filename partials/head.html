@@ -9,14 +9,14 @@
   <meta name="og:description" content="${ _params.description ?? site.description }" />
   <meta property="og:locale" content="${ site.language }" />
   <meta property="og:type" content="website" />
-  <meta name="og:image" content="${ _params.image ?? site.image }" />
+  <meta name="og:image" content="${ new URL(_params.image ?? site.image).toString() }" />
 
   <meta name="twitter:card" content="summary_large_image">
   <meta property="twitter:domain" content="${ site.domain}">
   <meta property="twitter:url" content="${ new URL(Punch.route.path, site.url).toString() }" />
   <meta property="twitter:title" content="${ title }" />
   <meta name="twitter:description" content="${ _params.description ?? site.description }" />
-  <meta name="twitter:image" content="${ _params.image ?? site.image }" />
+  <meta name="twitter:image" content="${ new URL(_params.image ?? site.image).toString() }" />
 
   <link rel="alternate" type="application/rss+xml" title="${ site.title }" href="/feeds/rss.xml">
 
