@@ -11,6 +11,4 @@ hljs.registerLanguage("vim", vim);
 hljs.registerLanguage("shell", shell);
 hljs.registerLanguage("json", json);
 
-document.addEventListener("DOMContentLoaded", (event) => {
-  hljs.highlightAll();
-});
+hljs.highlightAll();
