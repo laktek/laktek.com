@@ -1,5 +1,6 @@
 ---
 title: What I learned building Page.REST
+new_slug: what-i-learned-from-building-pagerest
 published_at: 1505260800000
 ---
 

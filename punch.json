@@ -2,8 +2,9 @@
 	"output": "dist",
   "baseURL": "http://localhost:8080",
 	"routes": [
-		"/feeds/rss.xml",
-    "/what-i-learned-from-building-pagerest"
+    "[posts.new_slug]",
+    "[posts.legacy_slug]",
+		"/feeds/rss.xml"
 	],
 	"redirects": {}
 }

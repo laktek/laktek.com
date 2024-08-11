@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Back to Personal Website
+new_slug: back-to-personal-website
 published: true
 tags:
 - Muse
