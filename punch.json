@@ -1,6 +1,6 @@
 {
 	"output": "dist",
-  "baseURL": "http://localhost:8080",
+  "baseURL": "http://laktek.com",
 	"routes": [
     "[posts.new_slug]",
     "[posts.legacy_slug]",
