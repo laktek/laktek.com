@@ -1,6 +1,7 @@
 # default output directory
 dist/
 punch.db
+.DS_Store
 
 # npm dependencies
 node_modules/

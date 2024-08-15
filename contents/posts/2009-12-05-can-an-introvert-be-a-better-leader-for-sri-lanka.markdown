@@ -25,15 +25,15 @@ But I believe, an introvert would be better suited as the leader of our country.
 <ol>
 	<li><p>As the above article points out, Introverts do <strong>think first, talk later</strong>. Compare this with our leaders, who spits all sorts of bullshit that comes to their tongue. Have we ever had a leader who could stand on his words?</p>
 
-<p>Actually, this is also the main reason why introverts have become unpopular in an talkative extroversive world. Introverts don’t talk much, but when they do, they really know what they tell.</p>  </li>
+<p>Actually, this is also the main reason why introverts have become unpopular in an talkative extroversive world. Introverts don’t talk much, but when they do, they really know what they tell.</p></li>
 
-	<li>Introverts inspires and motivates themselves from their work, rather than the social popularity or material wealth. This gives them a better chance to achieve their goals.
+<li>Introverts inspires and motivates themselves from their work, rather than the social popularity or material wealth. This gives them a better chance to achieve their goals.
 </li>
 
-	<li>When it comes to decision making introverts are more intuitive. They do not make decisions out of feelings. Naturally, they got a better sense and self-belief on what they could do, and would not tend to reverse their decisions due to external facts.</li>
+<li>When it comes to decision making introverts are more intuitive. They do not make decisions out of feelings. Naturally, they got a better sense and self-belief on what they could do, and would not tend to reverse their decisions due to external facts.</li>
 
-	<li>They are good listeners. By a good listener, it doesn’t mean anyone can say anything and influence them on the decision making. Introverts will know how to separate grain from the salt, because they do listen from the mind, not from the heart. </li>
+<li>They are good listeners. By a good listener, it doesn’t mean anyone can say anything and influence them on the decision making. Introverts will know how to separate grain from the salt, because they do listen from the mind, not from the heart. </li>
 
-	<li><p>Introverts has the ability to understand the capacity of his subordinates better. This will make sure the right people are used for the right task, rather than appointing people based on the personal relationships or trust (which has been a huge mistake).</p>
+<li><p>Introverts has the ability to understand the capacity of his subordinates better. This will make sure the right people are used for the right task, rather than appointing people based on the personal relationships or trust (which has been a huge mistake).</p>
 
 <p>Also, our country needs to involve intellectuals actively for policy making, if we want to achieve a sustainable development.  Most of the intellectuals are also naturally introverts. Introverts feel more comfortable to work with another introvert, than an extrovert.</p> </li>
