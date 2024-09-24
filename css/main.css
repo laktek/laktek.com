@@ -1,8 +1,6 @@
-@import url("/css/highlight-apathy.min.css");
+@import "highlight-apathy.min.css";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwind.css";
 
 @view-transition {
   navigation: auto;
