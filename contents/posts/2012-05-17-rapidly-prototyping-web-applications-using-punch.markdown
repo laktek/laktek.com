@@ -68,7 +68,7 @@ We save our API prototypes in the `contents` directory using the same name as it
 
 In the original front-end prototype we had the list of issues hard-coded as a table:
 
-```markup
+```
   <table class="table table-striped">
     <thead>
       <tr>
@@ -94,7 +94,7 @@ In the original front-end prototype we had the list of issues hard-coded as a ta
 
 We shall replace those table rows with a [Mustache template](http://mustache.github.com/), so that we can hook the API prototype we just created.
 
-```markup
+```
   {{#issues}}
   <tr>
     <td>{{id}}</td>
@@ -128,7 +128,7 @@ Another benefit of using Punch for prototyping is you can easily reuse the parts
 
 Here's the sample template for a single issue, which includes header and footer as partials:
 
-```markup
+```
 
   {{> header }}
 

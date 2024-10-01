@@ -31,8 +31,8 @@ If you are in a hurry, you can check the final result from [here](http://readlis
 
 Before we start the tutorial, let's install Punch. To run Punch you will need [Node.js](http://nodejs.org). Make sure you have installed Node.js (version 0.8+) on your machine. Then open up your Terminal and type:
 
-```bash
-	npm install -g punch
+```shell
+  npm install -g punch
 ```
 
 This will install Punch as a global package, allowing you to use it as a shell command. Enter the command `punch -v` to check whether Punch was installed properly. This tutorial was created using Punch version 0.4.17.
@@ -41,7 +41,7 @@ This will install Punch as a global package, allowing you to use it as a shell c
 
 Let's spin off a new project for our Reading List. By running the command `punch setup`, you can create the project structure with essential files.
 
-```bash
+```shell
 	punch setup reading_list
 ```
 
@@ -49,7 +49,7 @@ This will create a directory named `reading_list`. Inside it we will see another
 
 While we are inside the project directory, let's start the Punch server by running the command:
 
-```bash
+```shell
 	punch s
 ```
 
@@ -81,7 +81,7 @@ Now let's turn our focus back to the Reading List page we are creating. It shoul
 
 We only need to create a single web page to show these information. So we can directly customize the default layout (`templates/_layout.mustache`) to create the view we need.
 
-```markup
+```
 {{> header }}
 
 		<div role="main">
@@ -181,7 +181,7 @@ We can bundle the CSS files used in the project like this:
 
 Then, you can use Punch's bundle [helper tags](https://github.com/laktek/punch/wiki/Helpers) to call defined bundles inside the templates.
 
-```markup
+```
 <head>
 	<!-- snip -->
 	{{#stylesheet_bundle}}/css/all.css{{/stylesheet_bundle}}
@@ -190,7 +190,7 @@ Then, you can use Punch's bundle [helper tags](https://github.com/laktek/punch/w
 
 This will produce a fingerprinted stylesheet tag (useful for caching) like this:
 
-```markup
+```
 <head>
 		<!-- snip -->
 		<link rel="stylesheet" type="text/css" media="screen" href="/css/all-1351313179000.css">
@@ -227,7 +227,7 @@ Enter those settings in the `config.json` file of your Punch project under the s
 
 Then on the terminal, run the following command:
 
-```bash
+```shell
 	punch p
 ```
 

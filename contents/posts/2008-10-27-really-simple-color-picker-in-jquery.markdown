@@ -26,14 +26,14 @@ If you want to see a demo before trying out by yourself, here is a simple <a hre
 Color Picker requires jQuery 1.2.6 or higher. So make sure to load it before Color Picker (there's no other dependencies!).
 For default styles of the color picker load the CSS file that comes with the plugin.
 
-```markup
+```
 <script src="jquery.min.js" type="text/javascript"></script>
 <script src="jquery.colorPicker.js" type="text/javascript"></script>
 ```
 
 Add a text field to take the color input.
 
-```markup
+```
 <div><label for="color1">Color 1</label>
 <input id="color1" name="color1" type="text" value="#333399" /></div>
 ```

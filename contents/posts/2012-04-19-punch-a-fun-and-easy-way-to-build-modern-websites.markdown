@@ -42,7 +42,7 @@ As I mentioned earlier, we can render any dynamic blocks in a site on the client
 
 To use the renderer, you must include [Mustache.js](https://github.com/janl/mustache.js/) and Punch's Mustache renderer in the HTML page.
 
-```markup
+```
   <script type="text/javascript" src="assets/mustache.js"></script>
   <script type="text/javascript" src="node_modules/punch/lib/renderers/mustache.js"></script>
 ```
