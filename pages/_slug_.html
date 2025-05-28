@@ -9,7 +9,7 @@
           <main>
             <article class="hentry">
               <h2 class="entry-title">${title}</h2>
-              <time class="updated" pubdate datetime=${new Date(published_at)}>
+              <time class="updated" pubdate datetime="${new Date(published_at)}">
                 ${new Intl.DateTimeFormat('en-GB', { dateStyle: 'long' }).format(new Date(published_at))}
               </time>
 
