@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Three weeks in Japan with a toddler
+description: In May 2025, my wife and I spent 3-weeks in Japan with our 3-year-old son. These are my notes from the trip.
 new_slug: travelling-japan-toddler
 published: true
 tags:
