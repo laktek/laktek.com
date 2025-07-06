@@ -1,6 +1,6 @@
 @import "highlight-apathy.min.css";
 
-@import "tailwind.css";
+@import "tailwindcss";
 
 @view-transition {
   navigation: auto;
@@ -24,7 +24,7 @@ header {
   }
 
   h1 > a:hover {
-    text-shadow: 0 0 8px theme(colors.red.950);
+    text-shadow: 0 0 8px var(--color-red-950);
   }
 
   ul {
@@ -41,7 +41,7 @@ header {
 }
 @media (prefers-color-scheme: dark) {
   header > h1 > a:hover {
-    text-shadow: 0 0 8px theme(colors.amber.400);
+    text-shadow: 0 0 8px var(--color-amber-400);
   }
 }
 
