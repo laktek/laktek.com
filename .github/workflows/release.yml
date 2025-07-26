@@ -20,6 +20,9 @@ jobs:
           cd punch2
           ./scripts/install.sh
 
+      - name: Install npm modules
+        run: npm install
+
       - name: Build with Punch
         run: ~/.punch/bin/punch build
 
