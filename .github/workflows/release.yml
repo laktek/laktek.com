@@ -1,0 +1,37 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Punch
+        run: |
+          git clone --depth 1 https://github.com/laktek/punch2
+          cd punch2
+          ./scripts/install.sh
+
+      - name: Build with Punch
+        run: ~/.punch/bin/punch build
+
+      - name: Create zip archive
+        run: zip -r dist.zip dist/
+
+      - name: Deploy to remote host
+        run: |
+          # Copy zip file to remote host
+          scp -o StrictHostKeyChecking=no dist.zip ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }}:/root/laktek.com
+
+          # Extract zip file on remote host
+          ssh -o StrictHostKeyChecking=no ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }} "cd /root/laktek.com && unzip -o dist.zip && rm dist.zip"
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}

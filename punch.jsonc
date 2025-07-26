@@ -6,5 +6,10 @@
     "[posts.legacy_slug]",
 		"/feeds/rss.xml"
 	],
-	"redirects": {}
+	"redirects": {},
+  "serve": {
+    "ondemandRender": {
+      "disabled": true
+    }
+  }
 }
