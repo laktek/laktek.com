@@ -1,5 +1,5 @@
 @import "tailwindcss";
-/* @import "highlight-apathy.min.css"; */
+@import "highlight-apathy.min.css";
 
 @view-transition {
   navigation: auto;
