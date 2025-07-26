@@ -26,12 +26,12 @@ jobs:
       - name: Create zip archive
         run: zip -r dist.zip dist/
 
-      - name: Deploy to remote host
-        run: |
-          # Copy zip file to remote host
-          scp -o StrictHostKeyChecking=no dist.zip ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }}:/root/laktek.com
+      # - name: Deploy to remote host
+      #   run: |
+      #     # Copy zip file to remote host
+      #     scp -o StrictHostKeyChecking=no dist.zip ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }}:/root/laktek.com
 
-          # Extract zip file on remote host
-          ssh -o StrictHostKeyChecking=no ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }} "cd /root/laktek.com && unzip -o dist.zip && rm dist.zip"
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+      #     # Extract zip file on remote host
+      #     ssh -o StrictHostKeyChecking=no ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }} "cd /root/laktek.com && unzip -o dist.zip && rm dist.zip"
+      #   env:
+      #     SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
