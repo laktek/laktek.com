@@ -10,6 +10,5 @@
   "license": "ISC",
   "dependencies": {
     "highlight.js": "^11.10.0",
-    "tailwindcss": "4.1.1"
   }
 }
