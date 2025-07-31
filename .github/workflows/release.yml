@@ -32,7 +32,7 @@ jobs:
       - name: Deploy to remote host
         run: |
           # Add private key to ssh-agent
-          echo "$SSH_PRIVATE_KEY" | ssh-add -
+          eval "$(ssh-agent -s)" && echo "$SSH_PRIVATE_KEY" | ssh-add -
 
           # Copy zip file to remote host
           scp -o StrictHostKeyChecking=no dist.zip ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }}:/root/laktek.com
