@@ -7,7 +7,7 @@
         <h2>Now</h2>
           ${ Punch.one({ from: "now" }, ({ updated_at, content }) => `
             <time class="updated" pubdate datetime=${new Date(updated_at)}>
-              Last updated on ${new Intl.DateTimeFormat('en-GB', { dateStyle: 'long' }).format(new Date(updated_at))}
+              Last updated on ${formattedDate(updated_at)}
             </time>
 
             <div>

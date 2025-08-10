@@ -3,14 +3,14 @@
   ${ Punch.one({ from: "posts", slug: Punch.route.slug.replace(/\/+$/, '').replace(/\//g, '-').toLowerCase() }, (post) => `
     ${ post ?
       (({title, published_at, description, content }) => `
-        ${ Punch.partial("head", { site, title, description: description || Punch.escape(content.slice(0, 140))  }) }
+        ${ Punch.partial("head", { site, title, description: description || escapeHTML(content.slice(0, 140))  }) }
         <body>
           ${ Punch.partial("topbar") }
           <main>
             <article class="hentry">
               <h2 class="entry-title">${title}</h2>
               <time class="updated" pubdate datetime="${new Date(published_at)}">
-                ${new Intl.DateTimeFormat('en-GB', { dateStyle: 'long' }).format(new Date(published_at))}
+                ${formattedDate(published_at)}
               </time>
 
               <div class="entry-content">${content}</div>

@@ -3,7 +3,7 @@
     <title>${ site.title }</title>
     <link>${ site.url }</link>
     <description>${ site.description }</description>
-    <pubDate>${ Punch.one({ from: "posts", order_by: "published_at desc" }, ({ published_at }) => new Date(published_at).toUTCString() )}</pubDate>
+    <pubDate>${ Punch.one({ from: "posts", order_by: "published_at desc" }, ({ published_at }) => utcDate(published_at) )}</pubDate>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <generator>https://punch.dev</generator>
     <language>${ site.language }</language>
@@ -14,7 +14,7 @@
           <![CDATA[ ${ title } ]]>
         </title>
         <link>${site.url}/${ slug }</link>
-        <pubDate>${ new Date(published_at).toUTCString() }</pubDate>
+        <pubDate>${ utcDate(published_at) }</pubDate>
         <description>
           <![CDATA[ ${ content } ]]>
         </description>

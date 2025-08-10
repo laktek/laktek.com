@@ -10,7 +10,7 @@
           <li>
               <a href="${ post.legacy_slug ?? post.slug }">${ post.title }</a>
               <time class="updated" pubdate datetime=${new Date(post.published_at)}>
-                ${new Intl.DateTimeFormat('en-GB', { dateStyle: 'long' }).format(new Date(post.published_at))}
+                ${formattedDate(post.published_at)}
               </time>
           </li>
         `)}
