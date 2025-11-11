@@ -35,7 +35,9 @@ However, my excitement was short-lived as I discovered `command` and `commandfor
 
 You can still try the [example](/examples/dialog-command) in a supported browser (tip: right-click to view source)
 
-<iframe width="600" height="300" src="/examples/dialog-command"></iframe>
+<div class="relative pb-[50%] h-0 overflow-hidden max-w-[600px] mx-auto mb-8">
+  <iframe src="/examples/dialog-command" class="absolute top-0 left-0 w-full h-full border-0"></iframe>
+</div>
 
 ## Popover (non-modal)
 
@@ -59,7 +61,9 @@ Here's an HTML dialog controlled via declarative popover API.
 
 [Result](/examples/dialog-popover):
 
-<iframe width="600" height="300" src="/examples/dialog-popover"></iframe>
+<div class="relative pb-[50%] h-0 overflow-hidden max-w-[600px] mx-auto mb-8">
+  <iframe src="/examples/dialog-popover" class="absolute top-0 left-0 w-full h-full border-0"></iframe>
+</div>
 
 This works in all major browsers, including both Safari and Safari iOS. Caveat is that it's not a modal - the rest of the page elements remain interactive (for example, you can still click a link under the dialog).
 
@@ -85,7 +89,9 @@ We can call these methods on the click handlers of the button.
 
 [Result](/examples/dialog-show-modal):
 
-<iframe width="600" height="300" src="/examples/dialog-show-modal"></iframe>
+<div class="relative pb-[50%] h-0 overflow-hidden max-w-[600px] mx-auto mb-8">
+  <iframe src="/examples/dialog-show-modal" class="absolute top-0 left-0 w-full h-full border-0"></iframe>
+</div>
 
 
 ## ::backdrop
@@ -105,7 +111,9 @@ Here's how we can add a simple glass effect backdrop to our modal.
 
 [Result](/examples/dialog-show-modal-with-backdrop):
 
-<iframe width="600" height="300" src="/examples/dialog-show-modal-with-backdrop"></iframe>
+<div class="relative pb-[50%] h-0 overflow-hidden max-w-[600px] mx-auto mb-8">
+  <iframe src="/examples/dialog-show-modal-with-backdrop" class="absolute top-0 left-0 w-full h-full border-0"></iframe>
+</div>
 
 ## Don't trust the LLMs?
 

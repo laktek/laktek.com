@@ -3,19 +3,30 @@
   ${ Punch.partial("head", { site, title: "Animated Modal Dialog Example - LakTEK"  }) }
   <body>
     <style>
+      html, body {
+        height: 100vh;
+        overflow: hidden;
+        margin: 0;
+      }
+
       nav {
         display: flex;
         flex-flow: column wrap;
         align-items: center;
-        margin: 128px 0;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
       }
 
       nav > button {
         border: 1px solid;
         border-radius: 4px;
         background-color: #f0f0f0;
+        color: #000;
+        border-color: #ccc;
         padding: 8px 16px;
-        margin: 0 auto;
+        margin: 8px;
+        cursor: pointer;
       }
 
       @keyframes fadeInScale {
@@ -45,6 +56,9 @@
         padding: 12px;
         border-radius: 8px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        color: #000;
+        border: 1px solid #ccc;
       }
 
       dialog[open] {
@@ -55,8 +69,11 @@
         border: 1px solid;
         border-radius: 4px;
         background-color: #f0f0f0;
+        color: #000;
+        border-color: #ccc;
         margin: 8px 0;
-        padding: 4px;
+        padding: 4px 12px;
+        cursor: pointer;
       }
 
       dialog::backdrop {
@@ -67,14 +84,39 @@
       dialog[open]::backdrop {
         animation: fadeInBackdrop 0.3s ease-out;
       }
+
+      @media (prefers-color-scheme: dark) {
+        nav > button {
+          background-color: #2a2a2a;
+          color: #fff;
+          border-color: #555;
+        }
+
+        dialog {
+          background-color: #1a1a1a;
+          color: #fff;
+          border-color: #555;
+        }
+
+        dialog > button {
+          background-color: #2a2a2a;
+          color: #fff;
+          border-color: #555;
+        }
+
+        dialog::backdrop {
+          background-color: rgba(0, 0, 0, 0.3);
+        }
+      }
     </style>
 
     <nav>
       <button onClick="document.getElementById('sample-dialog').showModal()">Open Modal</button>
-    <nav>
+      <p>Modal dialogs with backdrop overlays can now be built with pure HTML.</p>
+    </nav>
 
     <dialog id="sample-dialog">
-      <div>This is a sample dialog</div>
+      <div>This is a pure HTML dialog</div>
       <button onClick="document.getElementById('sample-dialog').close()">Close</button>
     </dialog>
   </body>

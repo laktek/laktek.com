@@ -2,18 +2,30 @@
 <html lang=${ site.language }>
   ${ Punch.partial("head", { site, title: "Modal Dialog Example - LakTEK"  }) }
   <style>
+    html, body {
+      height: 100vh;
+      overflow: hidden;
+      margin: 0;
+    }
+
     nav {
       display: flex;
       flex-flow: column wrap;
       align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: 100vw;
     }
 
     nav > button {
       border: 1px solid;
       border-radius: 4px;
       background-color: #f0f0f0;
+      color: #000;
+      border-color: #ccc;
       padding: 8px 16px;
       margin: 8px;
+      cursor: pointer;
     }
 
     dialog {
@@ -21,21 +33,46 @@
       padding: 12px;
       border-radius: 8px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      color: #000;
+      border: 1px solid #ccc;
     }
 
     dialog > button {
       border: 1px solid;
       border-radius: 4px;
       background-color: #f0f0f0;
+      color: #000;
+      border-color: #ccc;
       padding: 4px 12px;
+      cursor: pointer;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      nav > button {
+        background-color: #2a2a2a;
+        color: #fff;
+        border-color: #555;
+      }
+
+      dialog {
+        background-color: #1a1a1a;
+        color: #fff;
+        border-color: #555;
+      }
+
+      dialog > button {
+        background-color: #2a2a2a;
+        color: #fff;
+        border-color: #555;
+      }
     }
   </style>
 
   <body>
     <nav>
       <button commandfor="sample-dialog" command="show-modal">Open Modal Dialog</button>
-      <button>another button (for interactivity)</button>
-    <nav>
+    </nav>
 
     <dialog id="sample-dialog">
       <div>This is a sample dialog</div>

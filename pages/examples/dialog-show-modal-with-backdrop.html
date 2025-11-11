@@ -3,18 +3,30 @@
   ${ Punch.partial("head", { site, title: "Modal Dialog Example - LakTEK"  }) }
   <body>
     <style>
+      html, body {
+        height: 100vh;
+        overflow: hidden;
+        margin: 0;
+      }
+
       nav {
         display: flex;
         flex-flow: column wrap;
         align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
       }
 
       nav > button {
         border: 1px solid;
         border-radius: 4px;
         background-color: #f0f0f0;
+        color: #000;
+        border-color: #ccc;
         padding: 8px 16px;
         margin: 8px;
+        cursor: pointer;
       }
 
       dialog {
@@ -22,25 +34,55 @@
         padding: 12px;
         border-radius: 8px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        color: #000;
+        border: 1px solid #ccc;
       }
 
       dialog > button {
         border: 1px solid;
         border-radius: 4px;
         background-color: #f0f0f0;
+        color: #000;
+        border-color: #ccc;
         padding: 4px 12px;
+        cursor: pointer;
       }
 
       dialog::backdrop {
         background-color: rgba(255, 255, 255, 0.3);
         backdrop-filter: blur(5px);
       }
+
+      @media (prefers-color-scheme: dark) {
+        nav > button {
+          background-color: #2a2a2a;
+          color: #fff;
+          border-color: #555;
+        }
+
+        dialog {
+          background-color: #1a1a1a;
+          color: #fff;
+          border-color: #555;
+        }
+
+        dialog > button {
+          background-color: #2a2a2a;
+          color: #fff;
+          border-color: #555;
+        }
+
+        dialog::backdrop {
+          background-color: rgba(0, 0, 0, 0.3);
+        }
+      }
     </style>
 
     <nav>
       <button onClick="document.getElementById('sample-dialog').showModal()">Open Dialog</button>
-      <button>another button (for interactivity)</button>
-    <nav>
+      <p style="margin-top: 24px; max-width: 400px; text-align: center;">Click the button above to open a modal dialog with a backdrop effect. The rest of the page content will be blocked until you close the dialog.</p>
+    </nav>
 
     <dialog id="sample-dialog">
       <div>This is a sample dialog</div>
