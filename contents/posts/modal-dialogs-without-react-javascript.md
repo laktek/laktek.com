@@ -9,7 +9,7 @@ tags:
 published_at: 1762710655419
 ---
 
-<video src="/videos/posts/show-modal.mp4" autoplay loop muted></video>
+<video src="/videos/posts/show-modal-2.mp4" autoplay loop muted></video>
 
 This is probably old news, but it went under my radar.
 
