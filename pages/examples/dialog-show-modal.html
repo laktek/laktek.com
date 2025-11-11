@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang=${ site.language }>
+  ${ Punch.partial("head", { site, title: "Modal Dialog Example - LakTEK"  }) }
+  <style>
+    nav {
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+    }
+
+    nav > button {
+      border: 1px solid;
+      border-radius: 4px;
+      background-color: #f0f0f0;
+      padding: 8px 16px;
+      margin: 8px;
+    }
+
+    dialog {
+      margin: auto;
+      padding: 12px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    dialog > button {
+      border: 1px solid;
+      border-radius: 4px;
+      background-color: #f0f0f0;
+      padding: 4px 12px;
+    }
+  </style>
+  <body>
+    <nav>
+      <button onClick="document.getElementById('sample-dialog').showModal()">Open Modal Dialog</button>
+      <button>another button (for interactivity)</button>
+    <nav>
+
+    <dialog id="sample-dialog">
+      <div>This is a sample dialog</div>
+      <button onClick="document.getElementById('sample-dialog').close()">Close</button>
+    </dialog>
+  </body>
+</html>

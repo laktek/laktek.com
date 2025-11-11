@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang=${ site.language }>
+  ${ Punch.partial("head", { site, title: "Animated Modal Dialog Example - LakTEK"  }) }
+  <body>
+    <style>
+      nav {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        margin: 128px 0;
+      }
+
+      nav > button {
+        border: 1px solid;
+        border-radius: 4px;
+        background-color: #f0f0f0;
+        padding: 8px 16px;
+        margin: 0 auto;
+      }
+
+      @keyframes fadeInScale {
+        from {
+          opacity: 0;
+          transform: scale(0.8);
+        }
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+
+      @keyframes fadeInBackdrop {
+        from {
+          background-color: rgba(255, 255, 255, 0);
+          backdrop-filter: blur(0px);
+        }
+        to {
+          background-color: rgba(255, 255, 255, 0.3);
+          backdrop-filter: blur(5px);
+        }
+      }
+
+      dialog {
+        margin: auto;
+        padding: 12px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      dialog[open] {
+        animation: fadeInScale 0.3s ease-out;
+      }
+
+      dialog > button {
+        border: 1px solid;
+        border-radius: 4px;
+        background-color: #f0f0f0;
+        margin: 8px 0;
+        padding: 4px;
+      }
+
+      dialog::backdrop {
+        background-color: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(5px);
+      }
+
+      dialog[open]::backdrop {
+        animation: fadeInBackdrop 0.3s ease-out;
+      }
+    </style>
+
+    <nav>
+      <button onClick="document.getElementById('sample-dialog').showModal()">Open Modal</button>
+    <nav>
+
+    <dialog id="sample-dialog">
+      <div>This is a sample dialog</div>
+      <button onClick="document.getElementById('sample-dialog').close()">Close</button>
+    </dialog>
+  </body>
+</html>
