@@ -11,5 +11,10 @@
     "ondemandRender": {
       "disabled": true
     }
+  },
+  "assets": {
+    "images": {
+      "format": "avif"
+    }
   }
 }
