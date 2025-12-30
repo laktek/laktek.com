@@ -9,7 +9,7 @@ tags:
 published_at: 1748365200000
 ---
 
-<video src="/videos/posts/japan/mt-fuji-walk.mp4" autoplay loop muted></video>
+<video src="/videos/posts/japan/mt-fuji-walk.mp4" autoplay controls loop muted></video>
 
 Early this month, my wife and I spent 3-weeks in Japan with our 3-year-old son. Our second son is only 10 months old and didn't join the trip. We felt it would be hard to keep up with his feeding and sleeping schedule with the intensity of the trip, so he stayed home with his grandparents.
 
@@ -80,7 +80,7 @@ We walked to the source of the hot spring. There, we boiled eggs in the hot spri
 
 This aquarium is massive and beautifully designed. The Sydney Aquarium feels like a small fish tank compared to this.
 
-<video src="/videos/posts/japan/osaka-aquarium.mp4" autoplay loop muted></video>
+<video src="/videos/posts/japan/osaka-aquarium.mp4" controls autoplay loop muted></video>
 
 We spent at least an hour watching whale sharks swim with manta rays and other Pacific Ocean fish.
 
@@ -115,7 +115,7 @@ Our son is obsessed with cars, so in this trip I wanted to give the him the chan
 
 In Osaka, we visited [G-Lion museum](https://glion-museum.jp/en/), a small but interesting collection of vintage cars. We saw Model-Ts, a 1960s Red Corvette, and early Nissan sports models there.
 
-<video src="/videos/posts/japan/car-museum.mp4" autoplay loop muted></video>
+<video src="/videos/posts/japan/car-museum.mp4" controls autoplay loop muted></video>
 
 We also visited [Nissan Crossing](https://www.nissan.co.jp/crossing/en/) in Ginza, where they showcase some of their concept cars.
 
@@ -125,7 +125,7 @@ The Roppongi Hills area, where we stayed in Tokyo, had a high concentration of s
 
 Of course, spotting cars was not enough for our son—he wanted to buy them, too. Thus, most of our shopping time on the trip was spent browsing toy stores for Tomica models (tip: we found BicCamera to be the cheapest for Tomica).
 
-<video src="/videos/posts/japan/tomica-store.mp4" autoplay loop muted></video>
+<video src="/videos/posts/japan/tomica-store.mp4" controls autoplay loop muted></video>
 
 
 ### Trains
@@ -140,11 +140,11 @@ In Osaka and Kyoto, we used the [JR West pass](https://www.westjr.co.jp/travel-i
 
 In Kyoto, we visited the Rail Museum, which has an extensive collection of locomotives from Steam trains to the early Shinkansens. It was fun for our son to get into the driver's compartment and pretend to be the driver. Also, we found the museum does a great job in the educational aspect with interesting simulations. This was something we found to be lacking in Sydney's rail museum.
 
-<video src="/videos/posts/japan/train-wave.mp4" autoplay loop muted></video>
+<video src="/videos/posts/japan/train-wave.mp4" controls autoplay loop muted></video>
 
 ### Robot / Dinosaur Hotel
 
-<video src="/videos/posts/japan/henna-na-hotel.mp4" autoplay loop muted></video>
+<video src="/videos/posts/japan/henna-na-hotel.mp4" controls autoplay loop muted></video>
 
 We stayed at the Henna Na hotel in Haneda, the last night before our flight back from Japan. The check-in experience was fun, where two dinosaurs and a robot lady greeted us.
 
