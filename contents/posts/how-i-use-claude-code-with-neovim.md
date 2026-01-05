@@ -6,7 +6,7 @@ published: true
 tags:
 - dev
 - tips
-published_at: 1736121600000
+published_at: 1736208000000
 ---
 
 <video src="/videos/posts/nvim-mcp.mp4" autoplay controls loop muted></video>
