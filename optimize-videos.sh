@@ -3,7 +3,7 @@
 # Script to optimize videos for web use
 # Uses ffmpeg to convert videos to H.264 with web-optimized settings
 
-set -e
+set -euo pipefail
 
 # Colors for output
 GREEN='\033[0;32m'
@@ -36,7 +36,7 @@ echo "Found $total video(s) to optimize"
 echo ""
 
 # Process each video
-echo "$videos" | while read -r input_file; do
+while IFS= read -r input_file; do
     current=$((current + 1))
 
     # Create temporary output filename
@@ -48,7 +48,7 @@ echo "$videos" | while read -r input_file; do
     echo -e "${YELLOW}[$current/$total]${NC} Processing: $input_file"
 
     # Get video resolution to determine if we need to downscale
-    resolution=$(ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=p=0 "$input_file" 2>/dev/null)
+    resolution=$(ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=p=0 "$input_file" 2>/dev/null || echo "0,0")
     width=$(echo "$resolution" | cut -d',' -f1)
     height=$(echo "$resolution" | cut -d',' -f2)
 
@@ -92,6 +92,6 @@ echo "$videos" | while read -r input_file; do
     fi
 
     echo ""
-done
+done < <(echo "$videos")
 
 echo -e "${GREEN}Optimization complete!${NC}"
