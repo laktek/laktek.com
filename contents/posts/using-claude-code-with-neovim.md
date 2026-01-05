@@ -1,11 +1,11 @@
 ---
+layout: post
 title: How I Use Claude Code with NeoVim
 description: I created an MCP which allows Claude Code to see my NeoVim context and reflect changes.
 new_slug: using-claude-code-with-neovim
 published: true
 tags:
 - dev
-- tips
 published_at: 1767644727559
 ---
 
