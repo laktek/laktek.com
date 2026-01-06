@@ -114,17 +114,3 @@ Here's how we can add a simple glass effect backdrop to our modal.
 <div class="relative pb-[50%] h-0 overflow-hidden max-w-[600px] mx-auto mb-8">
   <iframe src="/examples/dialog-show-modal-with-backdrop" class="absolute top-0 left-0 w-full h-full border-0"></iframe>
 </div>
-
-## Don't trust the LLMs?
-
-After going down the MDN docs rabbit hole, I wondered if I had asked an LLM instead, would it have used these APIs to build the modals? This seemed like a routine task that LLMs would have encountered before.
-
-To my surprise, both GPT-5 and Claude Sonnet 4.5 immediately resorted to using a React-based solution.
-
-GPT-5:
-
-![gpt-5 output](/images/posts/gpt-5-modal-example.png)
-
-Claude Sonnet 4.5:
-
-![Claude Sonnet 4.5 output](/images/posts/sonnet-4-5-modal-example.png)
